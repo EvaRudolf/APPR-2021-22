@@ -4,11 +4,13 @@ Repozitorij za projekt pri predmetu APPR v študijskem letu 2021/22.
 
 ## Analiza smuči in rezultatov alpskega smučanja
 
-V projektu bom analizirala rezultate tekem klasičnih disciplin alpskega smučanja (slalom, veleslalom, superveleslalom, smuk) v sezoni 2020/2021 in pri tem poskušala ugotoviti, katere smuči so najboljše. Zaradi velikega števila tekem in podobnosti bom analizirala le moške tekme. 
-Smuči bom analizirala glede na odziv na snežno podlago, temperaturo, disciplino, po državah (katere smuči največ uporabljajo v posamezni državi) ...
-Glavni vir je [podatkovna baza FIS-a](https://www.fis-ski.com/DB/alpine-skiing/calendar-results.html?eventselection=results&place=&sectorcode=AL&seasoncode=2021&categorycode=WC&disciplinecode=&gendercode=M&racedate=&racecodex=&nationcode=&seasonmonth=X-2021&saveselection=-1&seasonselection=). Ker so podatki tu zbrani v pdf datotekah, sem jih najprej s posebnim programom pretvorila v obliko `.csv`, nato pa uvozila v R. 
+V projektu bom analizirala rezultate tekem klasičnih disciplin alpskega smučanja (slalom, veleslalom, superveleslalom, smuk) v sezoni 2020/2021 in pri tem poskušala ugotoviti, katere smuči so najboljše (glede na snežno podlago, temperaturo, disciplino, po državah - katere smuči največ uporabljajo v posamezni državi ...). Zaradi velikega števila tekem in podobnosti bom analizirala le moške tekme. 
+
+Glavni vir je [podatkovna baza FIS-a](https://www.fis-ski.com/DB/alpine-skiing/calendar-results.html?eventselection=results&place=&sectorcode=AL&seasoncode=2021&categorycode=WC&disciplinecode=&gendercode=M&racedate=&racecodex=&nationcode=&seasonmonth=X-2021&saveselection=-1&seasonselection=). Ker so podatki tu zbrani v pdf datotekah, sem jih najprej s posebnim programom pretvorila v obliko `.csv`, nato pa uvozila v R.
+
 Poleg podrobne analize smuči v sezoni 2020/21 bom analizirala tudi dobitnike velikih in malih kristalnih globusov ter tako primerjala zmagovalce po državah in smučeh. Te podatke sem našla na spletni strani [AlpineSkiDataBase](https://ski-db.com/db/stats/overall_m_gc.php).
-##### Tabele:
+
+#### Tabele:
 Tabele z rezultati posamezne tekme
 * rank
 * FIS_code
@@ -17,6 +19,7 @@ Tabele z rezultati posamezne tekme
 * time
 * diff
 * smuči
+
 Tabela s odatki o smučarjih
 * FIS_code
 * ime
@@ -26,6 +29,7 @@ Tabela s odatki o smučarjih
 * stolpci za rank vsake posamezne tekme v sezoni 2020/2021
 * skunpni ranking po disciplini
 * skupni ranking
+
 Tabela s podatki o vremenu na vski posamezni tekmi
 * T_1
 * T_2
@@ -33,7 +37,9 @@ Tabela s podatki o vremenu na vski posamezni tekmi
 * vreme_2
 * sneg_1
 * sneg_2
+
 Tabela s smučmi - po disciplinah in glede na temperaturo in sneg (točke in FIS točke)
+
 Tabela z zmagovalci po globusih
 * leto
 * slalom
@@ -41,6 +47,7 @@ Tabela z zmagovalci po globusih
 * superveleslalom
 * smuk
 * skupno
+
 Ta zadnja tabela bo sprva vsebovala imena smučarjev, nato pa jih bom imenom raje priredila smuči, da bom lahko analizirala še smuči skozi čas.
 
 ## Program
