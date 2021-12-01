@@ -8,47 +8,48 @@ V projektu bom analizirala rezultate tekem klasičnih disciplin alpskega smučan
 
 Glavni vir je [podatkovna baza FIS-a](https://www.fis-ski.com/DB/alpine-skiing/calendar-results.html?eventselection=results&place=&sectorcode=AL&seasoncode=2021&categorycode=WC&disciplinecode=&gendercode=M&racedate=&racecodex=&nationcode=&seasonmonth=X-2021&saveselection=-1&seasonselection=). Ker so podatki tu zbrani v pdf datotekah, sem jih najprej s posebnim programom pretvorila v obliko `.csv`, nato pa uvozila v R.
 
-Poleg podrobne analize smuči v sezoni 2020/21 bom analizirala tudi dobitnike velikih in malih kristalnih globusov ter tako primerjala zmagovalce po državah in smučeh. Te podatke sem našla na spletni strani [AlpineSkiDataBase](https://ski-db.com/db/stats/overall_m_gc.php).
+Poleg podrobne analize smuči v sezoni 2020/21 bom analizirala tudi dobitnike velikih in malih kristalnih globusov ter tako primerjala zmagovalce po državah in smučeh. Te podatke sem našla na spletni strani [AlpineSkiDataBase](https://ski-db.com/db/stats/overall_m_gc.php) in bodo v obliki `.html`.
 
 #### Tabele:
-Tabele z rezultati posamezne tekme
-* rank
-* FIS_code
-* ime
-* datum_rojstva
-* time
-* diff
-* smuči
+Tabele z rezultati posamezne tekme:
+* `rank` - uvrstitev na posamezni tekmi
+* `FIS_code` - FIS koda tekmovalca
+* `ime` - ime in priimek tekmovalca
+* `YB` - datum rojstva tekmovalca
+* `NSA_code` - kratica države (SLO, SUI, AUT, ...)
+* `time` - čas dosežen na posamezni tekmi (če gre za tehnično disciplino, je to skupen čas)
+* `diff` - časovna razlika do 1. mesta
+* `ski` - proizvajalec smuči, ki jih uporablja tekmovalec
 
-Tabela s odatki o smučarjih
-* FIS_code
-* ime
-* smuči
-* datum_rojstva
-* NSA_code
+Tabela s podatki o smučarjih:
+* `FIS_code`
+* `ime`
+* `ski`
+* `YB`
+* `NSA_code`
 * stolpci za rank vsake posamezne tekme v sezoni 2020/2021
 * skunpni ranking po disciplini
 * skupni ranking
 
-Tabela s podatki o vremenu na vski posamezni tekmi
-* T_1
-* T_2
-* vreme_1
-* vreme_2
-* sneg_1
-* sneg_2
+Tabela s podatki o vremenu na vski posamezni tekmi:
+* `T_1` - temperatura v prvem teku (povprečje temperature na startu in cilju)
+* `T_2` - temperatura v drugem teku
+* `vreme_1` - podatek o vremenu v prvem teku (sončno, oblačno, ...)
+* `vreme_2` - podatek o vremenu v drugem teku
+* `sneg_1` - struktura snega v prvem teku
+* `sneg_2` - struktura snega v drugem teku
 
 Tabela s smučmi - po disciplinah in glede na temperaturo in sneg (točke in FIS točke)
 
-Tabela z zmagovalci po globusih
-* leto
-* slalom
-* veleslalom
-* superveleslalom
-* smuk
-* skupno
+Tabela z zmagovalci po kristalnih globusih globusih:
+* `leto`
+* `SL` - dobitnik malega kristalnega globusa v slalomu
+* `GS` - dobitnik malega kristalnega globusa v veleslalomu
+* `SG` - dobitnik malega kristalnega globusa v superveleslalomu
+* `DH` - dobitnik malega kristalnega globusa v smuku
+* `overall` - zmagovalec skupnega seštevka; dobitnik velikega kristalnega globusa
 
-Ta zadnja tabela bo sprva vsebovala imena smučarjev, nato pa jih bom imenom raje priredila smuči, da bom lahko analizirala še smuči skozi čas.
+Ta zadnja tabela bo sprva za potrebe analize zmagovalcev po državah vsebovala imena smučarjev, ki pa jim bom kasneje raje priredila smuči, da bom lahko tako analizirala še smuči skozi čas.
 
 ## Program
 
