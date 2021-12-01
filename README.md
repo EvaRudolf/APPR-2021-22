@@ -41,7 +41,7 @@ Tabela s podatki o vremenu na vsaki posamezni tekmi:
 
 Tabela s smučmi - po disciplinah in glede na temperaturo in sneg (točke in FIS točke)
 
-Tabela z zmagovalci po kristalnih globusih globusih:
+Tabela z zmagovalci po kristalnih globusih:
 * `leto`
 * `SL` - dobitnik malega kristalnega globusa v slalomu
 * `GS` - dobitnik malega kristalnega globusa v veleslalomu
