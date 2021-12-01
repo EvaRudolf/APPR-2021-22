@@ -6,9 +6,9 @@ Repozitorij za projekt pri predmetu APPR v študijskem letu 2021/22.
 
 V projektu bom analizirala rezultate tekem klasičnih disciplin alpskega smučanja (slalom, veleslalom, superveleslalom, smuk) v sezoni 2020/2021 in pri tem poskušala ugotoviti, katere smuči so najboljše. Zaradi velikega števila tekem in podobnosti bom analizirala le moške tekme. 
 Smuči bom analizirala glede na odziv na snežno podlago, temperaturo, disciplino, po državah (katere smuči največ uporabljajo v posamezni državi) ...
-Glavni vir je podatkovna baza FIS-a[https://www.fis-ski.com/DB/alpine-skiing/calendar-results.html?eventselection=results&place=&sectorcode=AL&seasoncode=2021&categorycode=WC&disciplinecode=&gendercode=M&racedate=&racecodex=&nationcode=&seasonmonth=X-2021&saveselection=-1&seasonselection=]. Ker so podatki tu zbrani v pdf datotekah, sem jih najprej s posebnim programom pretvorila v obliko '.csv', nato pa uvozila v R. 
-Poleg podrobne analize smuči v sezoni 2020/21 bom analizirala tudi dobitnike velikih in malih kristalnih globusov ter tako primerjala zmagovalce po državah in smučeh. Te podatke sem našla na spletni strani AlpineSkiDataBase[https://ski-db.com/db/stats/overall_m_gc.php].
-Tabele:
+Glavni vir je [podatkovna baza FIS-a](https://www.fis-ski.com/DB/alpine-skiing/calendar-results.html?eventselection=results&place=&sectorcode=AL&seasoncode=2021&categorycode=WC&disciplinecode=&gendercode=M&racedate=&racecodex=&nationcode=&seasonmonth=X-2021&saveselection=-1&seasonselection=). Ker so podatki tu zbrani v pdf datotekah, sem jih najprej s posebnim programom pretvorila v obliko `.csv`, nato pa uvozila v R. 
+Poleg podrobne analize smuči v sezoni 2020/21 bom analizirala tudi dobitnike velikih in malih kristalnih globusov ter tako primerjala zmagovalce po državah in smučeh. Te podatke sem našla na spletni strani [AlpineSkiDataBase](https://ski-db.com/db/stats/overall_m_gc.php).
+##### Tabele:
 Tabele z rezultati posamezne tekme
 * rank
 * FIS_code
