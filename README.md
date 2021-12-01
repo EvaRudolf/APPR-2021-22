@@ -28,10 +28,10 @@ Tabela s podatki o smučarjih:
 * `YB`
 * `NSA_code`
 * stolpci za rank vsake posamezne tekme v sezoni 2020/2021
-* skunpni ranking po disciplini
+* skupni ranking po disciplini
 * skupni ranking
 
-Tabela s podatki o vremenu na vski posamezni tekmi:
+Tabela s podatki o vremenu na vsaki posamezni tekmi:
 * `T_1` - temperatura v prvem teku (povprečje temperature na startu in cilju)
 * `T_2` - temperatura v drugem teku
 * `vreme_1` - podatek o vremenu v prvem teku (sončno, oblačno, ...)
