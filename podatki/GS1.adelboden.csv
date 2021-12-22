@@ -14,9 +14,7 @@ Number of Competitors: 67, Number of NSAs: 20
 : 0.00
 Rank;Bib;"FIS
 Code";Name;YB;"NSA
-Code";Run 1;;;Run 2;;;Total;Race;;
-;;;;;;;;;;;;;Diff.;Points;Ski
-;;;;;;Time Rank;;;Time Rank;;;;;;
+Code";Run 1;Rank1;;Run 2;;Rank2;Total;Diff.;Points;Ski
 1;1;194364;PINTURAULT Alexis;1991;FRA;1;09.94;(1);1;08.32;(1);2:18.26;;0.00;Head
 2;3;380335;ZUBCIC Filip;1993;CRO;1;10.91;(3);1;08.39;(3);2:19.30;1.04;7.60;Atomic
 3;7;512269;ODERMATT Marco;1997;SUI;1;10.90;(2);1;08.47;(4);2:19.37;1.11;8.11;Stoeckli
@@ -40,8 +38,7 @@ Code";Run 1;;;Run 2;;;Total;Race;;
 21;13;202597;SCHMID Alexander;1994;GER;1;12.73;(26);1;09.61;(20);2:22.34;4.08;29.80;Head
 22;29;990048;BORSOTTI Giovanni;1990;ITA;1;12.68;(25);1;09.75;(21);2:22.43;4.17;30.46;Rossignol
 23;23;194935;FAVROT Thibaut;1994;FRA;1;12.90;(27);1;09.60;(18);2:22.50;4.24;30.97;Dynastar
-24;41;511863;SETTE Daniele;1992;SUI;1;13.05;(29);1;09.46;(14);2:22.51;4.25;31.05;"Fischer
-Alpine"
+24;41;511863;SETTE Daniele;1992;SUI;1;13.05;(29);1;09.46;(14);2:22.51;4.25;31.05;Fischer
 25;25;194873;SARRAZIN Cyprien;1994;FRA;1;12.63;(22);1;09.99;(24);2:22.62;4.36;31.85;Rossignol
 26;26;103865;PHILP Trevor;1992;CAN;1;13.07;(30);1;09.88;(23);2:22.95;4.69;34.26;Rossignol
 27;11;193967;MUFFAT-JEANDET Victor;1989;FRA;1;12.35;(15);1;11.62;(27);2:23.97;5.71;41.71;Salomon
@@ -144,9 +141,9 @@ Start Time;10:15;;Start Time;13:15;
 Forerunners:;;;;;;
 Run 1:;F1 - FISCHBACHER Marco;SUI;F2 - STOLLER Sven;SUI;F3 - HIRSCHI Bastien;SUI
 Run 2:;F1 - FISCHBACHER Marco;SUI;F2 - JAMPEN Nicola;SUI;F3 - HIRSCHI Bastien;SUI
-Conditions on course:;;;;;;;
-Run 1;PARTLY CLOUDY;Snow:;HARD;Temperature - Start:;-9°C;Temperature - Finish:;-6°C
-Run 2;SUNNY;Snow:;HARD;Temperature - Start:;-6°C;Temperature - Finish:;-5°C
+Conditions on course:;;;;;;
+Run 1;PARTLY CLOUDY;Snow:HARD;Temperature - Start:;-9°C;Temperature - Finish:;-6°C
+Run 2;SUNNY;Snow:HARD;Temperature - Start:;-6°C;Temperature - Finish:;-5°C
 Legend:
 YB Year of Birth
 FRI 8 JAN 2021 / Adelboden (SUI) / 0093_____________________________________________________________________________________________________________________Page 2/2

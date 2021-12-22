@@ -17,9 +17,7 @@ Start Time 11:30
 : 0.00
 Number of Competitors: 58, Number of NSAs: 13
 Rank;Bib;"FIS
-Code";Name;YB;NSA;;Difference;"Distance
-(m)";Race;
-;;;;;Code;Time;;;Points;Ski
+Code";Name;YB;NSA.Code;Time;"Distance";Difference;Points;Ski
 1;5;291459;PARIS Dominik;1989;ITA;1:33.81;;;0.00;Nordica
 2;3;511383;FEUZ Beat;1987;SUI;1:34.18;0.37;11.47;4.93;Head
 3;1;53902;MAYER Matthias;1990;AUT;1:34.21;0.40;12.40;5.33;Head

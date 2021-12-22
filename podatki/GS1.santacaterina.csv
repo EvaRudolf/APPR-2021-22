@@ -20,9 +20,7 @@ Start Time 13:30
 Number of Competitors: 69, Number of NSAs: 21
 Rank;Bib;"FIS
 Code";Name;YB;"NSA
-Code";Run 1;;;Run 2;;;Total;Race;;
-;;;;;;;;;;;;;Diff.;Points;Ski
-;;;;;;Time Rank;;;Time Rank;;;;;;
+Code";Run 1;;Rank1;Run 2;;Rank2;Total;Diff.;Points;Ski
 1;6;380335;ZUBCIC Filip;1993;CRO;1;05.03;(6);1;10.03;(2);2:15.06;;0.00;Atomic
 2;5;561244;KRANJEC Zan;1992;SLO;1;04.34;(1);1;10.84;(11);2:15.18;0.12;0.90;Rossignol
 3;3;512269;ODERMATT Marco;1997;SUI;1;04.80;(2);1;10.56;(8);2:15.36;0.30;2.24;Stoeckli
@@ -133,8 +131,8 @@ Forerunners:;;;;;
 Run 1:;F1 - GURINI Federico;ITA;F2 - CANTONI Albino	ITA;F3 - CANCLINI Tommaso	ITA;
 Run 2:;F1 - GURINI Federico;ITA;F2 - CANTONI Albino	ITA;F3 - CANCLINI Tommaso	ITA;
 Conditions on course:;;;;;;
-Run 1 SNOW;Snow:;SOFT;Temperature - Start:;-2°C;Temperature - Finish:;-1°C
-Run 2 SNOW;Snow:;SOFT;Temperature - Start:;-2°C;Temperature - Finish:;-1°C
+Run 1; SNOW;Snow:SOFT;Temperature - Start:;-2°C;Temperature - Finish:;-1°C
+Run 2; SNOW;Snow:SOFT;Temperature - Start:;-2°C;Temperature - Finish:;-1°C
 Legend:
 YB Year of Birth
 SAT 5 DEC 2020 / Santa Caterina Valfurva (ITA) / 0031____________________________________________________________________________________________________________Page 2/2

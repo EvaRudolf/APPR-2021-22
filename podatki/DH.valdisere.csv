@@ -12,8 +12,7 @@ Start Time 10:30
 Number of Competitors: 61, Number of NSAs: 11
 Rank;Bib;"FIS
 Code";Name;YB;"NSA
-Code";Time;Difference;"Distance
-(m)";Ski
+Code";Time;Difference;"Distance";Ski
 1;41;561255;CATER Martin;1992;SLO;2:04.67;;;Stoeckli
 2;26;54005;STRIEDINGER Otmar;1991;AUT;2:04.89;0.22;5,35;Salomon
 3;14;512042;KRYENBUEHL Urs;1994;SUI;2:04.94;0.27;6,56;Fischer
@@ -118,8 +117,8 @@ Start Time	10:30
 Forerunners:;;;;;;
 ;F1 - VUILLERMOZ Nicolas;FRA;F2 - ZAYSSER LACROIX;FRA;F3 - GUILBERT Alexis;FRA
 ;F4 - ROCCA-SERRA Enzo;FRA;;;;
-Conditions on course:;;;;
-SUNNY;Snow: COMPACT;Temperature - Start:;-8°C;Temperature - Finish: -6°C
+Conditions on course:;;;;;
+SUNNY;Snow: COMPACT;Temperature - Start:;-8°C;Temperature - Finish:; -6°C
 Legend:
 YB	Year of Birth
 SUN 13 DEC 2020 / Val d'Isere (FRA) / 1581_________________________________________________________________________________________________________________________Page 2/2

@@ -9,9 +9,7 @@ Number of Competitors: 59, Number of NSAs: 19
 : 0.00
 Rank;Bib;"FIS
 Code";Name;YB;"NSA
-Code";Run 1;;;Run 2;;;Total;Race;;
-;;;;;;;;;;;;;Diff.;Points;Ski
-;;;;;;Time Rank;;;Time Rank;;;;;;
+Code";Run 1;;Rank1;Run 2;;Rank2;Total;Diff.;Points;Ski
 1;7;380335;ZUBCIC Filip;1993;CRO;1;08.48;(2);1;12.14;(10);2:20.62;;0.00;Atomic
 2;2;194495;FAIVRE Mathieu;1992;FRA;1;08.37;(1);1;12.65;(17);2:21.02;0.40;2.87;Head
 3;24;54027;BRENNSTEINER Stefan;1991;AUT;1;09.17;(5);1;12.38;(14);2:21.55;0.93;6.68;Fischer
@@ -117,9 +115,9 @@ Start Time
 Forerunners:;;;;;;
 Run 1:;F1 - ZLATKOV Kalin;BUL;F2 - STOILOV Konstantin;BUL;F3 - SEMERDZHIEV Nikola;BUL
 Run 2:;F1 - ZLATKOV Kalin;BUL;F2 - STOILOV Konstantin;BUL;F3 - SEMERDZHIEV Nikola;BUL
-Conditions on course:;;;;;;;
-Run 1;SUNNY;Snow:;COMPACT;Temperature - Start:;0°C;Temperature - Finish:;1°C
-Run 2;SUNNY;Snow:;COMPACT;Temperature - Start:;2°C;Temperature - Finish:;3°C
+Conditions on course:;;;;;;
+Run 1;SUNNY;Snow:COMPACT;Temperature - Start:;0°C;Temperature - Finish:;1°C
+Run 2;SUNNY;Snow:COMPACT;Temperature - Start:;2°C;Temperature - Finish:;3°C
 Legend:
 YB Year of Birth
 SAT 27 FEB 2021 / Bansko (BUL) / 0133______________________________________________________________________________________________________________________Page 2/2

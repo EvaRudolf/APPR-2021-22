@@ -32,9 +32,7 @@ Start Time 12:30
 Number of Competitors: 59, Number of NSAs: 22
 Rank;Bib;"FIS
 Code";Name;YB;"NSA
-Code";Run 1;;;Run 2;;;Total;Race;;
-;;;;;;;;;;;;;Diff.;Points;Ski
-;;;;;;Time Rank;;;Time Rank;;;;;;
+Code";Run 1;;Rank1;Run 2;;Rank2;Total;Diff.;Points;Ski
 1;5;512269;ODERMATT Marco;1997;SUI;1;06.20;(4);1;06.67;(1);2:12.87;;0.00;Stoeckli
 2;2;512182;MEILLARD Loic;1996;SUI;1;05.59;(1);1;08.34;(26);2:13.93;1.06;8.06;Rossignol
 3;11;54027;BRENNSTEINER Stefan;1991;AUT;1;06.11;(3);1;07.85;(15);2:13.96;1.09;8.29;Fischer
@@ -141,8 +139,8 @@ SLO";F2 - TRSAN Tim;SLO;F3 - KRELJ Rozle;SLO
 Run 2:;F1 - GARTNER Anze;SLO;F2 - TRSAN Tim;SLO;F3 - KRELJ Rozle;SLO
 ;F4 - HROBAT Miha;SLO;;;;
 Conditions on course:;;;;;;
-Run 1;SUNNY;Snow:;GRANULAR;Temperature - Start: 1°C;Temperature - Finish:;4°C
-Run 2;SUNNY;Snow:;SPRING CONDITIONS;Temperature - Start: 4°C;Temperature - Finish:;0°C
+Run 1;SUNNY;Snow:GRANULAR;Temperature - Start:; 1°C;Temperature - Finish:;4°C
+Run 2;SUNNY;Snow:SPRING CONDITIONS;Temperature - Start:; 4°C;Temperature - Finish:;0°C
 Legend:
 YB Year of Birth
 SAT 13 MAR 2021 / Kranjska Gora (SLO) / 0130____________________________________________________________________________________________________________________Page 2/2

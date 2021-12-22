@@ -1,4 +1,4 @@
-﻿DECEMBER
+DECEMBER
 CEOD
 Audi
 FIS Ski World Cup
@@ -18,8 +18,7 @@ Start Time 11:30
 Number of Competitors: 51, Number of NSAs: 10
 Rank;Bib;"FIS
 Code";Name;YB;"NSA
-Code";Time;Difference;"Distance
-(m)";Ski
+Code";Time;Difference;"Distance";Ski
 1;13;53902;MAYER Matthias;1990;AUT;1:57.32;;;Head
 2;11;53980;KRIECHMAYR Vincent;1991;AUT;1:57.36;0.04;1.11;Head
 3;10;512042;KRYENBUEHL Urs;1994;SUI;1:57.38;0.06;1.67;Fischer
@@ -111,8 +110,8 @@ Gates	40
 Start Time	11:30
 Forerunners:;;;;;;
 ;F1 - SIMONI Federico;ITA;F2 - MOLTENI Nicolo;ITA;F3 - RIZZI Martino;ITA
-Conditions on course:;;;;
-SUNNY;Snow: HARD;Temperature - Start:;-8°C;Temperature - Finish: -6°C
+Conditions on course:;;;;;
+SUNNY;Snow: HARD;Temperature - Start:;-8°C;Temperature - Finish:; -6°C
 Legend:
 YB Year of Birth
 WED 30 DEC 2020 / Bormio (ITA) / 0063_______________________________________________________________________________________________________________________Page 2/2

@@ -9,9 +9,7 @@ Number of Competitors: 55, Number of NSAs: 13
 Penalty applied: 0.00
 Rank;Bib;"FIS
 Code";Name;YB;"NSA
-Code";Time;Difference;"Distance
-(m)";Race;
-;;;;;;;;;Points;Ski
+Code";Time;Difference;"Distance";Points;Ski
 1;1;53980;KRIECHMAYR Vincent;1991;AUT	1;53.07;;;0.00;Head
 2;5;511383;FEUZ Beat;1987;SUI	1;53.24;0.17;4.63;1.88;Head
 3;7;53902;MAYER Matthias;1990;AUT	1;53.34;0.27;7.35;2.98;Head

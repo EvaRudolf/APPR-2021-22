@@ -22,9 +22,7 @@ Start Time 12:00
 Number of Competitors: 22, Number of NSAs: 10
 Rank;Bib;"FIS
 Code";Name;YB;"NSA
-Code";Run 1;;;Run 2;;;Total;Race;;
-;;;;;;;;;;;;;Diff.;Points;Ski
-;;;;;;Time Rank;;;Time Rank;;;;;;
+Code";Run 1;;Rank1;Run 2;;Rank2;Total;Diff.;Points;Ski
 1;1;194364;PINTURAULT Alexis;1991;FRA;1;01.19;(1);1;14.56;(13);2:15.75;;0.00;Head
 2;4;380335;ZUBCIC Filip;1993;CRO;1;02.23;(3);1;13.72;(3);2:15.95;0.20;1.49;Atomic
 3;6;194495;FAIVRE Mathieu;1992;FRA;1;02.72;(8);1;13.24;(1);2:15.96;0.21;1.56;Head
@@ -65,9 +63,9 @@ Start Time;9:00;;;Start Time;12:00;
 Forerunners:;;;;;;
 Run 1:;F1 - ROULIN Gilles;SUI;F2 - REYMOND Marco;SUI;F3 - SIMONET Sandro;SUI
 Run 2:;F1 - ROULIN Gilles;SUI;F2 - REYMOND Marco;SUI;F3 - SIMONET Sandro;SUI
-Conditions on course:;;;;;;;
-Run 1;MOSTLY CLOUDY;Snow:;HARD;Temperature - Start:;-11°C;Temperature - Finish:;-9°C
-Run 2;MOSTLY CLOUDY;Snow:;HARD;Temperature - Start:;-10°C;Temperature - Finish:;-8°C
+Conditions on course:;;;;;;;;
+Run 1;MOSTLY CLOUDY;Snow:HARD;Temperature - Start:;-11°C;Temperature - Finish:;-9°C
+Run 2;MOSTLY CLOUDY;Snow:HARD;Temperature - Start:;-10°C;Temperature - Finish:;-8°C
 Legend:
 YB Year of Birth
 SAT 20 MAR 2021 / Lenzerheide (SUI) / 0116______________________________________________________________________________________________________________________Page 1/1

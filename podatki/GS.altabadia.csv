@@ -9,9 +9,7 @@ Number of Competitors: 69, Number of NSAs: 22
 : 0.00
 Rank;Bib;"FIS
 Code";Name;YB;"NSA
-Code";Run 1;;;Run 2;;;Total;Race;;
-;;;;;;;;;;;;;Diff.;Points;Ski
-;;;;;;Time;;Rank;Time Rank;;;;;;
+Code";Run 1;;Rank1;Run 2;;Rank2;Total;Diff.;Points;Ski
 1;5;194364;PINTURAULT Alexis;1991;FRA;1;13.27;(1);1;13.92;(15);2:27.19;;0.00;Head
 2;29;422732;McGRATH Atle Lie;2000;NOR;1;13.73;(4);1;13.53;(6);2:27.26;0.07;0.48;Head
 3;25;511896;MURISIER Justin;1992;SUI;1;14.06;(11);1;13.37;(4);2:27.43;0.24;1.65;Head
@@ -124,8 +122,8 @@ Forerunners:;;;;;;
 Run 1:;F1 - FRENADEMETZ Emmi;ITA;F2 - MOLING Samuel;ITA;F3 - ZINGERLE Alex;ITA
 Run 2:;F1 - BERNARDI Vicky;ITA;F2 - MOLING Samuel;ITA;F3 - ZINGERLE Alex;ITA
 Conditions on course:;;;;;;
-Run 1	SUNNY;Snow:;HARD;Temperature - Start:;-3°C;Temperature - Finish:;-2°C
-Run 2	SUNNY;Snow:;HARD;Temperature - Start:;-2°C;Temperature - Finish:;1°C
+Run 1;	SUNNY;Snow:HARD;Temperature - Start:;-3°C;Temperature - Finish:;-2°C
+Run 2;	SUNNY;Snow:HARD;Temperature - Start:;-2°C;Temperature - Finish:;1°C
 Legend:
 YB Year of Birth
 SUN 20 DEC 2020 / Alta Badia (ITA) / 0057____________________________________________________________________________________________________________________Page 2/2

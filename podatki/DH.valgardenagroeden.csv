@@ -9,8 +9,7 @@ Number of Competitors: 61, Number of NSAs: 13
 : 0.00
 Rank;Bib;"FIS
 Code";Name;YB;"NSA
-Code";Time;Difference;"Distance
-(m)";Ski
+Code";Time;Difference;"Distance";Ski
 1;7;422139;KILDE Aleksander Aamodt;1992;NOR;2:01.45;;;Atomic
 2;12;6530319;COCHRAN-SIEGLE Ryan;1992;USA;2:01.67;0.22;5.87;Rossignol
 3;15;511383;FEUZ Beat;1987;SUI;2:01.99;0.54;14.36;Head
@@ -102,8 +101,8 @@ Gates;39;;;
 Start Time;11:45;;;
 Forerunners:;;;;;;
 ;F1 - ZAZZI Pietro;ITA;F2 - MOLTENI Nicolo;ITA;F3 - SIMONI Federico;ITA
-Conditions on course:;;;;
-SUNNY;Snow: HARD;Temperature - Start:;-1°C;Temperature - Finish: -2°C
+Conditions on course:;;;;;
+SUNNY;Snow: HARD;Temperature - Start:;-1°C;Temperature - Finish:; -2°C
 Legend:
 YB Year of Birth
 SAT 19 DEC 2020 / Val Gardena / Groden (ITA) / 0055________________________________________________________________________________________________________Page 2/2
