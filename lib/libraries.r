@@ -8,6 +8,8 @@ library(readr)
 library(dplyr)
 library(tibble)
 library(stringr)
+library(ggplot2)
+library(xml2)
 
 
 options(gsubfn.engine="R")
