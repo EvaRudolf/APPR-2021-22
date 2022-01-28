@@ -1,0 +1,1073 @@
+"";"Rank";"Name";"YB";"NSA";"Ski";"venue";"Disciplina";"temperatura";"vreme";"sneg";"tocke_30"
+"1";1;"MAYER Matthias";1990;"AUT";"Head";"Bormio";"DH";-7;"SUNNY";"HARD";100
+"2";2;"KRIECHMAYR Vincent";1991;"AUT";"Head";"Bormio";"DH";-7;"SUNNY";"HARD";80
+"3";3;"KRYENBUEHL Urs";1994;"SUI";"Fischer";"Bormio";"DH";-7;"SUNNY";"HARD";60
+"4";4;"PARIS Dominik";1989;"ITA";"Nordica";"Bormio";"DH";-7;"SUNNY";"HARD";50
+"5";5;"CAVIEZEL Mauro";1988;"SUI";"Atomic";"Bormio";"DH";-7;"SUNNY";"HARD";45
+"6";6;"KILDE Aleksander Aamodt";1992;"NOR";"Atomic";"Bormio";"DH";-7;"SUNNY";"HARD";40
+"7";7;"COCHRAN-SIEGLE Ryan";1992;"USA";"Rossignol";"Bormio";"DH";-7;"SUNNY";"HARD";36
+"8";8;"BAILET Matthieu";1996;"FRA";"Salomon";"Bormio";"DH";-7;"SUNNY";"HARD";32
+"9";9;"CLAREY Johan";1981;"FRA";"Head";"Bormio";"DH";-7;"SUNNY";"HARD";29
+"10";10;"FEUZ Beat";1987;"SUI";"Head";"Bormio";"DH";-7;"SUNNY";"HARD";26
+"11";11;"INNERHOFER Christof";1984;"ITA";"Rossignol";"Bormio";"DH";-7;"SUNNY";"HARD";24
+"12";12;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Bormio";"DH";-7;"SUNNY";"HARD";22
+"13";13;"FRANZ Max";1989;"AUT";"Fischer";"Bormio";"DH";-7;"SUNNY";"HARD";20
+"14";14;"BAUMANN Romed";1986;"GER";"Salomon";"Bormio";"DH";-7;"SUNNY";"HARD";18
+"15";15;"MARSAGLIA Matteo";1985;"ITA";"Fischer";"Bormio";"DH";-7;"SUNNY";"HARD";16
+"16";16;"MUZATON Maxence";1990;"FRA";"Rossignol";"Bormio";"DH";-7;"SUNNY";"HARD";15
+"17";17;"MONSEN Felix";1994;"SWE";"Atomic";"Bormio";"DH";-7;"SUNNY";"HARD";14
+"18";18;"ROGER Brice";1990;"FRA";"Rossignol";"Bormio";"DH";-7;"SUNNY";"HARD";13
+"19";19;"SANDER Andreas";1989;"GER";"Atomic";"Bormio";"DH";-7;"SUNNY";"HARD";12
+"20";20;"GOLDBERG Jared";1991;"USA";"Head";"Bormio";"DH";-7;"SUNNY";"HARD";11
+"21";21;"SCHMID Manuel";1993;"GER";"Rossignol";"Bormio";"DH";-7;"SUNNY";"HARD";10
+"22";22;"HEMETSBERGER Daniel";1991;"AUT";"Fischer";"Bormio";"DH";-7;"SUNNY";"HARD";9
+"23";23;"CRAWFORD James";1997;"CAN";"Head";"Bormio";"DH";-7;"SUNNY";"HARD";8
+"24";24;"THEAUX Adrien";1984;"FRA";"Head";"Bormio";"DH";-7;"SUNNY";"HARD";7
+"25";24;"STRIEDINGER Otmar";1991;"AUT";"Salomon";"Bormio";"DH";-7;"SUNNY";"HARD";7
+"26";26;"JOCHER Simon";1996;"GER";"Head";"Bormio";"DH";-7;"SUNNY";"HARD";5
+"27";27;"FERSTL Josef";1988;"GER";"Head";"Bormio";"DH";-7;"SUNNY";"HARD";4
+"28";28;"NEUMAYER Christopher";1992;"AUT";"Salomon";"Bormio";"DH";-7;"SUNNY";"HARD";3
+"29";29;"ROGENTIN Stefan";1994;"SUI";"Fischer";"Bormio";"DH";-7;"SUNNY";"HARD";2
+"30";30;"SCHWAIGER Dominik";1991;"GER";"Head";"Bormio";"DH";-7;"SUNNY";"HARD";1
+"31";1;"KRIECHMAYR Vincent";1991;"AUT";"Head";"Cortina";"DH";-11;"SUNNY";"HARD";100
+"32";2;"SANDER Andreas";1989;"GER";"Atomic";"Cortina";"DH";-11;"SUNNY";"HARD";80
+"33";3;"FEUZ Beat";1987;"SUI";"Head";"Cortina";"DH";-11;"SUNNY";"HARD";60
+"34";4;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Cortina";"DH";-11;"SUNNY";"HARD";50
+"35";4;"PARIS Dominik";1989;"ITA";"Nordica";"Cortina";"DH";-11;"SUNNY";"HARD";50
+"36";6;"INNERHOFER Christof";1984;"ITA";"Rossignol";"Cortina";"DH";-11;"SUNNY";"HARD";40
+"37";7;"ALLEGRE Nils";1994;"FRA";"Salomon";"Cortina";"DH";-11;"SUNNY";"HARD";36
+"38";8;"JANSRUD Kjetil";1985;"NOR";"Head";"Cortina";"DH";-11;"SUNNY";"HARD";32
+"39";9;"JANKA Carlo";1986;"SUI";"Rossignol";"Cortina";"DH";-11;"SUNNY";"HARD";29
+"40";10;"ROEA Henrik";1995;"NOR";"Nordica";"Cortina";"DH";-11;"SUNNY";"HARD";26
+"41";10;"BENNETT Bryce";1992;"USA";"Fischer";"Cortina";"DH";-11;"SUNNY";"HARD";26
+"42";12;"GANONG Travis";1988;"USA";"Atomic";"Cortina";"DH";-11;"SUNNY";"HARD";22
+"43";13;"FRANZ Max";1989;"AUT";"Fischer";"Cortina";"DH";-11;"SUNNY";"HARD";20
+"44";14;"BAUMANN Romed";1986;"GER";"Salomon";"Cortina";"DH";-11;"SUNNY";"HARD";18
+"45";15;"KLINE Bostjan";1991;"SLO";"Nordica";"Cortina";"DH";-11;"SUNNY";"HARD";16
+"46";16;"CLAREY Johan";1981;"FRA";"Head";"Cortina";"DH";-11;"SUNNY";"HARD";15
+"47";17;"MONSEN Felix";1994;"SWE";"Atomic";"Cortina";"DH";-11;"SUNNY";"HARD";14
+"48";18;"DRESSEN Thomas";1993;"GER";"Rossignol";"Cortina";"DH";-11;"SUNNY";"HARD";13
+"49";19;"STRIEDINGER Otmar";1991;"AUT";"Salomon";"Cortina";"DH";-11;"SUNNY";"HARD";12
+"50";20;"GOLDBERG Jared";1991;"USA";"Head";"Cortina";"DH";-11;"SUNNY";"HARD";11
+"51";21;"CRAWFORD James";1997;"CAN";"Head";"Cortina";"DH";-11;"SUNNY";"HARD";10
+"52";22;"SCHWAIGER Dominik";1991;"GER";"Head";"Cortina";"DH";-11;"SUNNY";"HARD";9
+"53";23;"HROBAT Miha";1995;"SLO";"Atomic";"Cortina";"DH";-11;"SUNNY";"HARD";8
+"54";24;"MARSAGLIA Matteo";1985;"ITA";"Fischer";"Cortina";"DH";-11;"SUNNY";"HARD";7
+"55";25;"BAILET Matthieu";1996;"FRA";"Salomon";"Cortina";"DH";-11;"SUNNY";"HARD";6
+"56";26;"READ Jeffrey";1997;"CAN";"Atomic";"Cortina";"DH";-11;"SUNNY";"HARD";5
+"57";27;"PFIFFNER Marco";1994;"LIE";"Fischer";"Cortina";"DH";-11;"SUNNY";"HARD";4
+"58";28;"ALESSANDRIA Arnaud";1993;"MON";"Salomon";"Cortina";"DH";-11;"SUNNY";"HARD";3
+"59";29;"THOMPSON Broderick";1994;"CAN";"Head";"Cortina";"DH";-11;"SUNNY";"HARD";2
+"60";30;"SZOLLOS Barnabas";1998;"ISR";"Kaestle";"Cortina";"DH";-11;"SUNNY";"HARD";1
+"61";1;"PARIS Dominik";1989;"ITA";"Nordica";"Garmisch";"DH";-1;"SUNNY";"HARD";100
+"62";2;"FEUZ Beat";1987;"SUI";"Head";"Garmisch";"DH";-1;"SUNNY";"HARD";80
+"63";3;"MAYER Matthias";1990;"AUT";"Head";"Garmisch";"DH";-1;"SUNNY";"HARD";60
+"64";4;"FRANZ Max";1989;"AUT";"Fischer";"Garmisch";"DH";-1;"SUNNY";"HARD";50
+"65";5;"INNERHOFER Christof";1984;"ITA";"Rossignol";"Garmisch";"DH";-1;"SUNNY";"HARD";45
+"66";6;"JANKA Carlo";1986;"SUI";"Rossignol";"Garmisch";"DH";-1;"SUNNY";"HARD";40
+"67";7;"GANONG Travis";1988;"USA";"Atomic";"Garmisch";"DH";-1;"SUNNY";"HARD";36
+"68";8;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Garmisch";"DH";-1;"SUNNY";"HARD";32
+"69";9;"HEMETSBERGER Daniel";1991;"AUT";"Fischer";"Garmisch";"DH";-1;"SUNNY";"HARD";29
+"70";10;"CLAREY Johan";1981;"FRA";"Head";"Garmisch";"DH";-1;"SUNNY";"HARD";26
+"71";11;"KRIECHMAYR Vincent";1991;"AUT";"Head";"Garmisch";"DH";-1;"SUNNY";"HARD";24
+"72";12;"SCHWAIGER Dominik";1991;"GER";"Head";"Garmisch";"DH";-1;"SUNNY";"HARD";22
+"73";13;"JANSRUD Kjetil";1985;"NOR";"Head";"Garmisch";"DH";-1;"SUNNY";"HARD";20
+"74";14;"BAUMANN Romed";1986;"GER";"Salomon";"Garmisch";"DH";-1;"SUNNY";"HARD";18
+"75";15;"HINTERMANN Niels";1995;"SUI";"Atomic";"Garmisch";"DH";-1;"SUNNY";"HARD";16
+"76";16;"STRIEDINGER Otmar";1991;"AUT";"Salomon";"Garmisch";"DH";-1;"SUNNY";"HARD";15
+"77";17;"BAILET Matthieu";1996;"FRA";"Salomon";"Garmisch";"DH";-1;"SUNNY";"HARD";14
+"78";18;"GOLDBERG Jared";1991;"USA";"Head";"Garmisch";"DH";-1;"SUNNY";"HARD";13
+"79";19;"ALLEGRE Nils";1994;"FRA";"Salomon";"Garmisch";"DH";-1;"SUNNY";"HARD";12
+"80";20;"MONSEN Felix";1994;"SWE";"Atomic";"Garmisch";"DH";-1;"SUNNY";"HARD";11
+"81";21;"BENNETT Bryce";1992;"USA";"Fischer";"Garmisch";"DH";-1;"SUNNY";"HARD";10
+"82";22;"MARSAGLIA Matteo";1985;"ITA";"Fischer";"Garmisch";"DH";-1;"SUNNY";"HARD";9
+"83";23;"THEAUX Adrien";1984;"FRA";"Head";"Garmisch";"DH";-1;"SUNNY";"HARD";8
+"84";24;"SANDER Andreas";1989;"GER";"Atomic";"Garmisch";"DH";-1;"SUNNY";"HARD";7
+"85";25;"JOCHER Simon";1996;"GER";"Head";"Garmisch";"DH";-1;"SUNNY";"HARD";6
+"86";25;"DANKLMAIER Daniel";1993;"AUT";"Atomic";"Garmisch";"DH";-1;"SUNNY";"HARD";6
+"87";27;"SEJERSTED Adrian Smiseth";1994;"NOR";"Atomic";"Garmisch";"DH";-1;"SUNNY";"HARD";4
+"88";28;"ROEA Henrik";1995;"NOR";"Nordica";"Garmisch";"DH";-1;"SUNNY";"HARD";3
+"89";29;"SCHMID Manuel";1993;"GER";"Rossignol";"Garmisch";"DH";-1;"SUNNY";"HARD";2
+"90";30;"BUZZI Emanuele";1994;"ITA";"Head";"Garmisch";"DH";-1;"SUNNY";"HARD";1
+"91";1;"KRIECHMAYR Vincent";1991;"AUT";"Head";"Saalbach";"DH";-1;"SUNNY";"HARD";100
+"92";2;"FEUZ Beat";1987;"SUI";"Head";"Saalbach";"DH";-1;"SUNNY";"HARD";80
+"93";3;"MAYER Matthias";1990;"AUT";"Head";"Saalbach";"DH";-1;"SUNNY";"HARD";60
+"94";4;"PARIS Dominik";1989;"ITA";"Nordica";"Saalbach";"DH";-1;"SUNNY";"HARD";50
+"95";5;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Saalbach";"DH";-1;"SUNNY";"HARD";45
+"96";5;"FRANZ Max";1989;"AUT";"Fischer";"Saalbach";"DH";-1;"SUNNY";"HARD";45
+"97";7;"STRIEDINGER Otmar";1991;"AUT";"Salomon";"Saalbach";"DH";-1;"SUNNY";"HARD";36
+"98";8;"ARVIDSSON Erik";1996;"USA";"Head";"Saalbach";"DH";-1;"SUNNY";"HARD";32
+"99";9;"CLAREY Johan";1981;"FRA";"Head";"Saalbach";"DH";-1;"SUNNY";"HARD";29
+"100";10;"BENNETT Bryce";1992;"USA";"Fischer";"Saalbach";"DH";-1;"SUNNY";"HARD";26
+"101";11;"BAILET Matthieu";1996;"FRA";"Salomon";"Saalbach";"DH";-1;"SUNNY";"HARD";24
+"102";12;"BAUMANN Romed";1986;"GER";"Salomon";"Saalbach";"DH";-1;"SUNNY";"HARD";22
+"103";13;"ROGENTIN Stefan";1994;"SUI";"Fischer";"Saalbach";"DH";-1;"SUNNY";"HARD";20
+"104";14;"DANKLMAIER Daniel";1993;"AUT";"Atomic";"Saalbach";"DH";-1;"SUNNY";"HARD";18
+"105";15;"HINTERMANN Niels";1995;"SUI";"Atomic";"Saalbach";"DH";-1;"SUNNY";"HARD";16
+"106";16;"HEMETSBERGER Daniel";1991;"AUT";"Fischer";"Saalbach";"DH";-1;"SUNNY";"HARD";15
+"107";17;"THEAUX Adrien";1984;"FRA";"Head";"Saalbach";"DH";-1;"SUNNY";"HARD";14
+"108";18;"MONSEN Felix";1994;"SWE";"Atomic";"Saalbach";"DH";-1;"SUNNY";"HARD";13
+"109";19;"MANI Nils";1992;"SUI";"Stoeckli";"Saalbach";"DH";-1;"SUNNY";"HARD";12
+"110";20;"WEBER Ralph";1993;"SUI";"Head";"Saalbach";"DH";-1;"SUNNY";"HARD";11
+"111";21;"INNERHOFER Christof";1984;"ITA";"Rossignol";"Saalbach";"DH";-1;"SUNNY";"HARD";10
+"112";22;"BUZZI Emanuele";1994;"ITA";"Head";"Saalbach";"DH";-1;"SUNNY";"HARD";9
+"113";23;"READ Jeffrey";1997;"CAN";"Atomic";"Saalbach";"DH";-1;"SUNNY";"HARD";8
+"114";24;"JANKA Carlo";1986;"SUI";"Rossignol";"Saalbach";"DH";-1;"SUNNY";"HARD";7
+"115";25;"SANDER Andreas";1989;"GER";"Atomic";"Saalbach";"DH";-1;"SUNNY";"HARD";6
+"116";26;"SEGER Brodie";1995;"CAN";"Atomic";"Saalbach";"DH";-1;"SUNNY";"HARD";5
+"117";26;"ROEA Henrik";1995;"NOR";"Nordica";"Saalbach";"DH";-1;"SUNNY";"HARD";5
+"118";28;"MARSAGLIA Matteo";1985;"ITA";"Fischer";"Saalbach";"DH";-1;"SUNNY";"HARD";3
+"119";29;"GIEZENDANNER Blaise";1991;"FRA";"Atomic";"Saalbach";"DH";-1;"SUNNY";"HARD";2
+"120";30;"LAHNSTEINER Maximilian";1996;"AUT";"Fischer";"Saalbach";"DH";-1;"SUNNY";"HARD";1
+"121";1;"CATER Martin";1992;"SLO";"Stoeckli";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";100
+"122";2;"STRIEDINGER Otmar";1991;"AUT";"Salomon";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";80
+"123";3;"KRYENBUEHL Urs";1994;"SUI";"Fischer";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";60
+"124";4;"KILDE Aleksander Aamodt";1992;"NOR";"Atomic";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";50
+"125";5;"CLAREY Johan";1981;"FRA";"Head";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";45
+"126";6;"FEUZ Beat";1987;"SUI";"Head";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";40
+"127";7;"SANDER Andreas";1989;"GER";"Atomic";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";36
+"128";8;"MAYER Matthias";1990;"AUT";"Head";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";32
+"129";9;"BAUMANN Romed";1986;"GER";"Salomon";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";29
+"130";10;"PARIS Dominik";1989;"ITA";"Nordica";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";26
+"131";11;"ALLEGRE Nils";1994;"FRA";"Salomon";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";24
+"132";12;"FRANZ Max";1989;"AUT";"Fischer";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";22
+"133";13;"COCHRAN-SIEGLE Ryan";1992;"USA";"Rossignol";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";20
+"134";14;"GIRAUD MOINE Valentin";1992;"FRA";"Salomon";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";18
+"135";15;"SEJERSTED Adrian Smiseth";1994;"NOR";"Atomic";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";16
+"136";16;"WEBER Ralph";1993;"SUI";"Head";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";15
+"137";16;"CAVIEZEL Mauro";1988;"SUI";"Atomic";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";15
+"138";18;"JANKA Carlo";1986;"SUI";"Rossignol";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";13
+"139";19;"MARSAGLIA Matteo";1985;"ITA";"Fischer";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";12
+"140";20;"JANSRUD Kjetil";1985;"NOR";"Head";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";11
+"141";21;"SCHWAIGER Dominik";1991;"GER";"Head";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";10
+"142";21;"BAILET Matthieu";1996;"FRA";"Salomon";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";10
+"143";23;"GANONG Travis";1988;"USA";"Atomic";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";8
+"144";24;"THEAUX Adrien";1984;"FRA";"Head";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";7
+"145";24;"BENNETT Bryce";1992;"USA";"Fischer";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";7
+"146";26;"READ Jeffrey";1997;"CAN";"Atomic";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";5
+"147";27;"RAFFORT Nicolas";1991;"FRA";"Rossignol";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";4
+"148";28;"KLINE Bostjan";1991;"SLO";"Nordica";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";3
+"149";29;"HEMETSBERGER Daniel";1991;"AUT";"Fischer";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";2
+"150";30;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Val d'Isere";"DH";-7;"SUNNY";"COMPACT";1
+"151";1;"KILDE Aleksander Aamodt";1992;"NOR";"Atomic";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";100
+"152";2;"COCHRAN-SIEGLE Ryan";1992;"USA";"Rossignol";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";80
+"153";3;"FEUZ Beat";1987;"SUI";"Head";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";60
+"154";4;"BENNETT Bryce";1992;"USA";"Fischer";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";50
+"155";4;"JANSRUD Kjetil";1985;"NOR";"Head";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";50
+"156";6;"GOLDBERG Jared";1991;"USA";"Head";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";40
+"157";7;"JANKA Carlo";1986;"SUI";"Rossignol";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";36
+"158";8;"BAUMANN Romed";1986;"GER";"Salomon";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";32
+"159";9;"FRANZ Max";1989;"AUT";"Fischer";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";29
+"160";10;"MAYER Matthias";1990;"AUT";"Head";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";26
+"161";11;"ALLEGRE Nils";1994;"FRA";"Salomon";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";24
+"162";12;"CAVIEZEL Mauro";1988;"SUI";"Atomic";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";22
+"163";13;"KRIECHMAYR Vincent";1991;"AUT";"Head";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";20
+"164";14;"GANONG Travis";1988;"USA";"Atomic";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";18
+"165";15;"PARIS Dominik";1989;"ITA";"Nordica";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";16
+"166";16;"SANDER Andreas";1989;"GER";"Atomic";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";15
+"167";17;"KLINE Bostjan";1991;"SLO";"Nordica";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";14
+"168";18;"CLAREY Johan";1981;"FRA";"Head";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";13
+"169";19;"HINTERMANN Niels";1995;"SUI";"Atomic";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";12
+"170";20;"WEBER Ralph";1993;"SUI";"Head";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";11
+"171";21;"RAFFORT Nicolas";1991;"FRA";"Rossignol";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";10
+"172";22;"SEJERSTED Adrian Smiseth";1994;"NOR";"Atomic";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";9
+"173";22;"BAILET Matthieu";1996;"FRA";"Salomon";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";9
+"174";24;"KRYENBUEHL Urs";1994;"SUI";"Fischer";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";7
+"175";25;"CATER Martin";1992;"SLO";"Stoeckli";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";6
+"176";26;"HEMETSBERGER Daniel";1991;"AUT";"Fischer";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";5
+"177";27;"THEAUX Adrien";1984;"FRA";"Head";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";4
+"178";28;"INNERHOFER Christof";1984;"ITA";"Rossignol";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";3
+"179";29;"MORSE Sam";1996;"USA";"Fischer";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";2
+"180";30;"STRIEDINGER Otmar";1991;"AUT";"Salomon";"Val Gardena";"DH";-1,5;"SUNNY";"HARD";1
+"181";1;"FEUZ Beat";1987;"SUI";"Head";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";100
+"182";2;"MAYER Matthias";1990;"AUT";"Head";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";80
+"183";3;"PARIS Dominik";1989;"ITA";"Nordica";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";60
+"184";4;"CLAREY Johan";1981;"FRA";"Head";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";50
+"185";5;"SANDER Andreas";1989;"GER";"Atomic";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";45
+"186";6;"JANKA Carlo";1986;"SUI";"Rossignol";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";40
+"187";7;"BAILET Matthieu";1996;"FRA";"Salomon";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";36
+"188";8;"BAUMANN Romed";1986;"GER";"Salomon";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";32
+"189";9;"KRIECHMAYR Vincent";1991;"AUT";"Head";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";29
+"190";10;"ALLEGRE Nils";1994;"FRA";"Salomon";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";26
+"191";11;"GANONG Travis";1988;"USA";"Atomic";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";24
+"192";12;"SCHWAIGER Dominik";1991;"GER";"Head";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";22
+"193";13;"FERSTL Josef";1988;"GER";"Head";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";20
+"194";13;"STRIEDINGER Otmar";1991;"AUT";"Salomon";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";20
+"195";15;"MUZATON Maxence";1990;"FRA";"Rossignol";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";16
+"196";16;"REICHELT Hannes";1980;"AUT";"Salomon";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";15
+"197";17;"DANKLMAIER Daniel";1993;"AUT";"Atomic";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";14
+"198";18;"JANSRUD Kjetil";1985;"NOR";"Head";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";13
+"199";19;"GOLDBERG Jared";1991;"USA";"Head";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";12
+"200";20;"MARSAGLIA Matteo";1985;"ITA";"Fischer";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";11
+"201";21;"ROGER Brice";1990;"FRA";"Rossignol";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";10
+"202";22;"INNERHOFER Christof";1984;"ITA";"Rossignol";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";9
+"203";23;"RAFFORT Nicolas";1991;"FRA";"Rossignol";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";8
+"204";24;"BENNETT Bryce";1992;"USA";"Fischer";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";7
+"205";25;"KRYENBUEHL Urs";1994;"SUI";"Fischer";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";6
+"206";26;"CATER Martin";1992;"SLO";"Stoeckli";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";5
+"207";27;"THEAUX Adrien";1984;"FRA";"Head";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";4
+"208";28;"WEBER Ralph";1993;"SUI";"Head";"Kitzbuehl1";"DH";2,5;"PARTLY CLOUDY";"HARD";3
+"209";1;"FEUZ Beat";1987;"SUI";"Head";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";100
+"210";2;"CLAREY Johan";1981;"FRA";"Head";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";80
+"211";3;"MAYER Matthias";1990;"AUT";"Head";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";60
+"212";4;"INNERHOFER Christof";1984;"ITA";"Rossignol";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";50
+"213";5;"BAUMANN Romed";1986;"GER";"Salomon";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";45
+"214";6;"SANDER Andreas";1989;"GER";"Atomic";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";40
+"215";7;"PARIS Dominik";1989;"ITA";"Nordica";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";36
+"216";8;"STRIEDINGER Otmar";1991;"AUT";"Salomon";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";32
+"217";9;"BAILET Matthieu";1996;"FRA";"Salomon";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";29
+"218";10;"HEMETSBERGER Daniel";1991;"AUT";"Fischer";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";26
+"219";10;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";26
+"220";12;"GANONG Travis";1988;"USA";"Atomic";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";22
+"221";13;"FRANZ Max";1989;"AUT";"Fischer";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";20
+"222";14;"SCHIEDER Florian";1995;"ITA";"Atomic";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";18
+"223";15;"DANKLMAIER Daniel";1993;"AUT";"Atomic";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";16
+"224";16;"ROEA Henrik";1995;"NOR";"Nordica";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";15
+"225";17;"SCHWAIGER Dominik";1991;"GER";"Head";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";14
+"226";17;"KRIECHMAYR Vincent";1991;"AUT";"Head";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";14
+"227";19;"ALLEGRE Nils";1994;"FRA";"Salomon";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";12
+"228";20;"ROGENTIN Stefan";1994;"SUI";"Fischer";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";11
+"229";21;"MUZATON Maxence";1990;"FRA";"Rossignol";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";10
+"230";22;"ROULIN Gilles";1994;"SUI";"Head";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";9
+"231";23;"NEUMAYER Christopher";1992;"AUT";"Salomon";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";8
+"232";24;"GOLDBERG Jared";1991;"USA";"Head";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";7
+"233";25;"RAFFORT Nicolas";1991;"FRA";"Rossignol";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";6
+"234";26;"JANSRUD Kjetil";1985;"NOR";"Head";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";5
+"235";27;"ROGER Brice";1990;"FRA";"Rossignol";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";4
+"236";28;"MARSAGLIA Matteo";1985;"ITA";"Fischer";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";3
+"237";29;"WALDER Christian";1991;"AUT";"Salomon";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";2
+"238";30;"REICHELT Hannes";1980;"AUT";"Salomon";"Kitzbuehl2";"DH";-4;"PARTLY CLOUDY";"HARD";1
+"239";1;"COCHRAN-SIEGLE Ryan";1992;"USA";"Rossignol";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";100
+"240";2;"KRIECHMAYR Vincent";1991;"AUT";"Head";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";80
+"241";3;"SEJERSTED Adrian Smiseth";1994;"NOR";"Atomic";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";60
+"242";4;"KILDE Aleksander Aamodt";1992;"NOR";"Atomic";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";50
+"243";5;"CAVIEZEL Mauro";1988;"SUI";"Atomic";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";45
+"244";6;"JANSRUD Kjetil";1985;"NOR";"Head";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";40
+"245";7;"BAUMANN Romed";1986;"GER";"Salomon";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";36
+"246";8;"KRYENBUEHL Urs";1994;"SUI";"Fischer";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";32
+"247";9;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";29
+"248";10;"MAYER Matthias";1990;"AUT";"Head";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";26
+"249";11;"CAVIEZEL Gino";1992;"SUI";"Dynastar";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";24
+"250";12;"PINTURAULT Alexis";1991;"FRA";"Head";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";22
+"251";13;"MEILLARD Loic";1996;"SUI";"Rossignol";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";20
+"252";14;"GIEZENDANNER Blaise";1991;"FRA";"Atomic";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";18
+"253";15;"JOCHER Simon";1996;"GER";"Head";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";16
+"254";15;"GANONG Travis";1988;"USA";"Atomic";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";16
+"255";17;"HROBAT Miha";1995;"SLO";"Atomic";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";14
+"256";18;"PARIS Dominik";1989;"ITA";"Nordica";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";13
+"257";19;"ALLEGRE Nils";1994;"FRA";"Salomon";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";12
+"258";20;"SANDER Andreas";1989;"GER";"Atomic";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";11
+"259";21;"FERSTL Josef";1988;"GER";"Head";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";10
+"260";22;"ROGER Brice";1990;"FRA";"Rossignol";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";9
+"261";22;"ROGENTIN Stefan";1994;"SUI";"Fischer";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";9
+"262";24;"PICCARD Roy";1993;"FRA";"Rossignol";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";7
+"263";24;"FRANZ Max";1989;"AUT";"Fischer";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";7
+"264";26;"MARSAGLIA Matteo";1985;"ITA";"Fischer";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";5
+"265";27;"BABINSKY Stefan";1996;"AUT";"Head";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";4
+"266";28;"CRAWFORD James";1997;"CAN";"Head";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";3
+"267";29;"CLAREY Johan";1981;"FRA";"Head";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";2
+"268";30;"BUZZI Emanuele";1994;"ITA";"Head";"Bormio";"SG";-2,5;"PARTLY CLOUDY";"COMPACT";1
+"269";1;"KRIECHMAYR Vincent";1991;"AUT";"Head";"Cortina";"SG";-2,5;"SUNNY";"HARD";100
+"270";2;"BAUMANN Romed";1986;"GER";"Salomon";"Cortina";"SG";-2,5;"SUNNY";"HARD";80
+"271";3;"PINTURAULT Alexis";1991;"FRA";"Head";"Cortina";"SG";-2,5;"SUNNY";"HARD";60
+"272";4;"SEGER Brodie";1995;"CAN";"Atomic";"Cortina";"SG";-2,5;"SUNNY";"HARD";50
+"273";5;"PARIS Dominik";1989;"ITA";"Nordica";"Cortina";"SG";-2,5;"SUNNY";"HARD";45
+"274";6;"MAYER Matthias";1990;"AUT";"Head";"Cortina";"SG";-2,5;"SUNNY";"HARD";40
+"275";7;"BAILET Matthieu";1996;"FRA";"Salomon";"Cortina";"SG";-2,5;"SUNNY";"HARD";36
+"276";8;"GANONG Travis";1988;"USA";"Atomic";"Cortina";"SG";-2,5;"SUNNY";"HARD";32
+"277";9;"SANDER Andreas";1989;"GER";"Atomic";"Cortina";"SG";-2,5;"SUNNY";"HARD";29
+"278";10;"FEUZ Beat";1987;"SUI";"Head";"Cortina";"SG";-2,5;"SUNNY";"HARD";26
+"279";11;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Cortina";"SG";-2,5;"SUNNY";"HARD";24
+"280";12;"JANSRUD Kjetil";1985;"NOR";"Head";"Cortina";"SG";-2,5;"SUNNY";"HARD";22
+"281";13;"BUZZI Emanuele";1994;"ITA";"Head";"Cortina";"SG";-2,5;"SUNNY";"HARD";20
+"282";14;"CRAWFORD James";1997;"CAN";"Head";"Cortina";"SG";-2,5;"SUNNY";"HARD";18
+"283";15;"GOLDBERG Jared";1991;"USA";"Head";"Cortina";"SG";-2,5;"SUNNY";"HARD";16
+"284";16;"JOCHER Simon";1996;"GER";"Head";"Cortina";"SG";-2,5;"SUNNY";"HARD";15
+"285";17;"ROEA Henrik";1995;"NOR";"Nordica";"Cortina";"SG";-2,5;"SUNNY";"HARD";14
+"286";18;"READ Jeffrey";1997;"CAN";"Atomic";"Cortina";"SG";-2,5;"SUNNY";"HARD";13
+"287";19;"MARSAGLIA Matteo";1985;"ITA";"Fischer";"Cortina";"SG";-2,5;"SUNNY";"HARD";12
+"288";20;"ZABYSTRAN Jan";1998;"CZE";"Atomic";"Cortina";"SG";-2,5;"SUNNY";"HARD";11
+"289";21;"ALLEGRE Nils";1994;"FRA";"Salomon";"Cortina";"SG";-2,5;"SUNNY";"HARD";10
+"290";22;"ORTEGA Albert";1998;"ESP";"Rossignol";"Cortina";"SG";-2,5;"SUNNY";"HARD";9
+"291";23;"INNERHOFER Christof";1984;"ITA";"Rossignol";"Cortina";"SG";-2,5;"SUNNY";"HARD";8
+"292";24;"KLINE Bostjan";1991;"SLO";"Nordica";"Cortina";"SG";-2,5;"SUNNY";"HARD";7
+"293";25;"CATER Martin";1992;"SLO";"Stoeckli";"Cortina";"SG";-2,5;"SUNNY";"HARD";6
+"294";26;"VERDU Joan";1995;"AND";"Head";"Cortina";"SG";-2,5;"SUNNY";"HARD";5
+"295";27;"BENNETT Bryce";1992;"USA";"Fischer";"Cortina";"SG";-2,5;"SUNNY";"HARD";4
+"296";28;"FEASEY Willis";1992;"NZL";"";"Cortina";"SG";-2,5;"SUNNY";"HARD";3
+"297";29;"SZOLLOS Barnabas";1998;"ISR";"Kaestle";"Cortina";"SG";-2,5;"SUNNY";"HARD";2
+"298";30;"PFIFFNER Marco";1994;"LIE";"Fischer";"Cortina";"SG";-2,5;"SUNNY";"HARD";1
+"299";1;"KRIECHMAYR Vincent";1991;"AUT";"Head";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";100
+"300";2;"MAYER Matthias";1990;"AUT";"Head";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";80
+"301";3;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";60
+"302";4;"ALLEGRE Nils";1994;"FRA";"Salomon";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";50
+"303";5;"INNERHOFER Christof";1984;"ITA";"Rossignol";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";45
+"304";6;"FRANZ Max";1989;"AUT";"Fischer";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";40
+"305";7;"MEILLARD Loic";1996;"SUI";"Rossignol";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";36
+"306";8;"PARIS Dominik";1989;"ITA";"Nordica";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";32
+"307";9;"FEUZ Beat";1987;"SUI";"Head";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";29
+"308";10;"BAUMANN Romed";1986;"GER";"Salomon";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";26
+"309";10;"CAVIEZEL Gino";1992;"SUI";"Dynastar";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";26
+"310";12;"GANONG Travis";1988;"USA";"Atomic";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";22
+"311";13;"SANDER Andreas";1989;"GER";"Atomic";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";20
+"312";13;"JANSRUD Kjetil";1985;"NOR";"Head";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";20
+"313";15;"MONSEN Felix";1994;"SWE";"Atomic";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";16
+"314";15;"DANKLMAIER Daniel";1993;"AUT";"Atomic";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";16
+"315";17;"REICHELT Hannes";1980;"AUT";"Salomon";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";14
+"316";18;"JOCHER Simon";1996;"GER";"Head";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";13
+"317";19;"CRAWFORD James";1997;"CAN";"Head";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";12
+"318";20;"BABINSKY Stefan";1996;"AUT";"Head";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";11
+"319";21;"SEGER Brodie";1995;"CAN";"Atomic";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";10
+"320";22;"WALDER Christian";1991;"AUT";"Salomon";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";9
+"321";23;"GIEZENDANNER Blaise";1991;"FRA";"Atomic";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";8
+"322";24;"CLAREY Johan";1981;"FRA";"Head";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";7
+"323";25;"HROBAT Miha";1995;"SLO";"Atomic";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";6
+"324";26;"MARSAGLIA Matteo";1985;"ITA";"Fischer";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";5
+"325";27;"WEBER Ralph";1993;"SUI";"Head";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";4
+"326";28;"ROGENTIN Stefan";1994;"SUI";"Fischer";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";3
+"327";28;"KLINE Bostjan";1991;"SLO";"Nordica";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";3
+"328";30;"BUZZI Emanuele";1994;"ITA";"Head";"Garmisch";"SG";1,5;"PARTLY CLOUDY";"HARD";1
+"329";1;"KRIECHMAYR Vincent";1991;"AUT";"Head";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";100
+"330";2;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";80
+"331";3;"MAYER Matthias";1990;"AUT";"Head";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";60
+"332";4;"INNERHOFER Christof";1984;"ITA";"Rossignol";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";50
+"333";5;"WALDER Christian";1991;"AUT";"Salomon";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";45
+"334";6;"CRAWFORD James";1997;"CAN";"Head";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";40
+"335";7;"BABINSKY Stefan";1996;"AUT";"Head";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";36
+"336";8;"BAILET Matthieu";1996;"FRA";"Salomon";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";32
+"337";9;"SANDER Andreas";1989;"GER";"Atomic";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";29
+"338";9;"MEILLARD Loic";1996;"SUI";"Rossignol";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";29
+"339";11;"BAUMANN Romed";1986;"GER";"Salomon";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";24
+"340";12;"PINTURAULT Alexis";1991;"FRA";"Head";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";22
+"341";13;"FERSTL Josef";1988;"GER";"Head";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";20
+"342";14;"CLAREY Johan";1981;"FRA";"Head";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";18
+"343";15;"MONSEN Felix";1994;"SWE";"Atomic";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";16
+"344";16;"HEMETSBERGER Daniel";1991;"AUT";"Fischer";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";15
+"345";17;"SCHWAIGER Dominik";1991;"GER";"Head";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";14
+"346";18;"READ Jeffrey";1997;"CAN";"Atomic";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";13
+"347";19;"ROGER Brice";1990;"FRA";"Rossignol";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";12
+"348";20;"FRANZ Max";1989;"AUT";"Fischer";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";11
+"349";21;"SEGER Brodie";1995;"CAN";"Atomic";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";10
+"350";22;"CAVIEZEL Gino";1992;"SUI";"Dynastar";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";9
+"351";23;"MARSAGLIA Matteo";1985;"ITA";"Fischer";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";8
+"352";24;"GIEZENDANNER Blaise";1991;"FRA";"Atomic";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";7
+"353";25;"PARIS Dominik";1989;"ITA";"Nordica";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";6
+"354";26;"THEAUX Adrien";1984;"FRA";"Head";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";5
+"355";27;"GANONG Travis";1988;"USA";"Atomic";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";4
+"356";28;"ROGENTIN Stefan";1994;"SUI";"Fischer";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";3
+"357";29;"REICHELT Hannes";1980;"AUT";"Salomon";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";2
+"358";30;"GOLDBERG Jared";1991;"USA";"Head";"Kitzbuehl";"SG";-7;"PARTLY CLOUDY";"HARD";1
+"359";1;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";100
+"360";2;"BAILET Matthieu";1996;"FRA";"Salomon";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";80
+"361";3;"KRIECHMAYR Vincent";1991;"AUT";"Head";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";60
+"362";4;"HAASER Raphael";1997;"AUT";"Fischer";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";50
+"363";5;"MURISIER Justin";1992;"SUI";"Head";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";45
+"364";6;"FEUZ Beat";1987;"SUI";"Head";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";40
+"365";7;"MAYER Matthias";1990;"AUT";"Head";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";36
+"366";8;"SANDER Andreas";1989;"GER";"Atomic";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";32
+"367";9;"BENNETT Bryce";1992;"USA";"Fischer";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";29
+"368";10;"HEMETSBERGER Daniel";1991;"AUT";"Fischer";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";26
+"369";11;"DANKLMAIER Daniel";1993;"AUT";"Atomic";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";24
+"370";12;"TONETTI Riccardo";1989;"ITA";"Blizzard";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";22
+"371";13;"FERSTL Josef";1988;"GER";"Head";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";20
+"372";14;"GIEZENDANNER Blaise";1991;"FRA";"Atomic";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";18
+"373";15;"PINTURAULT Alexis";1991;"FRA";"Head";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";16
+"374";16;"MARSAGLIA Matteo";1985;"ITA";"Fischer";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";15
+"375";17;"ROGENTIN Stefan";1994;"SUI";"Fischer";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";14
+"376";18;"MONSEN Felix";1994;"SWE";"Atomic";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";13
+"377";19;"READ Jeffrey";1997;"CAN";"Atomic";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";12
+"378";20;"WALDER Christian";1991;"AUT";"Salomon";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";11
+"379";21;"BABINSKY Stefan";1996;"AUT";"Head";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";10
+"380";22;"CATER Martin";1992;"SLO";"Stoeckli";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";9
+"381";23;"PICCARD Roy";1993;"FRA";"Rossignol";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";8
+"382";24;"THOMPSON Broderick";1994;"CAN";"Head";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";7
+"383";25;"GOLDBERG Jared";1991;"USA";"Head";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";6
+"384";26;"CRAWFORD James";1997;"CAN";"Head";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";5
+"385";27;"SCHMID Manuel";1993;"GER";"Rossignol";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";4
+"386";28;"GANONG Travis";1988;"USA";"Atomic";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";3
+"387";29;"BAUMANN Romed";1986;"GER";"Salomon";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";2
+"388";30;"ARVIDSSON Erik";1996;"USA";"Head";"Saalbach";"SG";0,5;"PARTLY CLOUDY";"COMPACT";1
+"389";1;"CAVIEZEL Mauro";1988;"SUI";"Atomic";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";100
+"390";2;"SEJERSTED Adrian Smiseth";1994;"NOR";"Atomic";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";80
+"391";3;"WALDER Christian";1991;"AUT";"Salomon";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";60
+"392";4;"GANONG Travis";1988;"USA";"Atomic";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";50
+"393";5;"KRIECHMAYR Vincent";1991;"AUT";"Head";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";45
+"394";6;"JANSRUD Kjetil";1985;"NOR";"Head";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";40
+"395";7;"PINTURAULT Alexis";1991;"FRA";"Head";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";36
+"396";8;"INNERHOFER Christof";1984;"ITA";"Rossignol";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";32
+"397";8;"SANDER Andreas";1989;"GER";"Atomic";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";32
+"398";10;"FEUZ Beat";1987;"SUI";"Head";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";26
+"399";11;"MAYER Matthias";1990;"AUT";"Head";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";24
+"400";12;"KILDE Aleksander Aamodt";1992;"NOR";"Atomic";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";22
+"401";13;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";20
+"402";14;"FRANZ Max";1989;"AUT";"Fischer";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";18
+"403";15;"ROGER Brice";1990;"FRA";"Rossignol";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";16
+"404";16;"PARIS Dominik";1989;"ITA";"Nordica";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";15
+"405";17;"GIEZENDANNER Blaise";1991;"FRA";"Atomic";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";14
+"406";18;"FERSTL Josef";1988;"GER";"Head";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";13
+"407";19;"BUZZI Emanuele";1994;"ITA";"Head";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";12
+"408";20;"KRYENBUEHL Urs";1994;"SUI";"Fischer";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";11
+"409";20;"HROBAT Miha";1995;"SLO";"Atomic";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";11
+"410";22;"ALLEGRE Nils";1994;"FRA";"Salomon";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";9
+"411";23;"RAFFORT Nicolas";1991;"FRA";"Rossignol";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";8
+"412";24;"ROGENTIN Stefan";1994;"SUI";"Fischer";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";7
+"413";25;"REICHELT Hannes";1980;"AUT";"Salomon";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";6
+"414";26;"MONSEN Felix";1994;"SWE";"Atomic";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";5
+"415";26;"CAVIEZEL Gino";1992;"SUI";"Dynastar";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";5
+"416";28;"BOSCA Guglielmo";1993;"ITA";"Head";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";3
+"417";29;"KRENN Christoph";1994;"AUT";"Salomon";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";2
+"418";30;"HAASER Raphael";1997;"AUT";"Fischer";"Val d'Isere";"SG";-3;"LIGHT SNOW";"COMPACT";1
+"419";1;"KILDE Aleksander Aamodt";1992;"NOR";"Atomic";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";100
+"420";2;"CAVIEZEL Mauro";1988;"SUI";"Atomic";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";80
+"421";3;"JANSRUD Kjetil";1985;"NOR";"Head";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";60
+"422";4;"MAYER Matthias";1990;"AUT";"Head";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";50
+"423";5;"SANDER Andreas";1989;"GER";"Atomic";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";45
+"424";6;"ALLEGRE Nils";1994;"FRA";"Salomon";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";40
+"425";7;"CLAREY Johan";1981;"FRA";"Head";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";36
+"426";8;"COCHRAN-SIEGLE Ryan";1992;"USA";"Rossignol";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";32
+"427";9;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";29
+"428";10;"FEUZ Beat";1987;"SUI";"Head";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";26
+"429";11;"KRYENBUEHL Urs";1994;"SUI";"Fischer";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";24
+"430";12;"PARIS Dominik";1989;"ITA";"Nordica";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";22
+"431";13;"WALDER Christian";1991;"AUT";"Salomon";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";20
+"432";14;"THEAUX Adrien";1984;"FRA";"Head";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";18
+"433";15;"KRIECHMAYR Vincent";1991;"AUT";"Head";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";16
+"434";16;"BAUMANN Romed";1986;"GER";"Salomon";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";15
+"435";17;"FRANZ Max";1989;"AUT";"Fischer";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";14
+"436";18;"REICHELT Hannes";1980;"AUT";"Salomon";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";13
+"437";19;"KLINE Bostjan";1991;"SLO";"Nordica";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";12
+"438";20;"FERSTL Josef";1988;"GER";"Head";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";11
+"439";21;"ROGER Brice";1990;"FRA";"Rossignol";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";10
+"440";21;"GIEZENDANNER Blaise";1991;"FRA";"Atomic";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";10
+"441";23;"GOLDBERG Jared";1991;"USA";"Head";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";8
+"442";24;"BUZZI Emanuele";1994;"ITA";"Head";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";7
+"443";25;"GANONG Travis";1988;"USA";"Atomic";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";6
+"444";26;"INNERHOFER Christof";1984;"ITA";"Rossignol";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";5
+"445";27;"CRAWFORD James";1997;"CAN";"Head";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";4
+"446";28;"HINTERMANN Niels";1995;"SUI";"Atomic";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";3
+"447";28;"ROGENTIN Stefan";1994;"SUI";"Fischer";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";3
+"448";30;"CATER Martin";1992;"SLO";"Stoeckli";"Val Gardena";"SG";-1,5;"SUNNY";"HARD";1
+"449";1;"PINTURAULT Alexis";1991;"FRA";"Head";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";100
+"450";2;"McGRATH Atle Lie";2000;"NOR";"Head";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";80
+"451";3;"MURISIER Justin";1992;"SUI";"Head";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";60
+"452";4;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";50
+"453";5;"FORD Tommy";1989;"USA";"Head";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";45
+"454";6;"KILDE Aleksander Aamodt";1992;"NOR";"Atomic";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";40
+"455";7;"SCHMID Alexander";1994;"GER";"Head";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";36
+"456";8;"BRENNSTEINER Stefan";1991;"AUT";"Fischer";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";32
+"457";9;"KRANJEC Zan";1992;"SLO";"Rossignol";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";29
+"458";10;"ZUBCIC Filip";1993;"CRO";"Atomic";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";26
+"459";11;"TONETTI Riccardo";1989;"ITA";"Blizzard";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";24
+"460";12;"LUITZ Stefan";1992;"GER";"Rossignol";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";22
+"461";13;"BISSIG Semyel";1998;"SUI";"Atomic";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";20
+"462";13;"CAVIEZEL Gino";1992;"SUI";"Dynastar";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";20
+"463";15;"KRISTOFFERSEN Henrik";1994;"NOR";"Rossignol";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";16
+"464";16;"FAIVRE Mathieu";1992;"FRA";"Head";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";15
+"465";17;"NESTVOLD-HAUGEN Leif Kristian";1987;"NOR";"Rossignol";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";14
+"466";18;"BRAATHEN Lucas";2000;"NOR";"Atomic";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";13
+"467";19;"READ Erik";1991;"CAN";"Atomic";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";12
+"468";20;"RADAMUS River";1998;"USA";"Rossignol";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";11
+"469";21;"SCHWARZ Marco";1995;"AUT";"Atomic";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";10
+"470";22;"LEITINGER Roland";1991;"AUT";"Salomon";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";9
+"471";23;"ANDRIENKO Aleksander";1990;"RUS";"Rossignol";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";8
+"472";24;"HAASER Raphael";1997;"AUT";"Fischer";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";7
+"473";25;"MUFFAT-JEANDET Victor";1989;"FRA";"Salomon";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";6
+"474";26;"LIGETY Ted";1984;"USA";"Head";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";5
+"475";27;"ZAMPA Andreas";1993;"SVK";"Salomon";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";4
+"476";28;"SARRAZIN Cyprien";1994;"FRA";"Rossignol";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";3
+"477";29;"COCHRAN-SIEGLE Ryan";1992;"USA";"Rossignol";"Alta Badia";"GS";-1,5;"	SUNNY";"HARD";2
+"478";1;"FAIVRE Mathieu";1992;"FRA";"Head";"Cortina";"GS";4;"	SUNNY";"HARD";100
+"479";2;"de ALIPRANDINI Luca";1990;"ITA";"Salomon";"Cortina";"GS";4;"	SUNNY";"HARD";80
+"480";3;"SCHWARZ Marco";1995;"AUT";"Atomic";"Cortina";"GS";4;"	SUNNY";"HARD";60
+"481";4;"ZUBCIC Filip";1993;"CRO";"Atomic";"Cortina";"GS";4;"	SUNNY";"HARD";50
+"482";5;"MEILLARD Loic";1996;"SUI";"Rossignol";"Cortina";"GS";4;"	SUNNY";"HARD";45
+"483";6;"KRANJEC Zan";1992;"SLO";"Rossignol";"Cortina";"GS";4;"	SUNNY";"HARD";40
+"484";7;"LUITZ Stefan";1992;"GER";"Rossignol";"Cortina";"GS";4;"	SUNNY";"HARD";36
+"485";8;"ZAMPA Adam";1990;"SVK";"Salomon";"Cortina";"GS";4;"	SUNNY";"HARD";32
+"486";9;"KRISTOFFERSEN Henrik";1994;"NOR";"Rossignol";"Cortina";"GS";4;"	SUNNY";"HARD";29
+"487";10;"LEITINGER Roland";1991;"AUT";"Salomon";"Cortina";"GS";4;"	SUNNY";"HARD";26
+"488";11;"RADAMUS River";1998;"USA";"Rossignol";"Cortina";"GS";4;"	SUNNY";"HARD";24
+"489";12;"TONETTI Riccardo";1989;"ITA";"Blizzard";"Cortina";"GS";4;"	SUNNY";"HARD";22
+"490";13;"MUFFAT-JEANDET Victor";1989;"FRA";"Salomon";"Cortina";"GS";4;"	SUNNY";"HARD";20
+"491";14;"FRANZONI Giovanni";2001;"ITA";"Rossignol";"Cortina";"GS";4;"	SUNNY";"HARD";18
+"492";15;"TORSTI Samu";1991;"FIN";"Head";"Cortina";"GS";4;"	SUNNY";"HARD";16
+"493";16;"HADALIN Stefan";1995;"SLO";"Rossignol";"Cortina";"GS";4;"	SUNNY";"HARD";15
+"494";16;"NESTVOLD-HAUGEN Leif Kristian";1987;"NOR";"Rossignol";"Cortina";"GS";4;"	SUNNY";"HARD";15
+"495";18;"KATO Seigo";1998;"JPN";"Atomic";"Cortina";"GS";4;"	SUNNY";"HARD";13
+"496";19;"KRYZL Krystof";1986;"CZE";"Atomic";"Cortina";"GS";4;"	SUNNY";"HARD";12
+"497";20;"ZAMPA Andreas";1993;"SVK";"Salomon";"Cortina";"GS";4;"	SUNNY";"HARD";11
+"498";21;"ORTEGA Albert";1998;"ESP";"Rossignol";"Cortina";"GS";4;"	SUNNY";"HARD";10
+"499";22;"GRAVIER Tiziano";2002;"ARG";"";"Cortina";"GS";4;"	SUNNY";"HARD";9
+"500";23;"DRUKAROV Andrej";1999;"LTU";"";"Cortina";"GS";4;"	SUNNY";"HARD";8
+"501";24;"POPOV Albert";1997;"BUL";"Head";"Cortina";"GS";4;"	SUNNY";"HARD";7
+"502";25;"SZOLLOS Barnabas";1998;"ISR";"Kaestle";"Cortina";"GS";4;"	SUNNY";"HARD";6
+"503";26;"FEASEY Willis";1992;"NZL";"";"Cortina";"GS";4;"	SUNNY";"HARD";5
+"504";27;"SIMARI BIRKNER Cristian Javier";1980;"ARG";"";"Cortina";"GS";4;"	SUNNY";"HARD";4
+"505";28;"LOKMIC Emir";1997;"BIH";"";"Cortina";"GS";4;"	SUNNY";"HARD";3
+"506";29;"PIROZZI Nicolas";2002;"CHI";"";"Cortina";"GS";4;"	SUNNY";"HARD";2
+"507";30;"VERBEKE Tom";1997;"BEL";"";"Cortina";"GS";4;"	SUNNY";"HARD";1
+"508";1;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";100
+"509";2;"MEILLARD Loic";1996;"SUI";"Rossignol";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";80
+"510";3;"BRENNSTEINER Stefan";1991;"AUT";"Fischer";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";60
+"511";4;"PINTURAULT Alexis";1991;"FRA";"Head";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";50
+"512";5;"FAIVRE Mathieu";1992;"FRA";"Head";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";45
+"513";6;"ZUBCIC Filip";1993;"CRO";"Atomic";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";40
+"514";7;"KRISTOFFERSEN Henrik";1994;"NOR";"Rossignol";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";36
+"515";8;"FELLER Manuel";1992;"AUT";"Atomic";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";32
+"516";9;"CAVIEZEL Gino";1992;"SUI";"Dynastar";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";29
+"517";10;"LUITZ Stefan";1992;"GER";"Rossignol";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";26
+"518";11;"SCHMID Alexander";1994;"GER";"Head";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";24
+"519";12;"FAVROT Thibaut";1994;"FRA";"Dynastar";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";22
+"520";13;"LEITINGER Roland";1991;"AUT";"Salomon";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";20
+"521";14;"NESTVOLD-HAUGEN Leif Kristian";1987;"NOR";"Rossignol";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";18
+"522";15;"de ALIPRANDINI Luca";1990;"ITA";"Salomon";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";16
+"523";16;"READ Erik";1991;"CAN";"Atomic";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";15
+"524";17;"RASCHNER Dominik";1994;"AUT";"Rossignol";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";14
+"525";18;"HADALIN Stefan";1995;"SLO";"Rossignol";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";13
+"526";19;"WINDINGSTAD Rasmus";1993;"NOR";"Stoeckli";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";12
+"527";19;"PHILP Trevor";1992;"CAN";"Rossignol";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";12
+"528";19;"TONETTI Riccardo";1989;"ITA";"Blizzard";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";12
+"529";22;"KRANJEC Zan";1992;"SLO";"Rossignol";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";9
+"530";23;"MURISIER Justin";1992;"SUI";"Head";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";8
+"531";24;"MUFFAT-JEANDET Victor";1989;"FRA";"Salomon";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";7
+"532";25;"SARRAZIN Cyprien";1994;"FRA";"Rossignol";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";6
+"533";26;"ZAMPA Adam";1990;"SVK";"Salomon";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";5
+"534";27;"BORSOTTI Giovanni";1990;"ITA";"Rossignol";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";4
+"535";28;"KUZNETSOV Ivan";1996;"RUS";"Atomic";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";3
+"536";29;"BORGNAES Christian";1996;"AUT";"Salomon";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";2
+"537";30;"NOEL Clement";1997;"FRA";"Dynastar";"Kranjska Gora";"GS";2,25;"SUNNY";"SPRING CONDITIONS";1
+"538";1;"PINTURAULT Alexis";1991;"FRA";"Head";"Lenzerheide";"GS";-9,5;"MOSTLY CLOUDY";"HARD";100
+"539";2;"ZUBCIC Filip";1993;"CRO";"Atomic";"Lenzerheide";"GS";-9,5;"MOSTLY CLOUDY";"HARD";80
+"540";3;"FAIVRE Mathieu";1992;"FRA";"Head";"Lenzerheide";"GS";-9,5;"MOSTLY CLOUDY";"HARD";60
+"541";4;"BRENNSTEINER Stefan";1991;"AUT";"Fischer";"Lenzerheide";"GS";-9,5;"MOSTLY CLOUDY";"HARD";50
+"542";5;"de ALIPRANDINI Luca";1990;"ITA";"Salomon";"Lenzerheide";"GS";-9,5;"MOSTLY CLOUDY";"HARD";45
+"543";6;"FAVROT Thibaut";1994;"FRA";"Dynastar";"Lenzerheide";"GS";-9,5;"MOSTLY CLOUDY";"HARD";40
+"544";7;"CAVIEZEL Gino";1992;"SUI";"Dynastar";"Lenzerheide";"GS";-9,5;"MOSTLY CLOUDY";"HARD";36
+"545";8;"KRISTOFFERSEN Henrik";1994;"NOR";"Rossignol";"Lenzerheide";"GS";-9,5;"MOSTLY CLOUDY";"HARD";32
+"546";9;"NESTVOLD-HAUGEN Leif Kristian";1987;"NOR";"Rossignol";"Lenzerheide";"GS";-9,5;"MOSTLY CLOUDY";"HARD";29
+"547";10;"LUITZ Stefan";1992;"GER";"Rossignol";"Lenzerheide";"GS";-9,5;"MOSTLY CLOUDY";"HARD";26
+"548";11;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Lenzerheide";"GS";-9,5;"MOSTLY CLOUDY";"HARD";24
+"549";12;"KRANJEC Zan";1992;"SLO";"Rossignol";"Lenzerheide";"GS";-9,5;"MOSTLY CLOUDY";"HARD";22
+"550";13;"SCHWARZ Marco";1995;"AUT";"Atomic";"Lenzerheide";"GS";-9,5;"MOSTLY CLOUDY";"HARD";20
+"551";14;"BORSOTTI Giovanni";1990;"ITA";"Rossignol";"Lenzerheide";"GS";-9,5;"MOSTLY CLOUDY";"HARD";18
+"552";15;"SCHMID Alexander";1994;"GER";"Head";"Lenzerheide";"GS";-9,5;"MOSTLY CLOUDY";"HARD";16
+"553";16;"MURISIER Justin";1992;"SUI";"Head";"Lenzerheide";"GS";-9,5;"MOSTLY CLOUDY";"HARD";15
+"554";17;"ZAMPA Adam";1990;"SVK";"Salomon";"Lenzerheide";"GS";-9,5;"MOSTLY CLOUDY";"HARD";14
+"555";18;"FELLER Manuel";1992;"AUT";"Atomic";"Lenzerheide";"GS";-9,5;"MOSTLY CLOUDY";"HARD";13
+"556";19;"FEURSTEIN Lukas";2001;"AUT";"Head";"Lenzerheide";"GS";-9,5;"MOSTLY CLOUDY";"HARD";12
+"557";1;"BRAATHEN Lucas";2000;"NOR";"Atomic";"Soelden";"GS";-4,25;"	SUNNY";"HARD";100
+"558";2;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Soelden";"GS";-4,25;"	SUNNY";"HARD";80
+"559";3;"CAVIEZEL Gino";1992;"SUI";"Dynastar";"Soelden";"GS";-4,25;"	SUNNY";"HARD";60
+"560";4;"PINTURAULT Alexis";1991;"FRA";"Head";"Soelden";"GS";-4,25;"	SUNNY";"HARD";50
+"561";5;"MEILLARD Loic";1996;"SUI";"Rossignol";"Soelden";"GS";-4,25;"	SUNNY";"HARD";45
+"562";5;"KRISTOFFERSEN Henrik";1994;"NOR";"Rossignol";"Soelden";"GS";-4,25;"	SUNNY";"HARD";45
+"563";7;"KRANJEC Zan";1992;"SLO";"Rossignol";"Soelden";"GS";-4,25;"	SUNNY";"HARD";36
+"564";8;"NESTVOLD-HAUGEN Leif Kristian";1987;"NOR";"Rossignol";"Soelden";"GS";-4,25;"	SUNNY";"HARD";32
+"565";9;"FAVROT Thibaut";1994;"FRA";"Dynastar";"Soelden";"GS";-4,25;"	SUNNY";"HARD";29
+"566";10;"de ALIPRANDINI Luca";1990;"ITA";"Salomon";"Soelden";"GS";-4,25;"	SUNNY";"HARD";26
+"567";11;"MURISIER Justin";1992;"SUI";"Head";"Soelden";"GS";-4,25;"	SUNNY";"HARD";24
+"568";12;"ZUBCIC Filip";1993;"CRO";"Atomic";"Soelden";"GS";-4,25;"	SUNNY";"HARD";22
+"569";13;"BORSOTTI Giovanni";1990;"ITA";"Rossignol";"Soelden";"GS";-4,25;"	SUNNY";"HARD";20
+"570";14;"LUITZ Stefan";1992;"GER";"Rossignol";"Soelden";"GS";-4,25;"	SUNNY";"HARD";18
+"571";15;"SCHMID Alexander";1994;"GER";"Head";"Soelden";"GS";-4,25;"	SUNNY";"HARD";16
+"572";16;"MUFFAT-JEANDET Victor";1989;"FRA";"Salomon";"Soelden";"GS";-4,25;"	SUNNY";"HARD";15
+"573";17;"BRENNSTEINER Stefan";1991;"AUT";"Fischer";"Soelden";"GS";-4,25;"	SUNNY";"HARD";14
+"574";18;"MAES Sam";1998;"BEL";"Voelkl";"Soelden";"GS";-4,25;"	SUNNY";"HARD";13
+"575";19;"READ Erik";1991;"CAN";"Atomic";"Soelden";"GS";-4,25;"	SUNNY";"HARD";12
+"576";20;"SETTE Daniele";1992;"SUI";"";"Soelden";"GS";-4,25;"	SUNNY";"HARD";11
+"577";21;"MOELGG Manfred";1982;"ITA";"Fischer";"Soelden";"GS";-4,25;"	SUNNY";"HARD";10
+"578";22;"FORD Tommy";1989;"USA";"Head";"Soelden";"GS";-4,25;"	SUNNY";"HARD";9
+"579";23;"NANI Roberto";1988;"ITA";"";"Soelden";"GS";-4,25;"	SUNNY";"HARD";8
+"580";24;"KRIECHMAYR Vincent";1991;"AUT";"Head";"Soelden";"GS";-4,25;"	SUNNY";"HARD";7
+"581";25;"MAYER Matthias";1990;"AUT";"Head";"Soelden";"GS";-4,25;"	SUNNY";"HARD";6
+"582";26;"FAIVRE Mathieu";1992;"FRA";"Head";"Soelden";"GS";-4,25;"	SUNNY";"HARD";5
+"583";27;"RADAMUS River";1998;"USA";"Rossignol";"Soelden";"GS";-4,25;"	SUNNY";"HARD";4
+"584";28;"ZAMPA Adam";1990;"SVK";"Salomon";"Soelden";"GS";-4,25;"	SUNNY";"HARD";3
+"585";1;"PINTURAULT Alexis";1991;"FRA";"Head";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";100
+"586";2;"ZUBCIC Filip";1993;"CRO";"Atomic";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";80
+"587";3;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";60
+"588";4;"KILDE Aleksander Aamodt";1992;"NOR";"Atomic";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";50
+"589";5;"MURISIER Justin";1992;"SUI";"Head";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";45
+"590";6;"MEILLARD Loic";1996;"SUI";"Rossignol";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";40
+"591";7;"BRAATHEN Lucas";2000;"NOR";"Atomic";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";36
+"592";8;"NESTVOLD-HAUGEN Leif Kristian";1987;"NOR";"Rossignol";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";32
+"593";9;"KRISTOFFERSEN Henrik";1994;"NOR";"Rossignol";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";29
+"594";10;"FORD Tommy";1989;"USA";"Head";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";26
+"595";11;"LEITINGER Roland";1991;"AUT";"Salomon";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";24
+"596";12;"COCHRAN-SIEGLE Ryan";1992;"USA";"Rossignol";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";22
+"597";13;"SOLHEIM Fabian Wilkens";1996;"NOR";"Head";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";20
+"598";14;"SCHWARZ Marco";1995;"AUT";"Atomic";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";18
+"599";14;"de ALIPRANDINI Luca";1990;"ITA";"Salomon";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";18
+"600";16;"READ Erik";1991;"CAN";"Atomic";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";15
+"601";17;"FAIVRE Mathieu";1992;"FRA";"Head";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";14
+"602";18;"RADAMUS River";1998;"USA";"Rossignol";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";13
+"603";19;"HADALIN Stefan";1995;"SLO";"Rossignol";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";12
+"604";20;"ANDRIENKO Aleksander";1990;"RUS";"Rossignol";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";11
+"605";21;"SCHMID Alexander";1994;"GER";"Head";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";10
+"606";22;"BORSOTTI Giovanni";1990;"ITA";"Rossignol";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";9
+"607";23;"FAVROT Thibaut";1994;"FRA";"Dynastar";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";8
+"608";24;"SETTE Daniele";1992;"SUI";"Fischer";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";7
+"609";25;"SARRAZIN Cyprien";1994;"FRA";"Rossignol";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";6
+"610";26;"PHILP Trevor";1992;"CAN";"Rossignol";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";5
+"611";27;"MUFFAT-JEANDET Victor";1989;"FRA";"Salomon";"Adelboden1";"GS";-6,5;"PARTLY CLOUDY";"HARD";4
+"612";1;"ZUBCIC Filip";1993;"CRO";"Atomic";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";100
+"613";2;"FAIVRE Mathieu";1992;"FRA";"Head";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";80
+"614";3;"BRENNSTEINER Stefan";1991;"AUT";"Fischer";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";60
+"615";4;"PINTURAULT Alexis";1991;"FRA";"Head";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";50
+"616";5;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";45
+"617";6;"FELLER Manuel";1992;"AUT";"Atomic";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";40
+"618";7;"FAVROT Thibaut";1994;"FRA";"Dynastar";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";36
+"619";8;"MEILLARD Loic";1996;"SUI";"Rossignol";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";32
+"620";9;"HADALIN Stefan";1995;"SLO";"Rossignol";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";29
+"621";10;"SCHWARZ Marco";1995;"AUT";"Atomic";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";26
+"622";11;"SCHMID Alexander";1994;"GER";"Head";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";24
+"623";12;"KRANJEC Zan";1992;"SLO";"Rossignol";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";22
+"624";13;"MURISIER Justin";1992;"SUI";"Head";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";20
+"625";14;"RADAMUS River";1998;"USA";"Rossignol";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";18
+"626";14;"LUITZ Stefan";1992;"GER";"Rossignol";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";18
+"627";16;"DELLA VITE Filippo";2001;"ITA";"Rossignol";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";15
+"628";17;"KRISTOFFERSEN Henrik";1994;"NOR";"Rossignol";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";14
+"629";18;"de ALIPRANDINI Luca";1990;"ITA";"Salomon";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";13
+"630";19;"ZAMPA Adam";1990;"SVK";"Salomon";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";12
+"631";20;"PERTL Adrian";1996;"AUT";"Voelkl";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";11
+"632";21;"CAVIEZEL Gino";1992;"SUI";"Dynastar";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";10
+"633";22;"BORSOTTI Giovanni";1990;"ITA";"Rossignol";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";9
+"634";23;"WINDINGSTAD Rasmus";1993;"NOR";"Stoeckli";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";8
+"635";24;"NESTVOLD-HAUGEN Leif Kristian";1987;"NOR";"Rossignol";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";7
+"636";25;"BISSIG Semyel";1998;"SUI";"Atomic";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";6
+"637";26;"ROENNGREN Mattias";1993;"SWE";"Head";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";5
+"638";27;"ZINGERLE Hannes";1995;"ITA";"Rossignol";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";4
+"639";28;"TONETTI Riccardo";1989;"ITA";"Blizzard";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";3
+"640";29;"KUZNETSOV Ivan";1996;"RUS";"Atomic";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";2
+"641";30;"MUFFAT-JEANDET Victor";1989;"FRA";"Salomon";"Bansko1";"GS";1,5;"SUNNY";"COMPACT";1
+"642";1;"ZUBCIC Filip";1993;"CRO";"Atomic";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";100
+"643";2;"KRANJEC Zan";1992;"SLO";"Rossignol";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";80
+"644";3;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";60
+"645";4;"MEILLARD Loic";1996;"SUI";"Rossignol";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";50
+"646";5;"PINTURAULT Alexis";1991;"FRA";"Head";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";45
+"647";6;"FORD Tommy";1989;"USA";"Head";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";40
+"648";7;"ZAMPA Adam";1990;"SVK";"Salomon";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";36
+"649";8;"FAIVRE Mathieu";1992;"FRA";"Head";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";32
+"650";9;"KILDE Aleksander Aamodt";1992;"NOR";"Atomic";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";29
+"651";10;"READ Erik";1991;"CAN";"Atomic";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";26
+"652";11;"SCHMID Alexander";1994;"GER";"Head";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";24
+"653";12;"BRAATHEN Lucas";2000;"NOR";"Atomic";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";22
+"654";12;"NESTVOLD-HAUGEN Leif Kristian";1987;"NOR";"Rossignol";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";22
+"655";14;"SCHWARZ Marco";1995;"AUT";"Atomic";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";18
+"656";15;"McGRATH Atle Lie";2000;"NOR";"Head";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";16
+"657";16;"BISSIG Semyel";1998;"SUI";"Atomic";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";15
+"658";17;"MUFFAT-JEANDET Victor";1989;"FRA";"Salomon";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";14
+"659";18;"PHILP Trevor";1992;"CAN";"Rossignol";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";13
+"660";19;"LIGETY Ted";1984;"USA";"Head";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";12
+"661";20;"PERTL Adrian";1996;"AUT";"Voelkl";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";11
+"662";21;"BORSOTTI Giovanni";1990;"ITA";"Rossignol";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";10
+"663";22;"KRISTOFFERSEN Henrik";1994;"NOR";"Rossignol";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";9
+"664";23;"de ALIPRANDINI Luca";1990;"ITA";"Salomon";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";8
+"665";24;"ZAMPA Andreas";1993;"SVK";"Salomon";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";7
+"666";25;"MURISIER Justin";1992;"SUI";"Head";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";6
+"667";26;"LEITINGER Roland";1991;"AUT";"Salomon";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";5
+"668";27;"TORSTI Samu";1991;"FIN";"Head";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";4
+"669";28;"ANDRIENKO Aleksander";1990;"RUS";"Rossignol";"Santa Caterina1";"GS";-1,5;" SNOW";"SOFT";3
+"670";1;"PINTURAULT Alexis";1991;"FRA";"Head";"Adelboden2";"GS";-7;"	SUNNY";"HARD";100
+"671";2;"ZUBCIC Filip";1993;"CRO";"Atomic";"Adelboden2";"GS";-7;"	SUNNY";"HARD";80
+"672";3;"MEILLARD Loic";1996;"SUI";"Rossignol";"Adelboden2";"GS";-7;"	SUNNY";"HARD";60
+"673";4;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Adelboden2";"GS";-7;"	SUNNY";"HARD";50
+"674";5;"KILDE Aleksander Aamodt";1992;"NOR";"Atomic";"Adelboden2";"GS";-7;"	SUNNY";"HARD";45
+"675";6;"de ALIPRANDINI Luca";1990;"ITA";"Salomon";"Adelboden2";"GS";-7;"	SUNNY";"HARD";40
+"676";7;"CAVIEZEL Gino";1992;"SUI";"Dynastar";"Adelboden2";"GS";-7;"	SUNNY";"HARD";36
+"677";8;"LEITINGER Roland";1991;"AUT";"Salomon";"Adelboden2";"GS";-7;"	SUNNY";"HARD";32
+"678";9;"FAVROT Thibaut";1994;"FRA";"Dynastar";"Adelboden2";"GS";-7;"	SUNNY";"HARD";29
+"679";10;"MURISIER Justin";1992;"SUI";"Head";"Adelboden2";"GS";-7;"	SUNNY";"HARD";26
+"680";11;"FELLER Manuel";1992;"AUT";"Atomic";"Adelboden2";"GS";-7;"	SUNNY";"HARD";24
+"681";12;"SCHWARZ Marco";1995;"AUT";"Atomic";"Adelboden2";"GS";-7;"	SUNNY";"HARD";22
+"682";13;"READ Erik";1991;"CAN";"Atomic";"Adelboden2";"GS";-7;"	SUNNY";"HARD";20
+"683";14;"BORSOTTI Giovanni";1990;"ITA";"Rossignol";"Adelboden2";"GS";-7;"	SUNNY";"HARD";18
+"684";15;"FAIVRE Mathieu";1992;"FRA";"Head";"Adelboden2";"GS";-7;"	SUNNY";"HARD";16
+"685";16;"TONETTI Riccardo";1989;"ITA";"Blizzard";"Adelboden2";"GS";-7;"	SUNNY";"HARD";15
+"686";17;"SOLHEIM Fabian Wilkens";1996;"NOR";"Head";"Adelboden2";"GS";-7;"	SUNNY";"HARD";14
+"687";18;"BORGNAES Christian";1996;"AUT";"Salomon";"Adelboden2";"GS";-7;"	SUNNY";"HARD";13
+"688";19;"COCHRAN-SIEGLE Ryan";1992;"USA";"Rossignol";"Adelboden2";"GS";-7;"	SUNNY";"HARD";12
+"689";20;"RADAMUS River";1998;"USA";"Rossignol";"Adelboden2";"GS";-7;"	SUNNY";"HARD";11
+"690";20;"MUFFAT-JEANDET Victor";1989;"FRA";"Salomon";"Adelboden2";"GS";-7;"	SUNNY";"HARD";11
+"691";22;"SCHMID Alexander";1994;"GER";"Head";"Adelboden2";"GS";-7;"	SUNNY";"HARD";9
+"692";23;"ZAMPA Adam";1990;"SVK";"Salomon";"Adelboden2";"GS";-7;"	SUNNY";"HARD";8
+"693";24;"KUZNETSOV Ivan";1996;"RUS";"Atomic";"Adelboden2";"GS";-7;"	SUNNY";"HARD";7
+"694";25;"ROENNGREN Mattias";1993;"SWE";"Head";"Adelboden2";"GS";-7;"	SUNNY";"HARD";6
+"695";26;"BRENNSTEINER Stefan";1991;"AUT";"Fischer";"Adelboden2";"GS";-7;"	SUNNY";"HARD";5
+"696";27;"KRISTOFFERSEN Henrik";1994;"NOR";"Rossignol";"Adelboden2";"GS";-7;"	SUNNY";"HARD";4
+"697";28;"NOGER Cedric";1992;"SUI";"Kaestle";"Adelboden2";"GS";-7;"	SUNNY";"HARD";3
+"698";29;"HADALIN Stefan";1995;"SLO";"Rossignol";"Adelboden2";"GS";-7;"	SUNNY";"HARD";2
+"699";1;"FAIVRE Mathieu";1992;"FRA";"Head";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";100
+"700";2;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";80
+"701";3;"PINTURAULT Alexis";1991;"FRA";"Head";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";60
+"702";4;"FAVROT Thibaut";1994;"FRA";"Dynastar";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";50
+"703";5;"BRENNSTEINER Stefan";1991;"AUT";"Fischer";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";45
+"704";6;"KRANJEC Zan";1992;"SLO";"Rossignol";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";40
+"705";7;"MEILLARD Loic";1996;"SUI";"Rossignol";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";36
+"706";8;"MURISIER Justin";1992;"SUI";"Head";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";32
+"707";9;"KRISTOFFERSEN Henrik";1994;"NOR";"Rossignol";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";29
+"708";10;"SCHWARZ Marco";1995;"AUT";"Atomic";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";26
+"709";11;"SETTE Daniele";1992;"SUI";"Fischer";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";24
+"710";12;"CAVIEZEL Gino";1992;"SUI";"Dynastar";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";22
+"711";12;"de ALIPRANDINI Luca";1990;"ITA";"Salomon";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";22
+"712";14;"ZUBCIC Filip";1993;"CRO";"Atomic";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";18
+"713";15;"BORSOTTI Giovanni";1990;"ITA";"Rossignol";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";16
+"714";16;"LEITINGER Roland";1991;"AUT";"Salomon";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";15
+"715";17;"KUZNETSOV Ivan";1996;"RUS";"Atomic";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";14
+"716";18;"TONETTI Riccardo";1989;"ITA";"Blizzard";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";13
+"717";19;"LUITZ Stefan";1992;"GER";"Rossignol";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";12
+"718";20;"FELLER Manuel";1992;"AUT";"Atomic";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";11
+"719";21;"ZAMPA Adam";1990;"SVK";"Salomon";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";10
+"720";22;"ZINGERLE Hannes";1995;"ITA";"Rossignol";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";9
+"721";23;"MOELGG Manfred";1982;"ITA";"Fischer";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";8
+"722";24;"ROENNGREN Mattias";1993;"SWE";"Head";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";7
+"723";25;"NESTVOLD-HAUGEN Leif Kristian";1987;"NOR";"Rossignol";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";6
+"724";26;"HOFER Alex";1994;"ITA";"Fischer";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";5
+"725";27;"MUFFAT-JEANDET Victor";1989;"FRA";"Salomon";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";4
+"726";28;"TORSTI Samu";1991;"FIN";"Head";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";3
+"727";29;"ANDRIENKO Aleksander";1990;"RUS";"Rossignol";"Bansko2";"GS";1,5;"PARTLY CLOUDY";"COMPACT";2
+"728";1;"ODERMATT Marco";1997;"SUI";"Stoeckli";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";100
+"729";2;"FORD Tommy";1989;"USA";"Head";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";80
+"730";3;"ZUBCIC Filip";1993;"CRO";"Atomic";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";60
+"731";4;"MEILLARD Loic";1996;"SUI";"Rossignol";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";50
+"732";5;"PINTURAULT Alexis";1991;"FRA";"Head";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";45
+"733";6;"de ALIPRANDINI Luca";1990;"ITA";"Salomon";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";40
+"734";7;"NESTVOLD-HAUGEN Leif Kristian";1987;"NOR";"Rossignol";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";36
+"735";8;"ZAMPA Adam";1990;"SVK";"Salomon";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";32
+"736";9;"SCHMID Alexander";1994;"GER";"Head";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";29
+"737";10;"READ Erik";1991;"CAN";"Atomic";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";26
+"738";11;"McGRATH Atle Lie";2000;"NOR";"Head";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";24
+"739";12;"KRISTOFFERSEN Henrik";1994;"NOR";"Rossignol";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";22
+"740";13;"BRAATHEN Lucas";2000;"NOR";"Atomic";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";20
+"741";14;"FAVROT Thibaut";1994;"FRA";"Dynastar";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";18
+"742";15;"KILDE Aleksander Aamodt";1992;"NOR";"Atomic";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";16
+"743";16;"PHILP Trevor";1992;"CAN";"Rossignol";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";15
+"744";17;"LUITZ Stefan";1992;"GER";"Rossignol";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";14
+"745";17;"LEITINGER Roland";1991;"AUT";"Salomon";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";14
+"746";19;"KRANJEC Zan";1992;"SLO";"Rossignol";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";12
+"747";20;"FAIVRE Mathieu";1992;"FRA";"Head";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";11
+"748";21;"WALCH Magnus";1992;"AUT";"Voelkl";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";10
+"749";22;"SCHWARZ Marco";1995;"AUT";"Atomic";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";9
+"750";23;"MURISIER Justin";1992;"SUI";"Head";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";8
+"751";24;"BARUFFALDI Stefano";1992;"ITA";"";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";7
+"752";25;"YULE Daniel";1993;"SUI";"Fischer";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";6
+"753";26;"MEINERS Maarten";1992;"NED";"Rossignol";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";5
+"754";27;"TONETTI Riccardo";1989;"ITA";"Blizzard";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";4
+"755";28;"COCHRAN-SIEGLE Ryan";1992;"USA";"Rossignol";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";3
+"756";29;"CAVIEZEL Gino";1992;"SUI";"Dynastar";"Santa Caterina2";"GS";-3,75;"MOSTLY CLOUDY";"PACKED";2
+"757";1;"SCHWARZ Marco";1995;"AUT";"Atomic";"Adelboden";"SL";-8;"	SUNNY";"HARD";100
+"758";2;"STRASSER Linus";1992;"GER";"Rossignol";"Adelboden";"SL";-8;"	SUNNY";"HARD";80
+"759";3;"RYDING Dave";1986;"GBR";"Dynastar";"Adelboden";"SL";-8;"	SUNNY";"HARD";60
+"760";4;"MATT Michael";1993;"AUT";"Rossignol";"Adelboden";"SL";-8;"	SUNNY";"HARD";50
+"761";5;"MEILLARD Loic";1996;"SUI";"Rossignol";"Adelboden";"SL";-8;"	SUNNY";"HARD";45
+"762";6;"NEF Tanguy";1996;"SUI";"Fischer";"Adelboden";"SL";-8;"	SUNNY";"HARD";40
+"763";7;"YULE Daniel";1993;"SUI";"Fischer";"Adelboden";"SL";-8;"	SUNNY";"HARD";36
+"764";8;"NOEL Clement";1997;"FRA";"Dynastar";"Adelboden";"SL";-8;"	SUNNY";"HARD";32
+"765";9;"FOSS-SOLEVAAG Sebastian";1991;"NOR";"Voelkl";"Adelboden";"SL";-8;"	SUNNY";"HARD";29
+"766";10;"KHOROSHILOV Alexander";1984;"RUS";"Fischer";"Adelboden";"SL";-8;"	SUNNY";"HARD";26
+"767";11;"PERTL Adrian";1996;"AUT";"Voelkl";"Adelboden";"SL";-8;"	SUNNY";"HARD";24
+"768";12;"HIRSCHBUEHL Christian";1990;"AUT";"Rossignol";"Adelboden";"SL";-8;"	SUNNY";"HARD";22
+"769";13;"ZENHAEUSERN Ramon";1992;"SUI";"Rossignol";"Adelboden";"SL";-8;"	SUNNY";"HARD";20
+"770";14;"MOELGG Manfred";1982;"ITA";"Fischer";"Adelboden";"SL";-8;"	SUNNY";"HARD";18
+"771";15;"HADALIN Stefan";1995;"SLO";"Rossignol";"Adelboden";"SL";-8;"	SUNNY";"HARD";16
+"772";16;"JAKOBSEN Kristoffer";1994;"SWE";"Fischer";"Adelboden";"SL";-8;"	SUNNY";"HARD";15
+"773";17;"PINTURAULT Alexis";1991;"FRA";"Head";"Adelboden";"SL";-8;"	SUNNY";"HARD";14
+"774";18;"MAURBERGER Simon";1995;"ITA";"Atomic";"Adelboden";"SL";-8;"	SUNNY";"HARD";13
+"775";19;"GRANGE Jean-Baptiste";1984;"FRA";"Rossignol";"Adelboden";"SL";-8;"	SUNNY";"HARD";12
+"776";20;"AERNI Luca";1993;"SUI";"Fischer";"Adelboden";"SL";-8;"	SUNNY";"HARD";11
+"777";21;"ROCHAT Marc";1992;"SUI";"Nordica";"Adelboden";"SL";-8;"	SUNNY";"HARD";10
+"778";22;"STROLZ Johannes";1992;"AUT";"Head";"Adelboden";"SL";-8;"	SUNNY";"HARD";9
+"779";23;"WINTERS Luke";1997;"USA";"Rossignol";"Adelboden";"SL";-8;"	SUNNY";"HARD";8
+"780";24;"SALA Tommaso";1995;"ITA";"Dynastar";"Adelboden";"SL";-8;"	SUNNY";"HARD";7
+"781";25;"TONETTI Riccardo";1989;"ITA";"Blizzard";"Adelboden";"SL";-8;"	SUNNY";"HARD";6
+"782";26;"MUFFAT-JEANDET Victor";1989;"FRA";"Salomon";"Adelboden";"SL";-8;"	SUNNY";"HARD";5
+"783";1;"ZENHAEUSERN Ramon";1992;"SUI";"Rossignol";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";100
+"784";2;"FELLER Manuel";1992;"AUT";"Atomic";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";80
+"785";3;"SCHWARZ Marco";1995;"AUT";"Atomic";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";60
+"786";4;"VINATZER Alex";1999;"ITA";"Nordica";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";50
+"787";5;"MUFFAT-JEANDET Victor";1989;"FRA";"Salomon";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";45
+"788";6;"KRISTOFFERSEN Henrik";1994;"NOR";"Rossignol";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";40
+"789";7;"YULE Daniel";1993;"SUI";"Fischer";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";36
+"790";8;"NEF Tanguy";1996;"SUI";"Fischer";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";32
+"791";9;"FOSS-SOLEVAAG Sebastian";1991;"NOR";"Voelkl";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";29
+"792";10;"RYDING Dave";1986;"GBR";"Dynastar";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";26
+"793";11;"PINTURAULT Alexis";1991;"FRA";"Head";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";24
+"794";12;"JAKOBSEN Kristoffer";1994;"SWE";"Fischer";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";22
+"795";13;"MEILLARD Loic";1996;"SUI";"Rossignol";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";20
+"796";14;"PERTL Adrian";1996;"AUT";"Voelkl";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";18
+"797";15;"MATT Michael";1993;"AUT";"Rossignol";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";16
+"798";16;"READ Erik";1991;"CAN";"Atomic";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";15
+"799";17;"AERNI Luca";1993;"SUI";"Fischer";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";14
+"800";18;"STRASSER Linus";1992;"GER";"Rossignol";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";13
+"801";19;"MOELGG Manfred";1982;"ITA";"Fischer";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";12
+"802";20;"HADALIN Stefan";1995;"SLO";"Rossignol";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";11
+"803";21;"GSTREIN Fabio";1997;"AUT";"Atomic";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";10
+"804";22;"HIRSCHBUEHL Christian";1990;"AUT";"Rossignol";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";9
+"805";23;"GROSS Stefano";1986;"ITA";"Voelkl";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";8
+"806";24;"GRANGE Jean-Baptiste";1984;"FRA";"Rossignol";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";7
+"807";25;"HOLZMANN Sebastian";1993;"GER";"Rossignol";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";6
+"808";26;"ZUBCIC Filip";1993;"CRO";"Atomic";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";5
+"809";27;"NORDBOTTEN Jonathan";1989;"NOR";"Head";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";4
+"810";28;"MAURBERGER Simon";1995;"ITA";"Atomic";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";3
+"811";29;"ROCHAT Marc";1992;"SUI";"Nordica";"Alta Badia";"SL";1;"PARTLY CLOUDY";"HARD";2
+"812";1;"FOSS-SOLEVAAG Sebastian";1991;"NOR";"Voelkl";"Cortina";"SL";3;"	SUNNY";"HARD";100
+"813";2;"PERTL Adrian";1996;"AUT";"Voelkl";"Cortina";"SL";3;"	SUNNY";"HARD";80
+"814";3;"KRISTOFFERSEN Henrik";1994;"NOR";"Rossignol";"Cortina";"SL";3;"	SUNNY";"HARD";60
+"815";4;"VINATZER Alex";1999;"ITA";"Nordica";"Cortina";"SL";3;"	SUNNY";"HARD";50
+"816";5;"YULE Daniel";1993;"SUI";"Fischer";"Cortina";"SL";3;"	SUNNY";"HARD";45
+"817";6;"RODES Istok";1996;"CRO";"Atomic";"Cortina";"SL";3;"	SUNNY";"HARD";40
+"818";7;"HADALIN Stefan";1995;"SLO";"Rossignol";"Cortina";"SL";3;"	SUNNY";"HARD";36
+"819";7;"PINTURAULT Alexis";1991;"FRA";"Head";"Cortina";"SL";3;"	SUNNY";"HARD";36
+"820";9;"MATT Michael";1993;"AUT";"Rossignol";"Cortina";"SL";3;"	SUNNY";"HARD";29
+"821";10;"MARCHANT Armand";1997;"BEL";"Salomon";"Cortina";"SL";3;"	SUNNY";"HARD";26
+"822";11;"ZENHAEUSERN Ramon";1992;"SUI";"Rossignol";"Cortina";"SL";3;"	SUNNY";"HARD";24
+"823";12;"VIDOVIC Matej";1993;"CRO";"Head";"Cortina";"SL";3;"	SUNNY";"HARD";22
+"824";13;"RITCHIE Benjamin";2000;"USA";"Dynastar";"Cortina";"SL";3;"	SUNNY";"HARD";20
+"825";14;"MOELGG Manfred";1982;"ITA";"Fischer";"Cortina";"SL";3;"	SUNNY";"HARD";18
+"826";15;"STRASSER Linus";1992;"GER";"Rossignol";"Cortina";"SL";3;"	SUNNY";"HARD";16
+"827";16;"EFIMOV Simon";1996;"RSF";"Head";"Cortina";"SL";3;"	SUNNY";"HARD";15
+"828";17;"BERNDT Ondrej";1988;"CZE";"Atomic";"Cortina";"SL";3;"	SUNNY";"HARD";14
+"829";18;"MAROVT Tijan";1998;"SLO";"Head";"Cortina";"SL";3;"	SUNNY";"HARD";13
+"830";19;"DVORNIK Aljaz";1995;"SLO";"Atomic";"Cortina";"SL";3;"	SUNNY";"HARD";12
+"831";20;"PUENTE TASIAS Alejandro";1994;"ESP";"Rossignol";"Cortina";"SL";3;"	SUNNY";"HARD";11
+"832";21;"NOEL Clement";1997;"FRA";"Dynastar";"Cortina";"SL";3;"	SUNNY";"HARD";10
+"833";22;"ALEKHIN Nikita";1998;"RSF";"Rossignol";"Cortina";"SL";3;"	SUNNY";"HARD";9
+"834";23;"COMERFORD Cormac";1996;"IRL";"";"Cortina";"SL";3;"	SUNNY";"HARD";8
+"835";24;"BALAZ Filip";2001;"SVK";"";"Cortina";"SL";3;"	SUNNY";"HARD";7
+"836";25;"KEKESI Marton";1995;"HUN";"";"Cortina";"SL";3;"	SUNNY";"HARD";6
+"837";26;"DYRBYE Casper";1996;"DEN";"";"Cortina";"SL";3;"	SUNNY";"HARD";5
+"838";27;"SIMARI BIRKNER Cristian Javier";1980;"ARG";"";"Cortina";"SL";3;"	SUNNY";"HARD";4
+"839";28;"OSCH Matthieu";1999;"LUX";"Kaestle";"Cortina";"SL";3;"	SUNNY";"HARD";3
+"840";29;"TOLA Erjon";1986;"ALB";"";"Cortina";"SL";3;"	SUNNY";"HARD";2
+"841";30;"KOVBASNYUK Ivan";1993;"UKR";"";"Cortina";"SL";3;"	SUNNY";"HARD";1
+"842";1;"NOEL Clement";1997;"FRA";"Dynastar";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";100
+"843";2;"MUFFAT-JEANDET Victor";1989;"FRA";"Salomon";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";80
+"844";3;"ZENHAEUSERN Ramon";1992;"SUI";"Rossignol";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";60
+"845";4;"MEILLARD Loic";1996;"SUI";"Rossignol";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";50
+"846";5;"KRISTOFFERSEN Henrik";1994;"NOR";"Rossignol";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";45
+"847";6;"FELLER Manuel";1992;"AUT";"Atomic";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";40
+"848";7;"SCHWARZ Marco";1995;"AUT";"Atomic";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";36
+"849";8;"VINATZER Alex";1999;"ITA";"Nordica";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";32
+"850";9;"GSTREIN Fabio";1997;"AUT";"Atomic";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";29
+"851";10;"FOSS-SOLEVAAG Sebastian";1991;"NOR";"Voelkl";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";26
+"852";11;"YULE Daniel";1993;"SUI";"Fischer";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";24
+"853";12;"ZUBCIC Filip";1993;"CRO";"Atomic";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";22
+"854";13;"GRANGE Jean-Baptiste";1984;"FRA";"Rossignol";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";20
+"855";14;"STRASSER Linus";1992;"GER";"Rossignol";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";18
+"856";15;"GROSS Stefano";1986;"ITA";"Voelkl";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";16
+"857";15;"JAKOBSEN Kristoffer";1994;"SWE";"Fischer";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";16
+"858";17;"PERTL Adrian";1996;"AUT";"Voelkl";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";14
+"859";18;"VIDOVIC Matej";1993;"CRO";"Head";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";13
+"860";19;"HOLZMANN Sebastian";1993;"GER";"Rossignol";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";12
+"861";20;"HAUGAN Timon";1996;"NOR";"Head";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";11
+"862";21;"KHOROSHILOV Alexander";1984;"RUS";"Fischer";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";10
+"863";22;"RODES Istok";1996;"CRO";"Atomic";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";9
+"864";23;"MARCHANT Armand";1997;"BEL";"Salomon";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";8
+"865";24;"POPOV Albert";1997;"BUL";"Head";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";7
+"866";25;"HADALIN Stefan";1995;"SLO";"Rossignol";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";6
+"867";26;"RYDING Dave";1986;"GBR";"Fischer";"Kranjska Gora";"SL";0,75;"	SNOW";"SPRING CONDITIONS";5
+"868";1;"FELLER Manuel";1992;"AUT";"Atomic";"Lenzerheide";"SL";-7,5;"MOSTLY CLOUDY";"HARD";100
+"869";2;"NOEL Clement";1997;"FRA";"Dynastar";"Lenzerheide";"SL";-7,5;"MOSTLY CLOUDY";"HARD";80
+"870";3;"PINTURAULT Alexis";1991;"FRA";"Head";"Lenzerheide";"SL";-7,5;"MOSTLY CLOUDY";"HARD";60
+"871";4;"VINATZER Alex";1999;"ITA";"Nordica";"Lenzerheide";"SL";-7,5;"MOSTLY CLOUDY";"HARD";50
+"872";5;"MEILLARD Loic";1996;"SUI";"Rossignol";"Lenzerheide";"SL";-7,5;"MOSTLY CLOUDY";"HARD";45
+"873";6;"SCHWARZ Marco";1995;"AUT";"Atomic";"Lenzerheide";"SL";-7,5;"MOSTLY CLOUDY";"HARD";40
+"874";7;"AERNI Luca";1993;"SUI";"Fischer";"Lenzerheide";"SL";-7,5;"MOSTLY CLOUDY";"HARD";36
+"875";8;"MUFFAT-JEANDET Victor";1989;"FRA";"Salomon";"Lenzerheide";"SL";-7,5;"MOSTLY CLOUDY";"HARD";32
+"876";9;"STRASSER Linus";1992;"GER";"Rossignol";"Lenzerheide";"SL";-7,5;"MOSTLY CLOUDY";"HARD";29
+"877";10;"NEF Tanguy";1996;"SUI";"Fischer";"Lenzerheide";"SL";-7,5;"MOSTLY CLOUDY";"HARD";26
+"878";11;"HIRSCHBUEHL Christian";1990;"AUT";"Rossignol";"Lenzerheide";"SL";-7,5;"MOSTLY CLOUDY";"HARD";24
+"879";12;"KRISTOFFERSEN Henrik";1994;"NOR";"Rossignol";"Lenzerheide";"SL";-7,5;"MOSTLY CLOUDY";"HARD";22
+"880";13;"ZUBCIC Filip";1993;"CRO";"Atomic";"Lenzerheide";"SL";-7,5;"MOSTLY CLOUDY";"HARD";20
+"881";14;"HADALIN Stefan";1995;"SLO";"Rossignol";"Lenzerheide";"SL";-7,5;"MOSTLY CLOUDY";"HARD";18
+"882";14;"RYDING Dave";1986;"GBR";"Fischer";"Lenzerheide";"SL";-7,5;"MOSTLY CLOUDY";"HARD";18
+"883";16;"KHOROSHILOV Alexander";1984;"RUS";"Fischer";"Lenzerheide";"SL";-7,5;"MOSTLY CLOUDY";"HARD";15
+"884";1;"KRISTOFFERSEN Henrik";1994;"NOR";"Rossignol";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";100
+"885";2;"FOSS-SOLEVAAG Sebastian";1991;"NOR";"Voelkl";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";80
+"886";3;"VINATZER Alex";1999;"ITA";"Nordica";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";60
+"887";4;"FELLER Manuel";1992;"AUT";"Atomic";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";50
+"888";5;"NOEL Clement";1997;"FRA";"Dynastar";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";45
+"889";6;"GRANGE Jean-Baptiste";1984;"FRA";"Rossignol";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";40
+"890";6;"STRASSER Linus";1992;"GER";"Rossignol";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";40
+"891";6;"PINTURAULT Alexis";1991;"FRA";"Head";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";40
+"892";9;"SCHWARZ Marco";1995;"AUT";"Atomic";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";29
+"893";10;"JAKOBSEN Kristoffer";1994;"SWE";"Fischer";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";26
+"894";11;"MEILLARD Loic";1996;"SUI";"Rossignol";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";24
+"895";12;"GSTREIN Fabio";1997;"AUT";"Atomic";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";22
+"896";13;"KHOROSHILOV Alexander";1984;"RUS";"Fischer";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";20
+"897";13;"ZENHAEUSERN Ramon";1992;"SUI";"Rossignol";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";20
+"898";15;"MOELGG Manfred";1982;"ITA";"Fischer";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";16
+"899";16;"MATT Michael";1993;"AUT";"Rossignol";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";15
+"900";17;"PERTL Adrian";1996;"AUT";"Voelkl";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";14
+"901";18;"NEF Tanguy";1996;"SUI";"Fischer";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";13
+"902";18;"HIRSCHBUEHL Christian";1990;"AUT";"Rossignol";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";13
+"903";20;"ZUBCIC Filip";1993;"CRO";"Atomic";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";11
+"904";21;"RYDING Dave";1986;"GBR";"Dynastar";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";10
+"905";22;"YULE Daniel";1993;"SUI";"Fischer";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";9
+"906";23;"MAURBERGER Simon";1995;"ITA";"Atomic";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";8
+"907";24;"HAUGAN Timon";1996;"NOR";"Head";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";7
+"908";25;"HOLZMANN Sebastian";1993;"GER";"Rossignol";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";6
+"909";26;"HADALIN Stefan";1995;"SLO";"Rossignol";"Madonna di Campiglio";"SL";0,5;"SKY CLEAR";"HARD";5
+"910";1;"SCHWARZ Marco";1995;"AUT";"Atomic";"Schladming";"SL";-4;"SNOW";"COMPACT";100
+"911";2;"NOEL Clement";1997;"FRA";"Dynastar";"Schladming";"SL";-4;"SNOW";"COMPACT";80
+"912";3;"PINTURAULT Alexis";1991;"FRA";"Head";"Schladming";"SL";-4;"SNOW";"COMPACT";60
+"913";4;"FOSS-SOLEVAAG Sebastian";1991;"NOR";"Voelkl";"Schladming";"SL";-4;"SNOW";"COMPACT";50
+"914";5;"ZENHAEUSERN Ramon";1992;"SUI";"Rossignol";"Schladming";"SL";-4;"SNOW";"COMPACT";45
+"915";6;"POPOV Albert";1997;"BUL";"Head";"Schladming";"SL";-4;"SNOW";"COMPACT";40
+"916";7;"KHOROSHILOV Alexander";1984;"RUS";"Fischer";"Schladming";"SL";-4;"SNOW";"COMPACT";36
+"917";8;"MOELGG Manfred";1982;"ITA";"Fischer";"Schladming";"SL";-4;"SNOW";"COMPACT";32
+"918";9;"MEILLARD Loic";1996;"SUI";"Rossignol";"Schladming";"SL";-4;"SNOW";"COMPACT";29
+"919";10;"PERTL Adrian";1996;"AUT";"Voelkl";"Schladming";"SL";-4;"SNOW";"COMPACT";26
+"920";11;"KRISTOFFERSEN Henrik";1994;"NOR";"Rossignol";"Schladming";"SL";-4;"SNOW";"COMPACT";24
+"921";12;"GRANGE Jean-Baptiste";1984;"FRA";"Rossignol";"Schladming";"SL";-4;"SNOW";"COMPACT";22
+"922";13;"HAUGAN Timon";1996;"NOR";"Head";"Schladming";"SL";-4;"SNOW";"COMPACT";20
+"923";14;"GROSS Stefano";1986;"ITA";"Voelkl";"Schladming";"SL";-4;"SNOW";"COMPACT";18
+"924";15;"RYDING Dave";1986;"GBR";"Fischer";"Schladming";"SL";-4;"SNOW";"COMPACT";16
+"925";16;"MARCHANT Armand";1997;"BEL";"Salomon";"Schladming";"SL";-4;"SNOW";"COMPACT";15
+"926";17;"ROCHAT Marc";1992;"SUI";"Nordica";"Schladming";"SL";-4;"SNOW";"COMPACT";14
+"927";18;"STROLZ Johannes";1992;"AUT";"Head";"Schladming";"SL";-4;"SNOW";"COMPACT";13
+"928";19;"von GRUENIGEN Noel";1995;"SUI";"Fischer";"Schladming";"SL";-4;"SNOW";"COMPACT";12
+"929";20;"NEF Tanguy";1996;"SUI";"Fischer";"Schladming";"SL";-4;"SNOW";"COMPACT";11
+"930";21;"MUFFAT-JEANDET Victor";1989;"FRA";"Salomon";"Schladming";"SL";-4;"SNOW";"COMPACT";10
+"931";22;"READ Erik";1991;"CAN";"Atomic";"Schladming";"SL";-4;"SNOW";"COMPACT";9
+"932";23;"HADALIN Stefan";1995;"SLO";"Rossignol";"Schladming";"SL";-4;"SNOW";"COMPACT";8
+"933";24;"LEEVER Alex";1995;"USA";"Fischer";"Schladming";"SL";-4;"SNOW";"COMPACT";7
+"934";25;"SEYMOUR Jett";1998;"USA";"";"Schladming";"SL";-4;"SNOW";"COMPACT";6
+"935";1;"STRASSER Linus";1992;"GER";"Rossignol";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";100
+"936";2;"FELLER Manuel";1992;"AUT";"Atomic";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";80
+"937";3;"SCHWARZ Marco";1995;"AUT";"Atomic";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";60
+"938";4;"MATT Michael";1993;"AUT";"Rossignol";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";50
+"939";5;"ZUBCIC Filip";1993;"CRO";"Atomic";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";45
+"940";6;"MUFFAT-JEANDET Victor";1989;"FRA";"Salomon";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";40
+"941";7;"NOEL Clement";1997;"FRA";"Dynastar";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";36
+"942";8;"GSTREIN Fabio";1997;"AUT";"Atomic";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";32
+"943";9;"ZENHAEUSERN Ramon";1992;"SUI";"Rossignol";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";29
+"944";10;"YULE Daniel";1993;"SUI";"Fischer";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";26
+"945";10;"KRISTOFFERSEN Henrik";1994;"NOR";"Rossignol";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";26
+"946";12;"VIDOVIC Matej";1993;"CRO";"Head";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";22
+"947";13;"FOSS-SOLEVAAG Sebastian";1991;"NOR";"Voelkl";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";20
+"948";14;"KHOROSHILOV Alexander";1984;"RUS";"Fischer";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";18
+"949";15;"KOLEGA Samuel";1999;"CRO";"";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";16
+"950";16;"HADALIN Stefan";1995;"SLO";"Rossignol";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";15
+"951";17;"HOLZMANN Sebastian";1993;"GER";"Rossignol";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";14
+"952";18;"McGRATH Atle Lie";2000;"NOR";"Head";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";13
+"953";18;"PINTURAULT Alexis";1991;"FRA";"Head";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";13
+"954";20;"HAUGAN Timon";1996;"NOR";"Head";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";11
+"955";21;"SIMONET Sandro";1995;"SUI";"Rossignol";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";10
+"956";22;"DIGRUBER Marc";1988;"AUT";"Atomic";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";9
+"957";23;"RODES Istok";1996;"CRO";"Atomic";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";8
+"958";24;"SALA Tommaso";1995;"ITA";"Dynastar";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";7
+"959";25;"READ Erik";1991;"CAN";"Atomic";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";6
+"960";26;"RAZZOLI Giuliano";1984;"ITA";"Fischer";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";5
+"961";27;"RYDING Dave";1986;"GBR";"Dynastar";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";4
+"962";28;"JAKOBSEN Kristoffer";1994;"SWE";"Fischer";"Zagreb";"SL";0,5;"PARTLY CLOUDY";"COMPACT";3
+"963";1;"NOEL Clement";1997;"FRA";"Dynastar";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";100
+"964";2;"ZENHAEUSERN Ramon";1992;"SUI";"Rossignol";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";80
+"965";3;"SCHWARZ Marco";1995;"AUT";"Atomic";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";60
+"966";4;"AERNI Luca";1993;"SUI";"Fischer";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";50
+"967";5;"MATT Michael";1993;"AUT";"Rossignol";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";45
+"968";6;"MEILLARD Loic";1996;"SUI";"Rossignol";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";40
+"969";7;"KHOROSHILOV Alexander";1984;"RUS";"Fischer";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";36
+"970";8;"PINTURAULT Alexis";1991;"FRA";"Head";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";32
+"971";9;"FOSS-SOLEVAAG Sebastian";1991;"NOR";"Voelkl";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";29
+"972";10;"HIRSCHBUEHL Christian";1990;"AUT";"Rossignol";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";26
+"973";11;"RYDING Dave";1986;"GBR";"Fischer";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";24
+"974";12;"HADALIN Stefan";1995;"SLO";"Rossignol";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";22
+"975";13;"PERTL Adrian";1996;"AUT";"Voelkl";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";20
+"976";13;"MUFFAT-JEANDET Victor";1989;"FRA";"Salomon";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";20
+"977";15;"ZUBCIC Filip";1993;"CRO";"Atomic";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";16
+"978";15;"YULE Daniel";1993;"SUI";"Fischer";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";16
+"979";17;"STRASSER Linus";1992;"GER";"Rossignol";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";14
+"980";18;"GROSS Stefano";1986;"ITA";"Voelkl";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";13
+"981";19;"MAURBERGER Simon";1995;"ITA";"Atomic";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";12
+"982";20;"GRANGE Jean-Baptiste";1984;"FRA";"Rossignol";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";11
+"983";21;"NEF Tanguy";1996;"SUI";"Fischer";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";10
+"984";22;"VIDOVIC Matej";1993;"CRO";"Head";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";9
+"985";23;"JAKOBSEN Kristoffer";1994;"SWE";"Fischer";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";8
+"986";24;"SALA Tommaso";1995;"ITA";"Dynastar";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";7
+"987";25;"GSTREIN Fabio";1997;"AUT";"Atomic";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";6
+"988";26;"ROCHAT Marc";1992;"SUI";"Nordica";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";5
+"989";27;"POPOV Albert";1997;"BUL";"Head";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";4
+"990";28;"MOELGG Manfred";1982;"ITA";"Fischer";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";3
+"991";29;"VINATZER Alex";1999;"ITA";"Nordica";"Chamonix1";"SL";0,5;"PARTLY CLOUDY";"COMPACT";2
+"992";1;"FELLER Manuel";1992;"AUT";"Atomic";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";100
+"993";2;"NOEL Clement";1997;"FRA";"Dynastar";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";80
+"994";3;"SCHWARZ Marco";1995;"AUT";"Atomic";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";60
+"995";4;"FOSS-SOLEVAAG Sebastian";1991;"NOR";"Voelkl";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";50
+"996";5;"STRASSER Linus";1992;"GER";"Rossignol";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";45
+"997";6;"ZENHAEUSERN Ramon";1992;"SUI";"Rossignol";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";40
+"998";7;"RYDING Dave";1986;"GBR";"Fischer";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";36
+"999";8;"AERNI Luca";1993;"SUI";"Fischer";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";32
+"1000";9;"PINTURAULT Alexis";1991;"FRA";"Head";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";29
+"1001";10;"NEF Tanguy";1996;"SUI";"Fischer";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";26
+"1002";11;"MEILLARD Loic";1996;"SUI";"Rossignol";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";24
+"1003";12;"HIRSCHBUEHL Christian";1990;"AUT";"Rossignol";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";22
+"1004";13;"MUFFAT-JEANDET Victor";1989;"FRA";"Salomon";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";20
+"1005";14;"GSTREIN Fabio";1997;"AUT";"Atomic";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";18
+"1006";15;"PERTL Adrian";1996;"AUT";"Voelkl";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";16
+"1007";16;"POPOV Albert";1997;"BUL";"Head";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";15
+"1008";17;"HADALIN Stefan";1995;"SLO";"Rossignol";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";14
+"1009";18;"KRISTOFFERSEN Henrik";1994;"NOR";"Rossignol";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";13
+"1010";19;"GROSS Stefano";1986;"ITA";"Voelkl";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";12
+"1011";20;"MATT Michael";1993;"AUT";"Rossignol";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";11
+"1012";21;"SIMONET Sandro";1995;"SUI";"Rossignol";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";10
+"1013";22;"TREMMEL Anton";1994;"GER";"Nordica";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";9
+"1014";23;"HAUGAN Timon";1996;"NOR";"Head";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";8
+"1015";24;"ZUBCIC Filip";1993;"CRO";"Atomic";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";7
+"1016";25;"DIGRUBER Marc";1988;"AUT";"Atomic";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";6
+"1017";26;"RAUCHFUSS Julian";1994;"GER";"Rossignol";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";5
+"1018";27;"READ Erik";1991;"CAN";"Atomic";"Flachau1";"SL";-6;"MOSTLY CLOUDY";"HARD";4
+"1019";1;"KRISTOFFERSEN Henrik";1994;"NOR";"Rossignol";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";100
+"1020";2;"ZENHAEUSERN Ramon";1992;"SUI";"Rossignol";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";80
+"1021";3;"SIMONET Sandro";1995;"SUI";"Rossignol";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";60
+"1022";4;"PERTL Adrian";1996;"AUT";"Voelkl";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";50
+"1023";4;"MUFFAT-JEANDET Victor";1989;"FRA";"Salomon";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";50
+"1024";6;"SCHWARZ Marco";1995;"AUT";"Atomic";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";40
+"1025";7;"RAZZOLI Giuliano";1984;"ITA";"Fischer";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";36
+"1026";8;"MOELGG Manfred";1982;"ITA";"Fischer";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";32
+"1027";8;"PINTURAULT Alexis";1991;"FRA";"Head";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";32
+"1028";10;"JAKOBSEN Kristoffer";1994;"SWE";"Fischer";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";26
+"1029";11;"FELLER Manuel";1992;"AUT";"Atomic";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";24
+"1030";12;"GRANGE Jean-Baptiste";1984;"FRA";"Rossignol";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";22
+"1031";13;"VINATZER Alex";1999;"ITA";"Nordica";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";20
+"1032";14;"FOSS-SOLEVAAG Sebastian";1991;"NOR";"Voelkl";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";18
+"1033";15;"HADALIN Stefan";1995;"SLO";"Rossignol";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";16
+"1034";16;"MATT Michael";1993;"AUT";"Rossignol";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";15
+"1035";17;"AERNI Luca";1993;"SUI";"Fischer";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";14
+"1036";18;"YULE Daniel";1993;"SUI";"Fischer";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";13
+"1037";19;"WINTERS Luke";1997;"USA";"Rossignol";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";12
+"1038";20;"HOLZMANN Sebastian";1993;"GER";"Rossignol";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";11
+"1039";21;"ROCHAT Marc";1992;"SUI";"Nordica";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";10
+"1040";21;"MAURBERGER Simon";1995;"ITA";"Atomic";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";10
+"1041";23;"POPOV Albert";1997;"BUL";"Head";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";8
+"1042";23;"STRASSER Linus";1992;"GER";"Rossignol";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";8
+"1043";25;"ZUBCIC Filip";1993;"CRO";"Atomic";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";6
+"1044";26;"GSTREIN Fabio";1997;"AUT";"Atomic";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";5
+"1045";27;"MARCHANT Armand";1997;"BEL";"Salomon";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";4
+"1046";28;"GROSS Stefano";1986;"ITA";"Voelkl";"Chamonix2";"SL";0,75;"PARTLY CLOUDY";"COMPACT";3
+"1047";1;"FOSS-SOLEVAAG Sebastian";1991;"NOR";"Voelkl";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";100
+"1048";2;"SCHWARZ Marco";1995;"AUT";"Atomic";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";80
+"1049";3;"PINTURAULT Alexis";1991;"FRA";"Head";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";60
+"1050";4;"MEILLARD Loic";1996;"SUI";"Rossignol";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";50
+"1051";5;"GSTREIN Fabio";1997;"AUT";"Atomic";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";45
+"1052";6;"AERNI Luca";1993;"SUI";"Fischer";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";40
+"1053";7;"KRISTOFFERSEN Henrik";1994;"NOR";"Rossignol";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";36
+"1054";8;"JAKOBSEN Kristoffer";1994;"SWE";"Fischer";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";32
+"1055";9;"ZENHAEUSERN Ramon";1992;"SUI";"Rossignol";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";29
+"1056";10;"MATT Michael";1993;"AUT";"Rossignol";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";26
+"1057";11;"GINNIS A.";1994;"GRE";"Fischer";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";24
+"1058";12;"RYDING Dave";1986;"GBR";"Fischer";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";22
+"1059";13;"MOELGG Manfred";1982;"ITA";"Fischer";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";20
+"1060";14;"STROLZ Johannes";1992;"AUT";"Head";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";18
+"1061";15;"POPOV Albert";1997;"BUL";"Head";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";16
+"1062";16;"GROSS Stefano";1986;"ITA";"Voelkl";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";15
+"1063";17;"FELLER Manuel";1992;"AUT";"Atomic";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";14
+"1064";18;"MUFFAT-JEANDET Victor";1989;"FRA";"Salomon";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";13
+"1065";19;"GRANGE Jean-Baptiste";1984;"FRA";"Rossignol";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";12
+"1066";20;"ROCHAT Marc";1992;"SUI";"Nordica";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";11
+"1067";21;"RAZZOLI Giuliano";1984;"ITA";"Fischer";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";10
+"1068";22;"YULE Daniel";1993;"SUI";"Fischer";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";9
+"1069";23;"HADALIN Stefan";1995;"SLO";"Rossignol";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";8
+"1070";24;"HAUGAN Timon";1996;"NOR";"Head";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";7
+"1071";25;"PERTL Adrian";1996;"AUT";"Voelkl";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";6
+"1072";26;"READ Erik";1991;"CAN";"Atomic";"Flachau2";"SL";-8,5;"MOSTLY CLOUDY";"HARD";5

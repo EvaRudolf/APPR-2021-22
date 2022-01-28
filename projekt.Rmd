@@ -1,6 +1,7 @@
 ---
 title: "Poročilo pri predmetu Analiza podatkov s programom R"
-author: "Študent FMF"
+author: "Eva Rudolf"
+date: "27. januar 2022"
 output:
   html_document: default
   pdf_document:
@@ -8,6 +9,9 @@ output:
       in_header: lib/styles.sty
     latex_engine: xelatex
 runtime: shiny
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
 ```{r setup, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
@@ -17,18 +21,62 @@ knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE)
 source("lib/libraries.r", encoding="UTF-8")
 ```
 
-
 ## Izbira teme
 
-***
+V projektu sem poskušala ugotoviti, katere smuči so najboljše, pri čemer
+sem upoštevala različne parametre, kot so: \* snežna podlaga \*
+disciplina \* temperatura Pri tem sem gledala uvrstitve na stopničke,
+zmage in skupno število točk v posamezni disciplini, ki so jih dosegli
+smučarji z določenim proizvajalcem smuči v sezoni 2020/21.
+
+Poleg tega sem med seboj po uspešnosti primerjala tudi države - bolj
+podrobno za sezono 2020/21, za leta 1967 -- 2020 pa glede na zmago v
+skupnem seštevku svetovnega pokala (tako za moške kot za ženske).
 
 ## Obdelava, uvoz in čiščenje podatkov
 
-```{r uvoz}
-source("uvoz/uvoz.r", encoding="UTF-8")
-```
+Podatki o rezultatih in vremenu so bili prvotno v 38-ih ločenih `pdf`
+datotekh (ena datoteka je vsebovala rezultate, vreme in še nekaj drugih
+podatkov, ki pa jih nisem potebovala). Vse te datoteke sem pridobila iz
+[podatkovne baze
+FIS-a](https://www.fis-ski.com/DB/alpine-skiing/calendar-results.html?eventselection=results&place=&sectorcode=AL&seasoncode=2021&categorycode=WC&disciplinecode=&gendercode=M&racedate=&racecodex=&nationcode=&seasonmonth=X-2021&saveselection=-1&seasonselection=).
+Te datoteke sem nato s posebnim programom pretvorila v obliko `csv`,
+nato pa sem jih uvozila v R. Posebaj sem uvozila vreme in posebaj
+rezultate. Tako za vreme kot za rezultate sem napisala funkcije, ki so
+se sprehodile čez vse `csv` datoteke in jih pretvorile v tabele. Pri tem
+sem morala paziti, kdaj se vsaka datoteka začne brati - tu sem si
+pomagala z regularnimi izrazi, ki sem jih vključila v funkcije. Tako sem
+pridobila `seznam_vremena1` in `seznam_vremena2`, kjer prvi predstavlja
+seznam (surovih) tabel za hitre discipline, drugi pa za tehnične.
+Seznama sta ločena, saj imajo tabele različno število stolpcev in vrstic
+zaradi različnega števila voženj na posamezni tekmi. V vsaki posamezni
+tabeli za vreme so bili podatki o nebu, snegu in temperaturi.
+Temperaturi sta bili dve - ena na startu in ena na cilju. Pri tehničnih
+disciplinah so bili vsi te podatki dvojni, saj sta tam dve vožnji. Za
+vsako tekmo sem izluščila en podatek o nebu, en o snegu in enega o
+temperaturi (dobljeno s povprečjem). Nato sem podatke o vremenu iz
+seznama tabel z indeksiranjem določila za vsako tekmo posebaj.
 
-***
+Rezultate sem uvažala na podoben način. Torej napisala sem funkcije za
+uvoz, se sprehodila čez podatke in jih shranila v seznam tabel. Nato sem
+tabele dobila iz seznama z indeksiranje, dodala vreme in ime prizorišča.
+To sem storila za vsako disciplino posebaj, saj so bile tabele med seboj
+različne. Tako sem dobila tabele `slalom`, `veleslalom`, `superG` in
+`smuk`. Te sem preuredila tako, da so bili podatki pravih tipov in potem
+sem prvi dve omenjeni tabeli združila v tabelo `tehnicne`, drugi dve pa
+v tabelo `hitre`. Ti dve tabeli sem nato preoblikovala tako, da se ju je
+dalo združiti v končno tabelo, ki sem ji dodala še vektor `tocke_30`, ki
+vsebuje točke, ki jih dobi prvih 30 uvrščenih tekmovalcev. Končna tabela
+`REZULTATI.VREME` vsebuje stolpce `Rank`, `Name`, `YB`, `NSA`, `Ski`,
+`venue`, `disc`, `temperatura`, `vreme`, `sneg` in `tocke_30`.
+
+Za konec sem uvozila še tabelo iz html oblike, ki sem jo pridobila iz
+spletne strani
+[AlpineSkiDataBase](https://ski-db.com/db/stats/overall_m_gc.php). Na
+strani je bilo več tabel, izbrala pa sem tisti dve, ki vsebujeta podatke
+o dobitnikih velikih kristalnih globusov v preteklih sezonah (ena za
+moške in ena za ženske). Tu sem morala preurediti letnice in pa
+odstraniti nekaj nepotrebnih stolpcev.
 
 ## Analiza in vizualizacija podatkov
 
@@ -36,15 +84,116 @@ source("uvoz/uvoz.r", encoding="UTF-8")
 source("vizualizacija/vizualizacija.r", encoding="UTF-8")
 ```
 
-***
+#### Analiza sezone 2020/21
 
-## Napredna analiza podatkov
+```{r, fig.align='center'}
+print(graf1)
+```
+
+Na prvem grafu lahko opazujemo, v katerih disciplinah se najbolje
+odzivajo posamezne smuči. Največ točk so dosegle smuči Atomic, Head in
+Rossignol. Opazimo pa lahko, da so smuči Atomic najbolj uravnotežene,
+torej jih izbirajo vsestranski tekmovalci, ki tekmujejo v vseh
+discilinah; medtem ko so Rossignol izrazito tehnične smuči, Head pa bolj
+namenjene hitrim disciplinam. To kaže na večjo kakovost smuči Atomic in
+Head, saj smučarji v hitrih disciplinah isti nabor smuči uporabljajo več
+let, v tehnićnih disciplinah pa jih menjajo vsako sezono. Sledijo smuči
+proizvajalcev Fischer in Salomon, preostale smuči pa dosegajo slabše
+rezultate. Izjema tu je Stoeckli, ki dosega vrhunske rezultate, a so
+smuči precej dražje od ostalih, zato jih uporablja manj tekmovalcev.
+
+```{r echo=FALSE, fig.align='center'}
+print(graf2)
+```
+
+Na tem grafu lahko vidimo, kako se smuči odzivajo na različno snežno
+podlago. Tu opazimo, da imajo smuči Rossignol, Dynastar in Voelkl večji
+odstotek osvojenih točk na mehkejšem, bolj južnem snegu, kar kaže na to,
+da so te smuči mehkejše oz. bolj prožne in zato primernejše za tako
+podlago.
+
+```{r, fig.align='center'}
+print(graf3)
+```
+
+Na zgornjih tortnih diagramih lahko opazimo, katere smuči so bile
+večkrat na stopničkah. Tu vidimo, da smuči znamke Head močno
+prevlaadujejo v hitrih disciplinah. Tudi veleslalomu je visok delež teh
+smuči. Atomic je prisoten prav povsod z nezanemarljivm deležem. V
+slalomu je bilo na stopničkah največ smuči, prevladujeta pa Atomic in
+Rossignol.
+
+```{r, fig.align='center'}
+print(graf4)
+```
+
+Tu vidimo, da v hitrih disciplinh prevladujej starejši tekmovalci, v
+tehničnih pa mlajši. Razlog za to je to, da je potreba po večji
+gibljivosti in eksplozivnosti v tehničnih disciplinah, v hitrih pa so
+potrebne predvsem izkušnje.
+
+```{r, fig.align='center'}
+print(graf5)
+```
+
+Tu vidimo, kolikokrat so bile katere smuči na stopničkah -- prevladujejo
+predvsem smuči Atomic in Head. Zanimivo je, da je skoraj vsem uspelo
+osvojiti tudi zmago, izjemi tukaj sta le Salomon in Fischer.
+
+```{r, fig.align='center'}
+print(graf7)
+```
+
+Tu vidimo še anlizo najboljših tekmovalcev v skupnem seštevku.
+
+```{r, fig.align='center'}
+print(graf7)
+```
+
+Z zgornjega grafa lahko razberemo, katere smuči so boljše pri višjih in
+katere pri nižjih temperaturah. Vidimo, da se npr. smuči znamke Atomic
+in Head podobno odzivajo pri vseh temperaturah, medtem ko so smuči
+Rossignol izrazito boljše pri višjih temperturah.
+
+```{r, fig.align='center'}
+print(zemljevid2)
+```
+
+Na tem zemljevidu so prikazane države, ki so v sezoni 2020/21 v moški
+konkurenci osvojile vsaj eno zmago. Največ zmag ima Avstrija (10),
+sledijo pa ji Švica, Norveška in Francija s po sedmimi.
+
+```{r, fig.align='center'}
+print(zemljevid1)
+```
+
+Na zgornjih dveh zemljevidih vidimo, katere države so zmagale v skupnem
+seštevku svetovnega pokala v moški in ženski konkurenci. ## Napredna
+analiza podatkov
 
 ```{r analiza}
 source("analiza/analiza.r", encoding="UTF-8")
 ```
 
-***
+```{r, fig.align='center'}
+print(zemljevid.po.skupinah)
+```
+
+Tukaj so prikazane države s podobno strukturo smučarjev. Razdelitev je
+narejena s clusteringom, pri čemer sem upoštevala smuči tekmovalcev,
+uvrstitve na tekmah, letnik rojstva in disciplino.
+
+Odločila sem se, da države razdelim v štiri skupine - prva skupina tako
+predstavlja najboljše države -- tu vidimo Francijo, Italijo, Avstijo in
+Švico (torej izrazito alpske države z veliko smučišči, kar je
+pričakovano). V drugi skupini sledijo Nemčija, Slovenija, ZDA in
+Norveška. V tretji skupni so države, ki redno osvajajo točke svetovnega
+pokala, a ne dosegajo nobenih vidnejših uvrstitev. V četrti skupini pa
+so države, katerih smučarji le redko osvojijo točke svetovnega pokala --
+le-te doma nimajo pogojev za treniranje in tudi tekmovalno smučanje tam
+ni tako popularno ali pa nimajo sredstev za razvoj.
+
+Napovedni model:
 
 ```{r shiny}
 #shinyAppDir("shiny", options=list(width="100%", height=600))
