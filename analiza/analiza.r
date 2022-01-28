@@ -3,6 +3,7 @@
 
 source("lib/libraries.r")
 
+
 ################################################################################
 # RAZVRŠČANJE V SKUPINE - CLUSTERING
 
@@ -119,3 +120,5 @@ zemljevid.po.skupinah
 # NAPOVEDNI MODEL
 # Napovemo uvrstitev smučarja na naslednji tekmi (spremenljivke so država, smuči
 # in disciplina)
+# če se da, naredi še napovedovanje za to, katere države bi bile v prihodnje lahko najboljše.
+

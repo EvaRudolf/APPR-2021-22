@@ -451,7 +451,6 @@ zmagovalci <- zM %>%
   transform(Winner = as.factor(Winner)) %>%
   mutate(Season = rev(c(1967:2021)))
 
-
 # ženske
 linkW <- "https://ski-db.com/db/stats/overall_f_gc.php"
 
@@ -464,6 +463,4 @@ zmagovalke <- zW %>%
   transform(Winner = as.factor(Winner)) %>%
   mutate(Season = rev(c(1967:2021)))
 
-
-# NASTAVI ENCODING!
 

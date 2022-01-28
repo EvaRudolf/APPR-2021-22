@@ -3,13 +3,6 @@
 source("lib/libraries.r")
 source("lib/uvozi.zemljevid.r")
 
-
-# da ni treba zaganjati celega uvoza, sem preurejene tabele shranila kot csv:
-REZULTATI.VREME <- read.csv2("podatki/REZULTATI.VREME.csv")
-zmagovalci <- read.csv2("podatki/zmagovalci.csv")
-zmagovalke <- read.csv2("podatki/zmagovalke.csv")
-
-
 ################################################################################
 # GRAFI
 ################################################################################
@@ -130,19 +123,19 @@ graf4 <- ggplot(starosti) +
 graf4
 
 ################################################################################
-#5. graf: UVRSTITVE NA STOPNIČKE
+# 5. graf: UVRSTITVE NA STOPNIČKE
 
 stopnicke <- REZULTATI.VREME %>% filter(Rank < 4) %>% dplyr::select(Rank, Ski) %>%
   transform(Rank = as.factor(Rank)) %>% mutate(st = c(1:114)*0+1)
 
 stopnicke <- stopnicke[,-1] %>% mutate(Rank = stopnicke$Rank)
 
-graf5 <- ggplot(stopnicke) + 
-  aes(x = Ski, y = st, fill = Rank, labels = TRUE) +
+graf5 <- ggplot(stopnicke) +
+  aes(x = Ski, fill = Rank, labels = TRUE) +
   scale_fill_manual(values = c("#D4AF37", "#C0C0C0", "#b08d57")) +
-  xlab("Smuči") + 
-  ylab("Stopničke") + 
-  ggtitle("Uvrstitve na stopničke v sezoni 2020/21") + 
+  xlab("Smuči") +
+  ylab("Stopničke") +
+  ggtitle("Uvrstitve na stopničke v sezoni 2020/21") +
   geom_bar()
 graf5
 
@@ -209,10 +202,7 @@ graf5
 
 ################################################################################
 # 7. graf: Obnašanje smuči v odvisnosti od temperature
-
-# ponesreči se pobrisala kodo za tocke_T, a tibble se je ohranil, zato sem jih 
-# napisala v csv in še enkrat prevedla
-tocke.temperatura <- read.csv2("podatki/temperatura.csv")
+tocke.temperatura <- read.csv2("podatki/novi podatki/temperatura.csv")
 graf7 <-ggplot(tocke.temperatura) +
   aes(x = temperatura, y = tocke_30, color = Disciplina) +
   geom_jitter() +
