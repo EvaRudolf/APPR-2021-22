@@ -89,6 +89,7 @@ izbirajo vsestranski tekmovalci, ki tekmujejo v vseh discilinah; medtem ko so Ro
 To kaže na večjo kakovost smuči Atomic in Head, saj smučarji v hitrih disciplinah isti nabor smuči uporabljajo več let, v tehnićnih disciplinah pa jih menjajo vsako sezono.
 Sledijo smuči proizvajalcev Fischer in Salomon, preostale smuči pa dosegajo slabše
 rezultate. Izjema tu je Stoeckli, ki dosega vrhunske rezultate, a so smuči precej dražje od ostalih, zato jih uporablja manj tekmovalcev.
+Opazimo pa tudi, da so smuči Voelkl konurenčne praktično le v slalomu.
 
 ```{r, fig.align='center'}
 print(graf2)
@@ -124,9 +125,6 @@ Tu vidimo, kolikokrat so bile katere smuči na stopničkah -- prevladujejo predv
 smuči Atomic in Head. Zanimivo je, da je skoraj vsem uspelo osvojiti tudi zmago, izjemi tukaj sta le
 Salomon in Fischer.
 
-graf6
-
-Tu vidimo še anlizo najboljših tekmovalcev v skupnem seštevku. 
 
 ```{r, fig.align='center'}
 print(graf7)

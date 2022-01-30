@@ -105,7 +105,7 @@ zemljevid.za.skupine <-
     pot.zemljevida = "",
     encoding = "UTF-8"
   ) %>%
-  fortify() %>% filter(long < 170 & long > -170 & lat > -55 & lat < 85)
+  fortify() %>% filter(long < 170 & long > -170 & lat > 0 & lat < 85)
 
 
 zemljevid.po.skupinah <- ggplot() +
@@ -113,7 +113,12 @@ zemljevid.po.skupinah <- ggplot() +
   geom_polygon(data = tabela.skupine %>% right_join(zemljevid.za.skupine, by = c("NSA" = "ADM0_A3"))) +
   xlab("") +
   ylab("") +
-  ggtitle("Države s podobno strukturo smučarjev 2020/21")
+  ggtitle("Države s podobno strukturo smučarjev 2020/21") +
+  coord_fixed(ratio = 2) +
+  guides(fill=guide_legend(title="Skupina")) + 
+  theme(legend.title = element_text(color = "black", size = 11),
+        legend.background = element_rect(colour ="#006699", fill = "white"), 
+        plot.title = element_text(color = "#006699", hjust = 0.5, size = 15))
 zemljevid.po.skupinah
 
 ################################################################################
@@ -121,4 +126,3 @@ zemljevid.po.skupinah
 # Napovemo uvrstitev smučarja na naslednji tekmi (spremenljivke so država, smuči
 # in disciplina)
 # če se da, naredi še napovedovanje za to, katere države bi bile v prihodnje lahko najboljše.
-

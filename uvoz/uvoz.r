@@ -124,7 +124,6 @@ GS.cortina.vreme <- vreme_tehnicne(seznam_vremena2[[10]])
 GS.kranjskagora.vreme <- vreme_tehnicne(seznam_vremena2[[11]])
 GS.lenzerheide.vreme <- vreme_tehnicne(seznam_vremena2[[12]])
 GS.soelden.vreme <- vreme_tehnicne(seznam_vremena2[[13]])
-
 GS1.adelboden.vreme <- vreme_tehnicne(seznam_vremena2[[14]])
 GS1.bansko.vreme <- vreme_tehnicne(seznam_vremena2[[15]])
 GS1.santacaterina.vreme <- vreme_tehnicne(seznam_vremena2[[16]])
@@ -189,7 +188,6 @@ DH.bormio <- left_join(seznam_rezultatov[[1]] %>% mutate(venue = "Bormio"),
                        DH.bormio.vreme, by = character())
 DH.cortina <- left_join(seznam_rezultatov[[2]] %>% mutate(venue = "Cortina") %>% 
                           dplyr::select(-c(10)), DH.cortina.vreme, by = character())
-
 DH.garmisch <- left_join(seznam_rezultatov[[3]] %>% mutate(venue = "Garmisch") %>% 
                            dplyr::select(-c(10)), DH.garmisch.vreme, by = character())
 DH.saalbach <- left_join(seznam_rezultatov[[4]] %>% mutate(venue = "Saalbach") %>% 
@@ -385,6 +383,7 @@ REZULTATI.VREME <- rbind(hitre, tehnicne) %>%
   transform(NSA = as.factor(NSA)) %>%
   mutate(NSA = str_replace_all(NSA, pattern = "[0-9]", replacement = "")) %>%
   mutate(NSA = str_replace_all(NSA, pattern = "[\\t]", replacement = "")) %>%
+  mutate(NSA = str_replace_all(vreme, pattern = "[\\t]", replacement = "")) %>%
   mutate(NSA = str_replace_all(NSA, pattern = "[ ]", replacement = "")) %>%
   transform(NSA = as.factor(NSA))
   

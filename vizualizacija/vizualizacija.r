@@ -18,7 +18,7 @@ graf1 <- ggplot(REZULTATI.VREME %>% dplyr::select(Ski, Disciplina, tocke_30) %>%
   xlab("Smuči") + 
   ylab("Točke") + 
   ggtitle("Smuči glede na točke v posamezni disciplini v sezoni 2020/21") + 
-  guides(fill=guide_legend(title="Disciplina:")) + 
+  guides(fill=guide_legend(title="Disciplina")) + 
   theme(legend.title = element_text(color = "black", size = 11),
         legend.background = element_rect(colour ="#006699", fill = "white"), 
         plot.title = element_text(color = "#006699", hjust = 0.5, size = 15),
@@ -38,7 +38,7 @@ graf2 <- ggplot(REZULTATI.VREME %>% dplyr::select(Ski, sneg, tocke_30) %>%
   xlab("Smuči") + 
   ylab("Točke") + 
   ggtitle("Smuči glede na snežno podlago v sezoni 2020/21") + 
-  guides(fill=guide_legend(title="Snežna podlaga:")) + 
+  guides(fill=guide_legend(title="Snežna podlaga")) + 
   theme(legend.title = element_text(color = "black", size = 11),
         legend.background = element_rect(colour ="#006699", fill = "white"), 
         plot.title = element_text(color = "#006699", hjust = 0.5, size = 15),
@@ -48,8 +48,6 @@ graf2
 ################################################################################
 # 3. graf: tortni diagram za vsako disciplino glede na stopničke, barve pa se razlikujejo
 # glede na to katere smuči uporabljamo
-
-# shiny = ne samo za stopničke ampak za vsakih recimo top 3, 5, 10, 15, 20, 30
 
 barve_smuci <- c("#FF0000", "#FFFF00", "#FFF7A9", "#009966", 
                  "#330000", "#FF3300", "#000066", "#990000", 
@@ -75,7 +73,8 @@ graf.DH <- ggplot(stopnicke.DH) +
   geom_bar(stat="identity") +
   coord_polar("y", start=0) + theme_void() +
   scale_fill_manual(values = barve_smuci[-c(4)]) +
-  ggtitle("Smuk")
+  ggtitle("Smuk") +
+  guides(fill=guide_legend(title="Smuči"))
 graf.DH
 
 graf.SG <- ggplot(stopnicke.SG) + 
@@ -83,7 +82,8 @@ graf.SG <- ggplot(stopnicke.SG) +
   geom_bar(stat="identity") +
   coord_polar("y", start=0) + theme_void() +
   scale_fill_manual(values = barve_smuci[-c(2,4,5)]) +
-  ggtitle("Superveleslalom")
+  ggtitle("Superveleslalom") +
+  guides(fill=guide_legend(title="Smuči"))
 graf.SG
 
 graf.GS <- ggplot(stopnicke.GS) + 
@@ -91,7 +91,8 @@ graf.GS <- ggplot(stopnicke.GS) +
   geom_bar(stat="identity") +
   coord_polar("y", start=0) + theme_void() +
   scale_fill_manual(values = barve_smuci[-c(4,5,9)]) +
-  ggtitle("Veleslalom")
+  ggtitle("Veleslalom") +
+  guides(fill=guide_legend(title="Smuči"))
 graf.GS
 
 graf.SL <- ggplot(stopnicke.SL) + 
@@ -99,7 +100,8 @@ graf.SL <- ggplot(stopnicke.SL) +
   geom_bar(stat="identity") +
   coord_polar("y", start=0) + theme_void() +
   scale_fill_manual(values = barve_smuci[-c(2,4,8,9)]) +
-  ggtitle("Slalom")
+  ggtitle("Slalom") +
+  guides(fill=guide_legend(title="Smuči"))
 graf.SL
 
 graf3 <- ggarrange(graf.DH, graf.SG, graf.GS, graf.SL, ncol = 2, nrow = 2)
@@ -117,18 +119,22 @@ starosti <- REZULTATI.VREME %>% dplyr::select(Disciplina, YB, Name, tocke_30) %>
 graf4 <- ggplot(starosti) + 
   geom_boxploth(notch=FALSE) + 
   aes(x = YB, y = "") + 
-  geom_jitter(position = position_jitter()) +
-  facet_wrap(.~Disciplina) +
-  ggtitle("Starost tekmovalcev glede na točke in disciplino v sezoni 2020/21")
+  geom_jitter(position = position_jitter(), color = "slategray2", shape = 8) +
+  facet_wrap(
+    .~Disciplina, 
+    labeller = as_labeller(c("DH" = "Smuk", "SG" = "Superveleslalom", 
+                             "GS" = "Veleslalom", "SL" = "Slalom"))) +
+  ggtitle("Starost tekmovalcev glede na točke in disciplino v sezoni 2020/21") +
+  xlab("Leto rojstva") + 
+  ylab("") + 
+  theme(plot.title = element_text(color = "#006699", hjust = 0.5, size = 15))
 graf4
 
 ################################################################################
 # 5. graf: UVRSTITVE NA STOPNIČKE
 
 stopnicke <- REZULTATI.VREME %>% filter(Rank < 4) %>% dplyr::select(Rank, Ski) %>%
-  transform(Rank = as.factor(Rank)) %>% mutate(st = c(1:114)*0+1)
-
-stopnicke <- stopnicke[,-1] %>% mutate(Rank = stopnicke$Rank)
+  transform(Rank = as.factor(Rank))
 
 graf5 <- ggplot(stopnicke) +
   aes(x = Ski, fill = Rank, labels = TRUE) +
@@ -136,82 +142,96 @@ graf5 <- ggplot(stopnicke) +
   xlab("Smuči") +
   ylab("Stopničke") +
   ggtitle("Uvrstitve na stopničke v sezoni 2020/21") +
-  geom_bar()
+  geom_bar() +
+  guides(fill=guide_legend(title="Uvrstitev")) + 
+  theme(legend.title = element_text(color = "black", size = 11),
+        legend.background = element_rect(colour ="#006699", fill = "white"), 
+        plot.title = element_text(color = "#006699", hjust = 0.5, size = 15))
+  
 graf5
 
 ################################################################################
 # 6. graf : NAJBOLJŠIH DESET SKUPNO ZA VSAKO DISCIPLINO
 
-# v shiny dodaj koliko najbojših želiš, da se upošteva (3, 5, 10, 15, 20, 30)
+skupno <- function(disc) {
+  REZULTATI.VREME %>%
+    filter(Disciplina == disc) %>%
+    group_by(Name) %>% 
+    summarise(tocke = sum(tocke_30)) %>%
+    arrange(desc(tocke))
+}
 
-# skupno <- function(disc) {
-#   REZULTATI.VREME %>%
-#   filter(Disciplina == disc) %>%
-#   group_by(Name) %>% 
-#   summarise(tocke = sum(tocke_30)) %>%
-#   arrange(desc(tocke))
-# }
-# 
-# 
-# skupnoDH <- skupno("DH")[c(1:100),] %>% rename(tockeDH = tocke)
-# skupnoSG <- skupno("SG")[c(1:100),] %>% rename(tockeSG = tocke)
-# skupnoGS <- skupno("GS")[c(1:100),] %>% rename(tockeGS = tocke)
-# skupnoSL <- skupno("SL")[c(1:100),] %>% rename(tockeSL = tocke)
-# 
-# 
-# top <- REZULTATI.VREME %>%
-#   group_by(Name) %>% 
-#   summarise(tocke = sum(tocke_30)) %>%
-#   arrange(desc(tocke))
-# 
-# skupaj1 <- full_join(skupnoDH, top, by = c("Name" = "Name")) %>% 
-#   arrange(desc(tocke))
-# skupaj2 <- full_join(skupaj1, skupnoSG, by = c("Name" = "Name")) %>% 
-#   arrange(desc(tocke))
-# skupaj3 <- full_join(skupaj2, skupnoGS, by = c("Name" = "Name")) %>% 
-#   arrange(desc(tocke))
-# skupaj4 <- full_join(skupaj3, skupnoSL, by = c("Name" = "Name"))[c(1:10),] %>% 
-#   arrange(desc(tocke))
-# 
-# # tabela s točkami najboljših nekaj smučarjev ("nekaj" = 1,3,5,10,15,20,30; se določi 
-# # s shiny):
-# najboljsih.nekaj <- function(koliko){
-#   top <- skupaj4[c(1:koliko),] %>% 
-#     replace_na(list(tockeDH = 0, tockeSG = 0, tockeGS = 0, tockeSL = 0)) %>% 
-#     arrange(desc(tocke))
-# }
-# 
-# najboljsi <- as.character(top.deset$Name[1:10])
-# 
-# naj <- REZULTATI.VREME %>% 
-#   filter(Name %in% najboljsih.10) %>% 
-#   dplyr::select(Rank, Name, NSA, Ski, tocke_30, Disciplina, sneg) %>%
-#   transform(Name = as.factor(Name))
-# 
-# graf6 <- ggplot(naj) +
-#   aes(x = Disciplina, fill = Ski) +
-#   geom_bar()+
-#   scale_fill_manual(values = c("#FF0000", "#FFFFCC", "#FF3300", "#990000")) +
-#   facet_wrap(.~ Name) +
-#   xlab("") +
-#   ylab("") +
-#   ggtitle("")
-#   
-# graf6
 
+skupnoDH <- skupno("DH")[c(1:100),] %>% rename(tockeDH = tocke)
+skupnoSG <- skupno("SG")[c(1:100),] %>% rename(tockeSG = tocke)
+skupnoGS <- skupno("GS")[c(1:100),] %>% rename(tockeGS = tocke)
+skupnoSL <- skupno("SL")[c(1:100),] %>% rename(tockeSL = tocke)
+
+
+top <- REZULTATI.VREME %>%
+  group_by(Name) %>% 
+  summarise(tocke = sum(tocke_30)) %>%
+  arrange(desc(tocke))
+
+skupaj1 <- full_join(skupnoDH, top, by = c("Name" = "Name")) %>% 
+  arrange(desc(tocke))
+skupaj2 <- full_join(skupaj1, skupnoSG, by = c("Name" = "Name")) %>% 
+  arrange(desc(tocke))
+skupaj3 <- full_join(skupaj2, skupnoGS, by = c("Name" = "Name")) %>% 
+  arrange(desc(tocke))
+skupaj4 <- full_join(skupaj3, skupnoSL, by = c("Name" = "Name"))[c(1:10),] %>% 
+  arrange(desc(tocke))
+
+# tabela s točkami najboljših desetih:
+top.deset <- skupaj4[c(1:10),] %>% 
+  replace_na(list(tockeDH = 0, tockeSG = 0, tockeGS = 0, tockeSL = 0)) %>% 
+  arrange(desc(tocke))
+
+najboljsih.10 <- as.character(top.deset$Name[1:10])
+najboljsih.10
+
+naj <- REZULTATI.VREME %>% 
+  filter(Name %in% najboljsih.10) %>% 
+  dplyr::select(Name, Ski, tocke_30, Disciplina) %>%
+  transform(Name = as.factor(Name))
+naj$Name <- factor(naj$Name,levels = najboljsih.10) # zamenjam vrstni red v facet_wrap (da so kot v skupnem seštveku)
+
+graf6 <- ggplot(naj) +
+  aes(x = Disciplina, y = tocke_30, fill = Ski) +
+  geom_bar(stat = "Identity")+
+  scale_fill_manual(values = c("#FF0000", "#FFFFCC", "#FF3300", "#990000")) +
+  xlab("Disciplina") +
+  ylab("Točke") +
+  ggtitle("Analiza najboljših desetih tekmovalcev v skupnem seštevku 2020/21") +
+  facet_wrap(.~ Name) +
+  guides(fill=guide_legend(title="Smuči")) + 
+  theme(legend.title = element_text(color = "black", size = 11),
+        legend.background = element_rect(colour ="#006699", fill = "white"), 
+        plot.title = element_text(color = "#006699", hjust = 0.5, size = 15))
+
+graf6
 
 ################################################################################
 # 7. graf: Obnašanje smuči v odvisnosti od temperature
+
 tocke.temperatura <- read.csv2("podatki/novi podatki/temperatura.csv")
+# Opomba: tocke.temperatura uvozim, ker se je koda za to tabelo izbrisala, je pa 
+# pridobljena iz glavne tabele REZULTATI.VREME in nato zapisana v .csv
+
 graf7 <-ggplot(tocke.temperatura) +
   aes(x = temperatura, y = tocke_30, color = Disciplina) +
   geom_jitter() +
   scale_color_manual(values = c("darkgreen", "lightgreen", "darkblue", "skyblue")) +
   stat_smooth(method = 'lm', formula = 'y ~ x') + 
   facet_wrap(.~ Ski) + 
-  ggtitle("Obnašanje smuči glede na temperaturo 2020/21")
+  xlab("Temperatura") +
+  ylab("Točke") +
+  ggtitle("Obnašanje smuči glede na temperaturo 2020/21") +
+  guides(fill=guide_legend(title="Disciplina")) + 
+  theme(legend.title = element_text(color = "black", size = 11),
+        legend.background = element_rect(colour ="#006699", fill = "white"), 
+        plot.title = element_text(color = "#006699", hjust = 0.5, size = 15))
 graf7
-
 
 
 
@@ -251,7 +271,9 @@ zemljevid1M <- ggplot() +
   aes(x = long, y = lat, group = group, fill = Zmage) +
   geom_polygon(data = zmage.po.drzavah.M %>% right_join(zemljevid, by = c("NSA" = "ADM0_A3"))) +
   xlab("") +
-  ylab("")
+  ylab("") +
+  coord_fixed(ratio = 2.25) +
+  theme(plot.title = element_text(color = "#006699", hjust = 0.5, size = 15))
 zemljevid1M
 
 
@@ -277,7 +299,9 @@ zemljevid1W <- ggplot() +
   geom_polygon(data = zmage.po.drzavah.W %>% right_join(zemljevid, by = c("NSA" = "ADM0_A3"))) +
   xlab("") +
   ylab("") + 
-  scale_color_discrete()
+  scale_color_discrete() +
+  coord_fixed(ratio = 2.25) +
+  theme(plot.title = element_text(color = "#006699", hjust = 0.5, size = 15))
 zemljevid1W
 
 zemljevid1 <- ggarrange(zemljevid1M, zemljevid1W, labels = c("Moški", "Ženske"), 
@@ -309,7 +333,11 @@ zemljevid2 <- ggplot() +
   geom_polygon(data = zmage2021 %>% right_join(zemljevid, by = c("NSA" = "ADM0_A3"))) +
   xlab("") +
   ylab("") +
-  ggtitle("Število zmag v sezoni 2020/21")
-
+  ggtitle("Število zmag v sezoni 2020/21") +
+  coord_fixed(ratio = 2) +
+  guides(fill=guide_legend(title="Število zmag:")) + 
+  theme(legend.title = element_text(color = "black", size = 11),
+        legend.background = element_rect(colour ="#006699", fill = "white"), 
+        plot.title = element_text(color = "#006699", hjust = 0.5, size = 15))
 zemljevid2
 
