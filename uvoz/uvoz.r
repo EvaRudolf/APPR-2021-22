@@ -383,7 +383,7 @@ REZULTATI.VREME <- rbind(hitre, tehnicne) %>%
   transform(NSA = as.factor(NSA)) %>%
   mutate(NSA = str_replace_all(NSA, pattern = "[0-9]", replacement = "")) %>%
   mutate(NSA = str_replace_all(NSA, pattern = "[\\t]", replacement = "")) %>%
-  mutate(NSA = str_replace_all(vreme, pattern = "[\\t]", replacement = "")) %>%
+  mutate(vreme = str_replace_all(vreme, pattern = "[\\t]", replacement = "")) %>%
   mutate(NSA = str_replace_all(NSA, pattern = "[ ]", replacement = "")) %>%
   transform(NSA = as.factor(NSA))
   

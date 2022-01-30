@@ -1,5 +1,6 @@
 ---
-title: "Poročilo pri predmetu Analiza podatkov s programom R"
+title: "Analiza smuči in rezultatov alpskega smučanja"
+subtitle: "Poročilo pri predmetu Analiza podatkov s programom R"
 author: "Eva Rudolf"
 date: "27. januar 2022"
 output:
@@ -76,7 +77,7 @@ preurediti letnice in pa odstraniti nekaj nepotrebnih stolpcev.
 source("vizualizacija/vizualizacija.r", encoding="UTF-8")
 ```
 
-#### Analiza sezone 2020/21
+### Analiza sezone 2020/21
 
 ```{r, fig.align='center'}
 print(graf1)
@@ -140,7 +141,15 @@ print(zemljevid2)
 Na tem zemljevidu so prikazane države, ki so v sezoni 2020/21 v moški konkurenci 
 osvojile vsaj eno zmago. Največ zmag ima Avstrija (10), sledijo pa ji Švica, Norveška in Francija s po sedmimi.
 
-#### Analiza zmagovalcev skupnega seštevka svetovnega pokala 1967-- 2021
+```{r shiny}
+shinyAppDir("shiny", options=list(width="100%", height=600))
+```
+Zgornji zemljevid prikazuje, katere države so bile najboljše v sezoni 2020/21. 
+To je določeno s številom točk, ki so jih dosegli v celotni sezoni.
+Izbirate lahko med različnimi prikazi: lahko npr. gledate le katere države so 
+imele smučarje uvrščene na stopničke (izberite 3) ali pa katere države so uspele osvojiti vsaj eno točko (izberite 30).
+
+### Zmagovalci skupnega seštevka svetovnega pokala 1967-- 2021
 
 ```{r, fig.align='center'}
 print(zemljevid1)
@@ -154,6 +163,8 @@ svetovnega pokala v moški in ženski konkurenci.
 source("analiza/analiza.r", encoding="UTF-8")
 ```
 
+#### Razvrstitev držav v skupine 
+
 ```{r, fig.align='center'}
 print(zemljevid.po.skupinah)
 ```
@@ -161,12 +172,9 @@ Tukaj so prikazane države s podobno strukturo smučarjev. Razdelitev je narejen
 pri čemer sem upoštevala smuči tekmovalcev, uvrstitve na tekmah, letnik rojstva in disciplino.
 
 Odločila sem se, da države razdelim v štiri skupine - prva skupina tako predstavlja
-najboljše države -- tu vidimo Francijo, Italijo, Avstijo in Švico (torej izrazito alpske države
-z veliko smučišči, kar je pričakovano). V drugi skupini sledijo Nemčija, Slovenija, ZDA in Norveška.
+najboljše države -- tu vidimo Francijo, Italijo, Avstijo in Švico (torej izrazito alpske države z veliko smučišči, kar je pričakovano). V drugi skupini sledijo Nemčija, Slovenija, ZDA in Norveška.
 V tretji skupni so države, ki redno osvajajo točke svetovnega pokala, a ne dosegajo nobenih vidnejših uvrstitev. V četrti skupini pa so države, katerih smučarji le redko osvojijo točke svetovnega pokala -- le-te doma nimajo pogojev za treniranje in tudi tekmovalno smučanje tam ni
 tako popularno ali pa nimajo sredstev za razvoj.
 
-Napovedni model:
-```{r shiny}
-#shinyAppDir("shiny", options=list(width="100%", height=600))
-```
+#### Napovedni model
+

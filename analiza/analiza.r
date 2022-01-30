@@ -70,8 +70,6 @@ skupine.po.drzavah <- skupine.po.drzavah %>%
 skupine.po.drzavah <- skupine.po.drzavah %>% 
   mutate(NSA = str_replace_all(skupine.po.drzavah$NSA, pattern = "MON", replacement = "MCO"))
 skupine.po.drzavah <- skupine.po.drzavah %>% 
-  mutate(NSA = str_replace_all(skupine.po.drzavah$NSA, pattern = "SUI", replacement = "CZE"))
-skupine.po.drzavah <- skupine.po.drzavah %>% 
   mutate(NSA = str_replace_all(skupine.po.drzavah$NSA, pattern = "RFS", replacement = "RUS"))
 skupine.po.drzavah
 
@@ -126,3 +124,4 @@ zemljevid.po.skupinah
 # Napovemo uvrstitev smučarja na naslednji tekmi (spremenljivke so država, smuči
 # in disciplina)
 # če se da, naredi še napovedovanje za to, katere države bi bile v prihodnje lahko najboljše.
+

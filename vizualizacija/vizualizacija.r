@@ -315,6 +315,11 @@ zemljevid1
 ################################################################################
 # 2. zemljevid: zemljevid z zmagami za sezono 2020/21
 
+# ta zemljevid je vključen v Shiny - izbiramo lahko med tem, da nam kaže, 
+# koliko zmag ima katera država in med tem, da prikazuje države po točkah za
+# prve 3, 5, 10, 15, 20, 30 tekmovalcev
+
+
 zmage2021 <- REZULTATI.VREME %>% 
   filter(Rank == 1) %>% 
   group_by(NSA) %>%
@@ -327,6 +332,16 @@ zmage2021 <- zmage2021 %>%
   mutate(NSA = str_replace_all(zmage2021$NSA, pattern = "GER", replacement = "DEU"))
 zmage2021 <- zmage2021 %>%
   mutate(NSA = str_replace_all(zmage2021$NSA, pattern = "SUI", replacement = "CHE"))
+zmage2021 <- zmage2021 %>%
+  mutate(NSA = str_replace_all(zmage2021$NSA, pattern = "NED", replacement = "NLD"))
+zmage2021 <- zmage2021 %>%
+  mutate(NSA = str_replace_all(zmage2021$NSA, pattern = "BUL", replacement = "BGR"))
+zmage2021 <- zmage2021 %>%
+  mutate(NSA = str_replace_all(zmage2021$NSA, pattern = "GRE", replacement = "GRC"))
+zmage2021 <- zmage2021 %>%
+  mutate(NSA = str_replace_all(zmage2021$NSA, pattern = "MON", replacement = "MCO"))
+zmage2021 <- zmage2021 %>%
+  mutate(NSA = str_replace_all(zmage2021$NSA, pattern = "RFS", replacement = "RUS"))
 zmage2021
 zemljevid2 <- ggplot() +
   aes(x = long, y = lat, group = group, fill = Zmage) +
