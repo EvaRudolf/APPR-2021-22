@@ -119,9 +119,78 @@ zemljevid.po.skupinah <- ggplot() +
         plot.title = element_text(color = "#006699", hjust = 0.5, size = 15))
 zemljevid.po.skupinah
 
+
+
 ################################################################################
 # NAPOVEDNI MODEL
 # Napovemo uvrstitev smučarja na naslednji tekmi (spremenljivke so država, smuči
 # in disciplina)
 # če se da, naredi še napovedovanje za to, katere države bi bile v prihodnje lahko najboljše.
+smuci <- levels(REZULTATI.VREME$Ski)[-c(9)]
 
+ucni.podatki <- REZULTATI.VREME %>% 
+  dplyr::select(Rank, YB, Ski, Disciplina) %>% 
+  filter(Ski %in% smuci) %>%
+  one_hot(Ski) %>% one_hot(Disciplina)
+
+# namesto uvrstitve 1-30 jih dam po skupinah:
+# 1: 1.-5. mesto
+# 2: 6.-10. mesto
+# 3: 11.-15. mesto
+# 4: 16.-20. mesto
+# 5: 20.-30. mesto
+
+for (i in 1:1052){
+  if (i < 6){ucni.podatki$Rank[i] = 1}
+  else if (i > 5 & i < 11){ucni.podatki$Rank[i] = 2}
+  else if (i > 10 & i < 16){ucni.podatki$Rank[i] = 3}
+  else if (i > 15 & i < 21){ucni.podatki$Rank[i] = 4}
+  else {ucni.podatki$Rank[i] = 5}
+}
+
+ucni.podatki <- ucni.podatki %>% transform(Rank = as.factor(Rank))
+ucni.podatki <- ucni.podatki %>% one_hot(Rank)
+
+
+#testni.podatki <- ??
+
+
+
+# logistična regresija, da napovemo, katere smuci je treba imeti, za uvrstitev med top 5:
+set.seed(123)
+
+
+log.reg.smuci = glm(
+  Rank.1 ~ Ski.Atomic + Ski.Fischer + Ski.Head + Ski.Kaestle + Ski.Nordica + Ski.Rossignol + 
+    Ski.Salomon + Ski.Stoeckli + Ski.Blizzard + Ski.Dynastar + Ski.Voelkl,
+  data = ucni.podatki, family = "binomial")
+print(log.reg.smuci)
+
+log.reg.disciplina = glm(
+  Rank.1 ~ Disciplina.DH + Disciplina.SG + Disciplina.GS + Disciplina.SL,
+  data = ucni.podatki, family = "binomial")
+print(log.reg.disciplina)
+
+
+# napaka:
+napaka_razvrscanja = function(podatki, model) {
+  podatki %>%
+    bind_cols(
+      Rank.1.hat = ifelse(
+        predict(model, podatki, type = "response") >= 0.5, 1, -1
+      )
+    ) %>%
+    mutate(
+      izguba = (Rank.1 != Rank.1.hat)
+    ) %>%
+    dplyr::select(izguba) %>%
+    unlist() %>%
+    mean()
+}
+
+ucna.napaka = ucni.podatki %>% napaka_razvrscanja(log.reg.smuci)
+testna.napaka = testni.podatki %>% napaka_razvrscanja(log.reg.smuci)
+
+
+print(c(ucna.napaka, testna.napaka))
+    
