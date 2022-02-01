@@ -128,10 +128,13 @@ zemljevid.po.skupinah
 # če se da, naredi še napovedovanje za to, katere države bi bile v prihodnje lahko najboljše.
 smuci <- levels(REZULTATI.VREME$Ski)[-c(9)]
 
-ucni.podatki <- REZULTATI.VREME %>% 
+podatki <- REZULTATI.VREME %>% 
   dplyr::select(Rank, YB, Ski, Disciplina) %>% 
   filter(Ski %in% smuci) %>%
   one_hot(Ski) %>% one_hot(Disciplina)
+
+# normaliziramo YB
+podatki$YB <- (podatki$Rank-mean(podatki$Rank))/sd(podatki$Rank)
 
 # namesto uvrstitve 1-30 jih dam po skupinah:
 # 1: 1.-5. mesto
@@ -140,57 +143,79 @@ ucni.podatki <- REZULTATI.VREME %>%
 # 4: 16.-20. mesto
 # 5: 20.-30. mesto
 
-for (i in 1:1052){
-  if (i < 6){ucni.podatki$Rank[i] = 1}
-  else if (i > 5 & i < 11){ucni.podatki$Rank[i] = 2}
-  else if (i > 10 & i < 16){ucni.podatki$Rank[i] = 3}
-  else if (i > 15 & i < 21){ucni.podatki$Rank[i] = 4}
-  else {ucni.podatki$Rank[i] = 5}
-}
-
-ucni.podatki <- ucni.podatki %>% transform(Rank = as.factor(Rank))
-ucni.podatki <- ucni.podatki %>% one_hot(Rank)
+# for (i in 1:1052){
+#   if (i < 6){ucni.podatki$Rank[i] = 1}
+#   else if (i > 5 & i < 11){ucni.podatki$Rank[i] = 2}
+#   else if (i > 10 & i < 16){ucni.podatki$Rank[i] = 3}
+#   else if (i > 15 & i < 21){ucni.podatki$Rank[i] = 4}
+#   else {ucni.podatki$Rank[i] = 5}
+# }
 
 
-#testni.podatki <- ??
-
-
-
-# logistična regresija, da napovemo, katere smuci je treba imeti, za uvrstitev med top 5:
+# linearna regresija, da napovemo, katere smuci je treba imeti, za uvrstitev med top 5:
 set.seed(123)
 
-
-log.reg.smuci = glm(
-  Rank.1 ~ Ski.Atomic + Ski.Fischer + Ski.Head + Ski.Kaestle + Ski.Nordica + Ski.Rossignol + 
+lin.reg.smuci = lm(
+  Rank ~ Ski.Atomic + Ski.Fischer + Ski.Head + Ski.Kaestle + Ski.Nordica + Ski.Rossignol + 
     Ski.Salomon + Ski.Stoeckli + Ski.Blizzard + Ski.Dynastar + Ski.Voelkl,
-  data = ucni.podatki, family = "binomial")
-print(log.reg.smuci)
+  data = podatki)
+print(lin.reg.smuci)
 
-log.reg.disciplina = glm(
-  Rank.1 ~ Disciplina.DH + Disciplina.SG + Disciplina.GS + Disciplina.SL,
-  data = ucni.podatki, family = "binomial")
-print(log.reg.disciplina)
+# disciplina:
+
+lin.reg.disc = lm(
+  Rank ~ Disciplina.DH + Disciplina.SG + Disciplina.GS + Disciplina.SL,
+  data = podatki)
+print(lin.reg.disc)
+
+# leto rojstva
+lin.reg.leto = lm(
+  Rank ~ YB,
+  data = podatki
+)
+print(lin.reg.leto)
+
+# prečno preverjanje
+  napaka.cv <- function(podatki, formula, k){
+    # ponovljivost
+    set.seed(123)
+    # za k-kratno prečno preverjanje najprej podatke razdelimo na k enako velikih delov
+    n <- nrow(podatki)
+    # najprej naključno premešamo primere
+    r <- sample(1:n)
+    # razrežemo na k intervalov
+    razrez <- cut(seq_along(r), k, labels = FALSE)
+    # Razbijemo vektor na k seznamov na osnovi razreza intervalov
+    razbitje = split(r, razrez)
+    # zdaj imamo dane indekse za vsakega od k-tih delov
+    pp.napovedi = rep(0, nrow(podatki))
+    # prečno preverjanje
+    for (i in 1:length(razbitje)){
+      train.data = podatki[ -razbitje[[i]], ]  # učni podatki
+      test.data = podatki[ razbitje[[i]], ]# testni podatki
+      # naučimo model
+      model = lm(data = train.data, formula = formula)
+      # napovemo za testne podatke
+      napovedi = predict(model, newdata = test.data)
+      pp.napovedi[ razbitje[[i]] ] = napovedi
+    }
+    # izračunamo MSE
+    napaka = mean((pp.napovedi - podatki$Rank) ^ 2)
+    return(napaka)
+  }
+
+formula.smuci <- Rank ~ Ski.Atomic + Ski.Fischer + Ski.Head + Ski.Kaestle + Ski.Nordica + Ski.Rossignol +
+  Ski.Salomon + Ski.Stoeckli + Ski.Blizzard + Ski.Dynastar + Ski.Voelkl
+formula.disciplina <- Rank ~ Disciplina.DH + Disciplina.SG + Disciplina.GS + Disciplina.SL
+formula.YB <- Rank ~ YB
+
+n.smuci <- napaka.cv(podatki, formula.smuci, 10)
+n.disciplina <- napaka.cv(podatki, formula.disciplina, 10)
+n.YB <- napaka.cv(podatki, formula.YB, 10)
+print(c(n.smuci, n.disciplina, n.YB))
 
 
-# napaka:
-napaka_razvrscanja = function(podatki, model) {
-  podatki %>%
-    bind_cols(
-      Rank.1.hat = ifelse(
-        predict(model, podatki, type = "response") >= 0.5, 1, -1
-      )
-    ) %>%
-    mutate(
-      izguba = (Rank.1 != Rank.1.hat)
-    ) %>%
-    dplyr::select(izguba) %>%
-    unlist() %>%
-    mean()
-}
-
-ucna.napaka = ucni.podatki %>% napaka_razvrscanja(log.reg.smuci)
-testna.napaka = testni.podatki %>% napaka_razvrscanja(log.reg.smuci)
-
-
-print(c(ucna.napaka, testna.napaka))
-    
+new = podatki[1,3:13]
+new[1,] = c(rep(0,6), 1, rep(0,4))# določimo, na katerm mestu je 1 -> tiste smuči izberemo
+# napovemo mesto
+predict(lin.reg.smuci, newdata = new)
