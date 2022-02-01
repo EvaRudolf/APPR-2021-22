@@ -121,6 +121,104 @@ zemljevid.po.skupinah
 
 
 
+# Izbira optimalnega števila skupin:
+dendrogram <- skupine.po.drzavah[,-2] %>%
+  dist() %>%
+  hclust()
+
+plot(
+  dendrogram,
+  labels = skupine.po.drzavah$oznaka,
+  ylab = "višina",
+  main = NULL
+)
+
+tibble(
+  k = 14:1,
+  visina = dendrogram$height
+) %>%
+  ggplot() +
+  geom_line(
+    mapping = aes(x = k, y = visina),
+    color = "red"
+  ) +
+  geom_point(
+    mapping = aes(x = k, y = visina),
+    color = "red"
+  ) +
+  scale_x_continuous(
+    breaks = 14:1
+  ) +
+  labs(
+    x = "število skupin (k)",
+    y = "višina združevanja"
+  ) +
+  theme_classic()
+
+hc.kolena <- function(dendrogram, od = 1, do = NULL, eps = 0.5) {
+  # število primerov in nastavitev parametra do
+  n = length(dendrogram$height) + 1
+  if (is.null(do)) {
+    do = n - 1
+  }
+  # k.visina je tabela s štirimi stolpci
+  # (1) k, število skupin
+  # (2) višina združevanja
+  # (3) sprememba višine pri združevanju
+  # (4) koleno: ali je točka koleno?
+  k.visina = tibble(
+    k = as.ordered(od:do),
+    visina = dendrogram$height[do:od]
+  ) %>%
+    # sprememba višine
+    mutate(
+      dvisina = visina - lag(visina)
+    ) %>%
+    # ali se je intenziteta spremembe dovolj spremenila?
+    mutate(
+      koleno = lead(dvisina) - dvisina > eps
+    )
+  k.visina
+}
+
+# iz tabele k.visina vrne seznam vrednosti k,
+# pri katerih opazujemo koleno
+hc.kolena.k <- function(k.visina) {
+  k.visina %>%
+    filter(koleno) %>%
+    dplyr::select(k) %>%
+    unlist() %>%
+    as.character() %>%
+    as.integer()
+}
+
+# izračunamo tabelo s koleni za dendrogram
+r <- hc.kolena(dendrogram)
+
+# narišemo diagram višin združevanja
+diagram.kolena <- function(k.visina) {
+  k.visina %>% ggplot() +
+    geom_point(
+      mapping = aes(x = k, y = visina),
+      color = "red"
+    ) +
+    geom_line(
+      mapping = aes(x = as.integer(k), y = visina),
+      color = "red"
+    ) +
+    geom_point(
+      data = k.visina %>% filter(koleno),
+      mapping = aes(x = k, y = visina),
+      color = "blue", size = 2
+    ) +
+    ggtitle(paste("Kolena:", paste(hc.kolena.k(k.visina), collapse = ", "))) +
+    xlab("število skupin (k)") +
+    ylab("razdalja pri združevanju skupin") +
+    theme_classic()
+}
+
+diagram.kolena(r) # -> izbrala sem razvrstitev v 4 skupine
+
 ################################################################################
 # NAPOVEDNI MODEL
 # Napovemo uvrstitev smučarja na naslednji tekmi (spremenljivke so država, smuči
@@ -218,4 +316,4 @@ print(c(n.smuci, n.disciplina, n.YB))
 new = podatki[1,3:13]
 new[1,] = c(rep(0,6), 1, rep(0,4))# določimo, na katerm mestu je 1 -> tiste smuči izberemo
 # napovemo mesto
-predict(lin.reg.smuci, newdata = new)
+napoved <- predict(lin.reg.smuci, newdata = new)
