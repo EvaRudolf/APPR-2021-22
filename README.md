@@ -12,32 +12,32 @@ Poleg podrobne analize smuči v sezoni 2020/21 bom analizirala tudi dobitnike ve
 
 #### Tabele:
 Manjše tabele s podatki o rezultatih in vremenu bob združila v eno veliko tabelo (`REZULTATI.VREME`), ki bo vsebovala naslednje stolpce:
-* `Rank` &mdash uvrstitev na posamezni tekmi
-* `Name` &mdash ime in priimek tekmovalca
-* `YB` &mdash leto rojstva tekmovalca
-* `NSA` &mdash kratica države (national ski association)
-* `Ski` &mdash proizvajalec smuči, ki jih uporablja tekmovalec
-* `venue` &mdash prizorišče tekme
+* `Rank` – uvrstitev na posamezni tekmi
+* `Name` – ime in priimek tekmovalca
+* `YB` – leto rojstva tekmovalca
+* `NSA` – kratica države (national ski association)
+* `Ski` – proizvajalec smuči, ki jih uporablja tekmovalec
+* `venue` – prizorišče tekme
 * `Discciplina`
 * `temperatura`
 * `vreme`
 * `sneg`
-* `tocke_30` &mdash točke, ki jih prejme tekmovalce za uvrstitev med 30 na posamezni tekmi 
+* `tocke_30` – točke, ki jih prejme tekmovalce za uvrstitev med 30 na posamezni tekmi 
 
 Tabela s podatki o smučarjih (`smucarji`), kjer je vsak smučar v tabeli naveden samo enkrat:
-* `Name` &mdash ime in priimek tekmovalca
-* `ski`&mdash proizvajalec smuči, ki jih uporablja tekmovalec
-* `YB` &mdash leto rojstva tekmovalca
-* `NSA` &mdash kratica države (national ski association)
-* `tocke.DH` &mdash seštevek točk, doseženih v smuku
-* `tocke.SG` &mdash seštevek točk, doseženih v superveleslalomu
-* `tocke.GS` &mdash seštevek točk, doseženih v veleslalomu
-* `tocke.SL` &mdash seštevek točk, doseženih v slalomu
+* `Name` – ime in priimek tekmovalca
+* `ski` – proizvajalec smuči, ki jih uporablja tekmovalec
+* `YB` – leto rojstva tekmovalca
+* `NSA` – kratica države (national ski association)
+* `tocke.DH` – seštevek točk, doseženih v smuku
+* `tocke.SG` – seštevek točk, doseženih v superveleslalomu
+* `tocke.GS` – seštevek točk, doseženih v veleslalomu
+* `tocke.SL` – seštevek točk, doseženih v slalomu
 
 Dve tabeli z zmagovalci po kristalnih globusih (ena za moške: `zmagovalci` in ena za ženske: `zmagovalke`). Obe imata stolpce:
-* `Season` &mdash sezona oz. leto
-* `Winner` &mdash ime in priimek zmagovalca/zmagovalke
-* `NSA` &mdash kratica države (national ski association)
+* `Season` – sezona oz. leto
+* `Winner` – ime in priimek zmagovalca/zmagovalke
+* `NSA` – kratica države (national ski association)
 
 
 ## Program
