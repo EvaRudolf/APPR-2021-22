@@ -221,7 +221,7 @@ knitr::kable(atomic)
 ## Zaključek
 Glavni izsledki analize so:
 
-* Head so naboljše smuči v hitrih disciplinah (smuk, superveleslalom) in se odlično odzivajo na trdi ledeni podlagi
+* Head so najboljše smuči v hitrih disciplinah (smuk, superveleslalom) in se odlično odzivajo na trdi ledeni podlagi
 * Rossignol so najboljše smuči v tehničnih disciplinah (veleslalom, slalom) in so najprimernejše za mehkejše podlage
 * Atomic so najbolj vsestranske smuči, sposobne doseganja vrhunskih rezultatov prav v vseh diciplinah
 * mlajši smučarji so boljši v tehničnih, starejši pa v hitrih disciplinah
