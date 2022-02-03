@@ -18,7 +18,7 @@ Manjše tabele s podatki o rezultatih in vremenu bom združila v eno veliko tabe
 * `NSA` – kratica države (national ski association)
 * `Ski` – proizvajalec smuči, ki jih uporablja tekmovalec
 * `venue` – prizorišče tekme
-* `Discciplina`
+* `Disciplina`
 * `temperatura`
 * `vreme`
 * `sneg`
