@@ -7,10 +7,6 @@ shinyServer(function(input, output) {
   })
 })
 
-# izbiramo lahko med tem, da nam kaže, 
-# koliko zmag ima katera država in med tem, da prikazuje države po točkah za
-# prve 3, 5, 10, 15, 20, 30 tekmovalcev
-
 narisi.zemljevid <- function(stevilo){
   uvrstitve2021 <- REZULTATI.VREME %>% 
     filter(Rank <= as.numeric(stevilo)) %>%
