@@ -11,7 +11,7 @@ Glavni vir je [podatkovna baza FIS-a](https://www.fis-ski.com/DB/alpine-skiing/c
 Poleg podrobne analize smuči v sezoni 2020/21 bom analizirala tudi dobitnike velikih kristalnih globusov ter tako primerjala zmagovalce po državah. Te podatke sem našla na spletni strani [AlpineSkiDataBase](https://ski-db.com/db/stats/overall_m_gc.php) in so v obliki `html`.
 
 #### Tabele:
-Manjše tabele s podatki o rezultatih in vremenu bob združila v eno veliko tabelo (`REZULTATI.VREME`), ki bo vsebovala naslednje stolpce:
+Manjše tabele s podatki o rezultatih in vremenu bom združila v eno veliko tabelo (`REZULTATI.VREME`), ki jo bom nato tekom projekta večkrat preoblikovala v obliko, ki jo bom v danem trenutku potrebovala. Ta tabela bo vsebovala naslednje stolpce:
 * `Rank` – uvrstitev na posamezni tekmi
 * `Name` – ime in priimek tekmovalca
 * `YB` – leto rojstva tekmovalca
@@ -24,17 +24,7 @@ Manjše tabele s podatki o rezultatih in vremenu bob združila v eno veliko tabe
 * `sneg`
 * `tocke_30` – točke, ki jih prejme tekmovalce za uvrstitev med 30 na posamezni tekmi 
 
-Tabela s podatki o smučarjih (`smucarji`), kjer je vsak smučar v tabeli naveden samo enkrat:
-* `Name` – ime in priimek tekmovalca
-* `ski` – proizvajalec smuči, ki jih uporablja tekmovalec
-* `YB` – leto rojstva tekmovalca
-* `NSA` – kratica države (national ski association)
-* `tocke.DH` – seštevek točk, doseženih v smuku
-* `tocke.SG` – seštevek točk, doseženih v superveleslalomu
-* `tocke.GS` – seštevek točk, doseženih v veleslalomu
-* `tocke.SL` – seštevek točk, doseženih v slalomu
-
-Dve tabeli z zmagovalci po kristalnih globusih (ena za moške: `zmagovalci` in ena za ženske: `zmagovalke`). Obe imata stolpce:
+Nato bom naredila še dve tabeli z zmagovalci po kristalnih globusih (ena za moške: `zmagovalci` in ena za ženske: `zmagovalke`). Stolpci, ki jih bom potrebovala:
 * `Season` – sezona oz. leto
 * `Winner` – ime in priimek zmagovalca/zmagovalke
 * `NSA` – kratica države (national ski association)
