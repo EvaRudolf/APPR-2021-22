@@ -260,28 +260,54 @@ superG <- rbind(SG.bormio,
   rename(NSA = NSA.Code)
 
 # Rezultati veleslalomskih tekem
-GS.altabadia <- left_join(seznam_rezultatov[[9]][-c(30),] %>% mutate(venue = "Alta Badia"),
-                          GS.altabadia.vreme, by = character())
-GS.cortina <- left_join(seznam_rezultatov[[10]] %>% mutate(venue = "Cortina"),
-                        GS.cortina.vreme, by = character())
-GS.kranjskagora <- left_join(seznam_rezultatov[[11]] %>% mutate(venue = "Kranjska Gora"),
-                             GS.kranjskagora.vreme, by = character())
-GS.lenzerheide <- left_join(seznam_rezultatov[[12]][-c(20:30),] %>% mutate(venue = "Lenzerheide"),
-                            GS.lenzerheide.vreme, by = character())
-GS.soelden <- left_join(seznam_rezultatov[[13]][-c(29,30),] %>% mutate(venue = "Soelden"),
-                        GS.soelden.vreme, by = character())
-GS1.adelboden <- left_join(seznam_rezultatov[[14]][-c(28:30),] %>% mutate(venue = "Adelboden1"),
-                           GS1.adelboden.vreme, by = character())
-GS1.bansko <- left_join(seznam_rezultatov[[15]] %>% mutate(venue = "Bansko1"),
-                        GS1.bansko.vreme, by = character())
-GS1.santacaterina <- left_join(seznam_rezultatov[[16]][-c(29:30),] %>% mutate(venue = "Santa Caterina1"),
-                               GS1.santacaterina.vreme, by = character())
-GS2.adelboden <- left_join(seznam_rezultatov[[17]][-c(30),] %>% mutate(venue = "Adelboden2"),
-                           GS2.adelboden.vreme, by = character())
-GS2.bansko <- left_join(seznam_rezultatov[[18]][-c(30),] %>% mutate(venue = "Bansko2"),
-                        GS2.bansko.vreme, by = character())
-GS2.santacaterina <- left_join(seznam_rezultatov[[19]][-c(30),] %>% mutate(venue = "Santa Caterina2"),
-                               GS2.santacaterina.vreme, by = character())
+GS.altabadia <-
+  left_join(seznam_rezultatov[[9]][-c(30), ] %>% mutate(venue = "Alta Badia"),
+            GS.altabadia.vreme,
+            by = character())
+GS.cortina <-
+  left_join(seznam_rezultatov[[10]] %>% mutate(venue = "Cortina"),
+            GS.cortina.vreme,
+            by = character())
+GS.kranjskagora <-
+  left_join(seznam_rezultatov[[11]] %>% mutate(venue = "Kranjska Gora"),
+            GS.kranjskagora.vreme,
+            by = character())
+GS.lenzerheide <-
+  left_join(seznam_rezultatov[[12]][-c(20:30), ] %>% mutate(venue = "Lenzerheide"),
+            GS.lenzerheide.vreme,
+            by = character())
+GS.soelden <-
+  left_join(seznam_rezultatov[[13]][-c(29, 30), ] %>% mutate(venue = "Soelden"),
+            GS.soelden.vreme,
+            by = character())
+GS1.adelboden <-
+  left_join(seznam_rezultatov[[14]][-c(28:30), ] %>% mutate(venue = "Adelboden1"),
+            GS1.adelboden.vreme,
+            by = character())
+GS1.bansko <-
+  left_join(seznam_rezultatov[[15]] %>% mutate(venue = "Bansko1"),
+            GS1.bansko.vreme,
+            by = character())
+GS1.santacaterina <-
+  left_join(
+    seznam_rezultatov[[16]][-c(29:30), ] %>% mutate(venue = "Santa Caterina1"),
+    GS1.santacaterina.vreme,
+    by = character()
+  )
+GS2.adelboden <-
+  left_join(seznam_rezultatov[[17]][-c(30), ] %>% mutate(venue = "Adelboden2"),
+            GS2.adelboden.vreme,
+            by = character())
+GS2.bansko <-
+  left_join(seznam_rezultatov[[18]][-c(30), ] %>% mutate(venue = "Bansko2"),
+            GS2.bansko.vreme,
+            by = character())
+GS2.santacaterina <-
+  left_join(
+    seznam_rezultatov[[19]][-c(30), ] %>% mutate(venue = "Santa Caterina2"),
+    GS2.santacaterina.vreme,
+    by = character()
+  )
 
 veleslalom <- rbind(GS.altabadia, GS.cortina, GS.kranjskagora, GS.lenzerheide, 
                     GS.soelden, GS1.adelboden, GS1.bansko, GS1.santacaterina,
@@ -304,30 +330,56 @@ veleslalom <- veleslalom %>% dplyr::select(-c(8,11,15)) %>%
 
 
 # Rezultati slalomskih tekem
-SL.adelboden <- left_join(seznam_rezultatov[[27]][-c(27:30),] %>% mutate(venue = "Adelboden"),
-                          SL.adelboden.vreme, by = character())
-SL.altabadia <- left_join(seznam_rezultatov[[28]][-c(30),] %>% mutate(venue = "Alta Badia"),
-                          SL.altabadia.vreme, by = character())
-SL.cortina <- left_join(seznam_rezultatov[[29]] %>% mutate(venue = "Cortina"),
-                        SL.cortina.vreme, by = character())
-SL.kranjskagora <- left_join(seznam_rezultatov[[30]][-c(27:39),] %>% mutate(venue = "Kranjska Gora"),
-                             SL.kranjskagora.vreme, by = character())
-SL.lenzerheide <- left_join(seznam_rezultatov[[31]][-c(17:30),] %>% mutate(venue = "Lenzerheide"),
-                            SL.lenzerheide.vreme, by = character())
-SL.madonnadicampiglio  <- left_join(seznam_rezultatov[[32]][-c(27:30),] %>% mutate(venue = "Madonna di Campiglio"),
-                                    SL.madonnadicampiglio.vreme, by = character())
-SL.schladming <- left_join(seznam_rezultatov[[33]][-c(26:30),] %>% mutate(venue = "Schladming"),
-                           SL.schladming.vreme, by = character())
-SL.zagreb <- left_join(seznam_rezultatov[[34]][-c(29:30),] %>% mutate(venue = "Zagreb"),
-                       SL.zagreb.vreme, by = character())
-SL1.chamonix <- left_join(seznam_rezultatov[[35]][-c(30),] %>% mutate(venue = "Chamonix1"),
-                          SL.zagreb.vreme, by = character())
-SL1.flachau <- left_join(seznam_rezultatov[[36]][-c(28:30),] %>% mutate(venue = "Flachau1"),
-                         SL1.flachau.vreme, by = character())
-SL2.chamonix <- left_join(seznam_rezultatov[[37]][-c(29:30),] %>% mutate(venue = "Chamonix2"),
-                          SL2.chamonix.vreme, by = character())
-SL2.flachau <- left_join(seznam_rezultatov[[38]][-c(27:30),] %>% mutate(venue = "Flachau2"),
-                         SL2.flachau.vreme, by = character())
+SL.adelboden <-
+  left_join(seznam_rezultatov[[27]][-c(27:30), ] %>% mutate(venue = "Adelboden"),
+            SL.adelboden.vreme,
+            by = character())
+SL.altabadia <-
+  left_join(seznam_rezultatov[[28]][-c(30), ] %>% mutate(venue = "Alta Badia"),
+            SL.altabadia.vreme,
+            by = character())
+SL.cortina <-
+  left_join(seznam_rezultatov[[29]] %>% mutate(venue = "Cortina"),
+            SL.cortina.vreme,
+            by = character())
+SL.kranjskagora <-
+  left_join(seznam_rezultatov[[30]][-c(27:39), ] %>% mutate(venue = "Kranjska Gora"),
+            SL.kranjskagora.vreme,
+            by = character())
+SL.lenzerheide <-
+  left_join(seznam_rezultatov[[31]][-c(17:30), ] %>% mutate(venue = "Lenzerheide"),
+            SL.lenzerheide.vreme,
+            by = character())
+SL.madonnadicampiglio  <-
+  left_join(
+    seznam_rezultatov[[32]][-c(27:30), ] %>% mutate(venue = "Madonna di Campiglio"),
+    SL.madonnadicampiglio.vreme,
+    by = character()
+  )
+SL.schladming <-
+  left_join(seznam_rezultatov[[33]][-c(26:30), ] %>% mutate(venue = "Schladming"),
+            SL.schladming.vreme,
+            by = character())
+SL.zagreb <-
+  left_join(seznam_rezultatov[[34]][-c(29:30), ] %>% mutate(venue = "Zagreb"),
+            SL.zagreb.vreme,
+            by = character())
+SL1.chamonix <-
+  left_join(seznam_rezultatov[[35]][-c(30), ] %>% mutate(venue = "Chamonix1"),
+            SL.zagreb.vreme,
+            by = character())
+SL1.flachau <-
+  left_join(seznam_rezultatov[[36]][-c(28:30), ] %>% mutate(venue = "Flachau1"),
+            SL1.flachau.vreme,
+            by = character())
+SL2.chamonix <-
+  left_join(seznam_rezultatov[[37]][-c(29:30), ] %>% mutate(venue = "Chamonix2"),
+            SL2.chamonix.vreme,
+            by = character())
+SL2.flachau <-
+  left_join(seznam_rezultatov[[38]][-c(27:30), ] %>% mutate(venue = "Flachau2"),
+            SL2.flachau.vreme,
+            by = character())
 
 slalom <- rbind(SL.adelboden, 
                 SL.altabadia, 
@@ -368,13 +420,40 @@ slalom <- slalom %>% dplyr::select(-c(12,14)) %>%
 
 # Hitre discipline
 hitre <- rbind(smuk, superG) %>% rename("Disciplina" = disc) %>%
-  dplyr::select(Rank, FIS.Code, Name, YB, NSA, Time, Difference, Ski, venue, Disciplina, temperatura, vreme, sneg)
+  dplyr::select(
+    Rank,
+    FIS.Code,
+    Name,
+    YB,
+    NSA,
+    Time,
+    Difference,
+    Ski,
+    venue,
+    Disciplina,
+    temperatura,
+    vreme,
+    sneg
+  )
 
 # Tehnične discipline
-tehnicne <- rbind(veleslalom, slalom) %>% 
+tehnicne <- rbind(veleslalom, slalom) %>%
   rename(Time = Total, Difference = Diff.) %>% rename("Disciplina" = disc) %>%
-  dplyr::select(Rank, FIS.Code, Name, YB, NSA, Time, Difference, Ski, venue, Disciplina, vreme, sneg, temperatura)
-
+  dplyr::select(
+    Rank,
+    FIS.Code,
+    Name,
+    YB,
+    NSA,
+    Time,
+    Difference,
+    Ski,
+    venue,
+    Disciplina,
+    vreme,
+    sneg,
+    temperatura
+  )
 
 # Urejanje glavne tabele, ki vsebuje vse podatke + dodane točke, ki jih prejme
 # prvih 30 uvrščenih tekmovalcev
