@@ -5,11 +5,11 @@ shinyUI(fluidPage(
   sidebarLayout(
     position = "left",
     sidebarPanel(
-      selectInput(
+      sliderInput(
         "stevilo",
         label = "Število najboljših:",
-        choices = c(1, 3, 5, 10, 15, 20, 30),
-        selected = 5
+        min = 5, max = 30, step = 5,
+        value = 10
       )
     )
     ,

@@ -10,11 +10,14 @@ source("lib/uvozi.zemljevid.r")
 
 smuci <- levels(REZULTATI.VREME$Ski)[-c(9)]
 
-graf1 <- ggplot(REZULTATI.VREME %>% dplyr::select(Ski, Disciplina, tocke_30) %>%
-                  filter(Ski %in% smuci)) + 
+graf1 <- 
+  ggplot(REZULTATI.VREME %>% 
+           dplyr::select(Ski, Disciplina, tocke_30) %>%
+           filter(Ski %in% smuci)) + 
   aes(x = Ski) + 
   geom_bar(aes(fill = Disciplina)) + 
-  scale_fill_manual(labels = c("Smuk", "Superveleslalom", "Veleslalom", "Slalom"), values = c("darkgreen", "lightgreen", "darkblue", "skyblue")) +
+  scale_fill_manual(labels = c("Smuk", "Superveleslalom", "Veleslalom", "Slalom"), 
+                    values = c("darkgreen", "lightgreen", "darkblue", "skyblue")) +
   xlab("Smuči") + 
   ylab("Točke") + 
   ggtitle("Smuči glede na točke v posamezni disciplini v sezoni 2020/21") + 
@@ -27,14 +30,17 @@ graf1
 
 ################################################################################
 # 2. graf: TOČKE GLEDE NA SNEŽNO PODLAGO IN SMUČI
-graf2 <- ggplot(REZULTATI.VREME %>% dplyr::select(Ski, sneg, tocke_30) %>% 
-                  filter(Ski %in% smuci)) + 
+
+graf2 <- 
+  ggplot(REZULTATI.VREME %>% 
+           dplyr::select(Ski, sneg, tocke_30) %>% 
+           filter(Ski %in% smuci)) + 
   aes(x = Ski) + 
   geom_bar(aes(fill = sneg)) +
-  scale_fill_manual(labels = c("Trda in ledena podlaga", "Kompakten sneg", 
-                               "Južen spomladanski sneg", "Mehak razmočen sneg", "Zbit sneg"),
-                      values = c("#CCFFFF", "#339999", 
-                                 "#99CC00", "#FFFF66", "#336666")) +
+  scale_fill_manual(
+    labels = c("Trda in ledena podlaga", "Kompakten sneg", "Južen spomladanski sneg", 
+               "Mehak razmočen sneg", "Zbit sneg"),
+    values = c("#CCFFFF", "#339999", "#99CC00", "#FFFF66", "#336666")) +
   xlab("Smuči") + 
   ylab("Točke") + 
   ggtitle("Smuči glede na snežno podlago v sezoni 2020/21") + 
@@ -46,8 +52,8 @@ graf2 <- ggplot(REZULTATI.VREME %>% dplyr::select(Ski, sneg, tocke_30) %>%
 graf2
 
 ################################################################################
-# 3. graf: tortni diagram za vsako disciplino glede na stopničke, barve pa se razlikujejo
-# glede na to katere smuči uporabljamo
+# 3. graf: tortni diagram za vsako disciplino glede na stopničke, 
+# barve pa se razlikujejo glede na to katere smuči uporabljamo
 
 barve_smuci <- c("#FF0000", "#FFFF00", "#FFF7A9", "#009966", 
                  "#330000", "#FF3300", "#000066", "#990000", 
@@ -84,7 +90,6 @@ graf.SG <- ggplot(stopnicke.SG) +
   scale_fill_manual(values = barve_smuci[-c(2,4,5)]) +
   ggtitle("Superveleslalom") +
   guides(fill=guide_legend(title="Smuči"))
-graf.SG
 
 graf.GS <- ggplot(stopnicke.GS) + 
   aes(x = "", y = tocke_30, fill = Ski) +
@@ -93,7 +98,6 @@ graf.GS <- ggplot(stopnicke.GS) +
   scale_fill_manual(values = barve_smuci[-c(4,5,9)]) +
   ggtitle("Veleslalom") +
   guides(fill=guide_legend(title="Smuči"))
-graf.GS
 
 graf.SL <- ggplot(stopnicke.SL) + 
   aes(x = "", y = tocke_30, fill = Ski) +
@@ -102,7 +106,6 @@ graf.SL <- ggplot(stopnicke.SL) +
   scale_fill_manual(values = barve_smuci[-c(2,4,8,9)]) +
   ggtitle("Slalom") +
   guides(fill=guide_legend(title="Smuči"))
-graf.SL
 
 graf3 <- ggarrange(graf.DH, graf.SG, graf.GS, graf.SL, ncol = 2, nrow = 2)
 graf3 <- annotate_figure(
@@ -113,10 +116,12 @@ graf3
 
 ################################################################################
 # 4. graf: ŠKATLE Z BRKI PO DISCIPLINAH GLEDE NA STAROST
+
 starosti <- REZULTATI.VREME %>% dplyr::select(Disciplina, YB, Name, tocke_30) %>%
   group_by(Name) %>% summarise(tocke_30 = sum(tocke_30), YB, Disciplina)
 
-graf4 <- ggplot(starosti) + 
+graf4 <- 
+  ggplot(starosti) + 
   geom_boxploth(notch=FALSE) + 
   aes(x = YB, y = "") + 
   geom_jitter(position = position_jitter(), color = "slategray2", shape = 8) +
@@ -136,7 +141,8 @@ graf4
 stopnicke <- REZULTATI.VREME %>% filter(Rank < 4) %>% dplyr::select(Rank, Ski) %>%
   transform(Rank = as.factor(Rank))
 
-graf5 <- ggplot(stopnicke) +
+graf5 <- 
+  ggplot(stopnicke) +
   aes(x = Ski, fill = Rank, labels = TRUE) +
   scale_fill_manual(values = c("#D4AF37", "#C0C0C0", "#b08d57")) +
   xlab("Smuči") +
@@ -151,7 +157,7 @@ graf5 <- ggplot(stopnicke) +
 graf5
 
 ################################################################################
-# 6. graf : NAJBOLJŠIH DESET SKUPNO ZA VSAKO DISCIPLINO
+# 6. graf : NAJBOLJŠIH 10 V SKUPNEM SEŠTEVKU SVETOVNEGA POKALA
 
 skupno <- function(disc) {
   REZULTATI.VREME %>%
@@ -194,9 +200,11 @@ naj <- REZULTATI.VREME %>%
   filter(Name %in% najboljsih.10) %>% 
   dplyr::select(Name, Ski, tocke_30, Disciplina) %>%
   transform(Name = as.factor(Name))
-naj$Name <- factor(naj$Name,levels = najboljsih.10) # zamenjam vrstni red v facet_wrap (da so kot v skupnem seštveku)
+naj$Name <- factor(naj$Name,levels = najboljsih.10) # zamenjam vrstni red v facet_wrap 
+                                                    #(da so kot v skupnem seštveku)
 
-graf6 <- ggplot(naj) +
+graf6 <- 
+  ggplot(naj) +
   aes(x = Disciplina, y = tocke_30, fill = Ski) +
   geom_bar(stat = "Identity")+
   scale_fill_manual(values = c("#FF0000", "#FFFFCC", "#FF3300", "#990000")) +
@@ -208,17 +216,17 @@ graf6 <- ggplot(naj) +
   theme(legend.title = element_text(color = "black", size = 11),
         legend.background = element_rect(colour ="#006699", fill = "white"), 
         plot.title = element_text(color = "#006699", hjust = 0.5, size = 15))
-
 graf6
 
 ################################################################################
-# 7. graf: Obnašanje smuči v odvisnosti od temperature
+# 7. graf: OBNAŠANJE SMUČI V ODVISNOSTI OD TEMPERATURE
 
 tocke.temperatura <- read.csv2("podatki/novi podatki/temperatura.csv")
 # Opomba: tocke.temperatura uvozim, ker se je koda za to tabelo izbrisala, je pa 
 # pridobljena iz glavne tabele REZULTATI.VREME in nato zapisana v .csv
 
-graf7 <-ggplot(tocke.temperatura) +
+graf7 <-
+  ggplot(tocke.temperatura) +
   aes(x = temperatura, y = tocke_30, color = Disciplina) +
   geom_jitter() +
   scale_color_manual(values = c("darkgreen", "lightgreen", "darkblue", "skyblue")) +
@@ -274,7 +282,6 @@ zemljevid1M <- ggplot() +
   ylab("") +
   coord_fixed(ratio = 2.25) +
   theme(plot.title = element_text(color = "#006699", hjust = 0.5, size = 15))
-zemljevid1M
 
 
 # za ženske:
@@ -302,7 +309,6 @@ zemljevid1W <- ggplot() +
   scale_color_discrete() +
   coord_fixed(ratio = 2.25) +
   theme(plot.title = element_text(color = "#006699", hjust = 0.5, size = 15))
-zemljevid1W
 
 zemljevid1 <- ggarrange(zemljevid1M, zemljevid1W, labels = c("Moški", "Ženske"), 
                         common.legend = TRUE, legend = "bottom")
@@ -314,11 +320,6 @@ zemljevid1
 
 ################################################################################
 # 2. zemljevid: zemljevid z zmagami za sezono 2020/21
-
-# ta zemljevid je vključen v Shiny - izbiramo lahko med tem, da nam kaže, 
-# koliko zmag ima katera država in med tem, da prikazuje države po točkah za
-# prve 3, 5, 10, 15, 20, 30 tekmovalcev
-
 
 zmage2021 <- REZULTATI.VREME %>% 
   filter(Rank == 1) %>% 
@@ -343,14 +344,15 @@ zmage2021 <- zmage2021 %>%
 zmage2021 <- zmage2021 %>%
   mutate(NSA = str_replace_all(zmage2021$NSA, pattern = "RFS", replacement = "RUS"))
 zmage2021
-zemljevid2 <- ggplot() +
+
+zemljevid2 <- 
+  ggplot() +
   aes(x = long, y = lat, group = group, fill = Zmage) +
   geom_polygon(data = zmage2021 %>% right_join(zemljevid, by = c("NSA" = "ADM0_A3"))) +
   xlab("") +
   ylab("") +
   ggtitle("Število zmag v sezoni 2020/21") +
   coord_fixed(ratio = 2) +
-  guides(fill=guide_legend(title="Število zmag:")) + 
   theme(legend.title = element_text(color = "black", size = 11),
         legend.background = element_rect(colour ="#006699", fill = "white"), 
         plot.title = element_text(color = "#006699", hjust = 0.5, size = 15))
