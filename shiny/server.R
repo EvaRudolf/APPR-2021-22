@@ -37,14 +37,15 @@ narisi.zemljevid <- function(stevilo){
     mutate(NSA = str_replace_all(uvrstitve2021$NSA, pattern = "RFS", replacement = "RUS"))
   uvrstitve2021
   
-  zemljevid.shiny <- ggplot() +
+  zemljevid.shiny <- 
+    ggplot() +
     aes(x = long, y = lat, group = group, fill = tocke_30) +
     geom_polygon(data = uvrstitve2021 %>% right_join(zemljevid, by = c("NSA" = "ADM0_A3"))) +
     xlab("") +
     ylab("") +
     ggtitle("Osvojene točke po državah v sezoni 2020/21") +
     coord_fixed(ratio = 2) +
-    guides(fill=guide_legend(title="Točke")) + 
+    labs(fill = "Točke") +
     theme(legend.title = element_text(color = "black", size = 11),
           legend.background = element_rect(colour ="#006699", fill = "white"), 
           plot.title = element_text(color = "#006699", hjust = 0.5, size = 15))
