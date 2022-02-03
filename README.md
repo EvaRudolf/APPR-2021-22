@@ -4,52 +4,41 @@ Repozitorij za projekt pri predmetu APPR v študijskem letu 2021/22.
 
 ## Analiza smuči in rezultatov alpskega smučanja
 
-V projektu bom analizirala rezultate tekem klasičnih disciplin alpskega smučanja (slalom, veleslalom, superveleslalom, smuk) v sezoni 2020/2021 in pri tem poskušala ugotoviti, katere smuči so najboljše (glede na snežno podlago, temperaturo, disciplino, po državah - katere smuči največ uporabljajo v posamezni državi ...). Zaradi velikega števila tekem in podobnosti bom analizirala le moške tekme. 
+V projektu bom analizirala rezultate tekem klasičnih disciplin alpskega smučanja (slalom, veleslalom, superveleslalom, smuk) v sezoni 2020/2021 in pri tem poskušala ugotoviti, katere smuči so najboljše (glede na snežno podlago, temperaturo in disciplino). Zaradi velikega števila tekem in podobnosti bom analizirala le moške tekme v sezoni 2020/21.
 
-Glavni vir je [podatkovna baza FIS-a](https://www.fis-ski.com/DB/alpine-skiing/calendar-results.html?eventselection=results&place=&sectorcode=AL&seasoncode=2021&categorycode=WC&disciplinecode=&gendercode=M&racedate=&racecodex=&nationcode=&seasonmonth=X-2021&saveselection=-1&seasonselection=). Ker so podatki tu zbrani v pdf datotekah, sem jih najprej s posebnim programom pretvorila v obliko `.csv`, nato pa uvozila v R.
+Glavni vir je [podatkovna baza FIS-a](https://www.fis-ski.com/DB/alpine-skiing/calendar-results.html?eventselection=results&place=&sectorcode=AL&seasoncode=2021&categorycode=WC&disciplinecode=&gendercode=M&racedate=&racecodex=&nationcode=&seasonmonth=X-2021&saveselection=-1&seasonselection=). Ker so podatki tu zbrani v `pdf` datotekah, sem jih najprej s posebnim programom pretvorila v obliko `csv`, nato pa uvozila v R.
 
-Poleg podrobne analize smuči v sezoni 2020/21 bom analizirala tudi dobitnike velikih in malih kristalnih globusov ter tako primerjala zmagovalce po državah in smučeh. Te podatke sem našla na spletni strani [AlpineSkiDataBase](https://ski-db.com/db/stats/overall_m_gc.php) in bodo v obliki `.html`.
+Poleg podrobne analize smuči v sezoni 2020/21 bom analizirala tudi dobitnike velikih kristalnih globusov ter tako primerjala zmagovalce po državah. Te podatke sem našla na spletni strani [AlpineSkiDataBase](https://ski-db.com/db/stats/overall_m_gc.php) in so v obliki `html`.
 
 #### Tabele:
-Tabele z rezultati posamezne tekme:
-* `rank` - uvrstitev na posamezni tekmi
-* `FIS_code` - FIS koda tekmovalca
-* `ime` - ime in priimek tekmovalca
-* `YB` - datum rojstva tekmovalca
-* `NSA_code` - kratica države (SLO, SUI, AUT, ...)
-* `time` - čas dosežen na posamezni tekmi (če gre za tehnično disciplino, je to skupen čas)
-* `diff` - časovna razlika do 1. mesta
-* `ski` - proizvajalec smuči, ki jih uporablja tekmovalec
+Manjše tabele s podatki o rezultatih in vremenu bob združila v eno veliko tabelo (`REZULTATI.VREME`), ki bo vsebovala naslednje stolpce:
+* `Rank` – uvrstitev na posamezni tekmi
+* `Name` – ime in priimek tekmovalca
+* `YB` – leto rojstva tekmovalca
+* `NSA` – kratica države (national ski association)
+* `Ski` – proizvajalec smuči, ki jih uporablja tekmovalec
+* `venue` – prizorišče tekme
+* `Discciplina`
+* `temperatura`
+* `vreme`
+* `sneg`
+* `tocke_30` – točke, ki jih prejme tekmovalce za uvrstitev med 30 na posamezni tekmi 
 
-Tabela s podatki o smučarjih:
-* `FIS_code`
-* `ime`
-* `ski`
-* `YB`
-* `NSA_code`
-* stolpci za rank vsake posamezne tekme v sezoni 2020/2021
-* skupni ranking po disciplini
-* skupni ranking
+Tabela s podatki o smučarjih (`smucarji`), kjer je vsak smučar v tabeli naveden samo enkrat:
+* `Name` – ime in priimek tekmovalca
+* `ski` – proizvajalec smuči, ki jih uporablja tekmovalec
+* `YB` – leto rojstva tekmovalca
+* `NSA` – kratica države (national ski association)
+* `tocke.DH` – seštevek točk, doseženih v smuku
+* `tocke.SG` – seštevek točk, doseženih v superveleslalomu
+* `tocke.GS` – seštevek točk, doseženih v veleslalomu
+* `tocke.SL` – seštevek točk, doseženih v slalomu
 
-Tabela s podatki o vremenu na vsaki posamezni tekmi:
-* `T_1` - temperatura v prvem teku (povprečje temperature na startu in cilju)
-* `T_2` - temperatura v drugem teku
-* `vreme_1` - podatek o vremenu v prvem teku (sončno, oblačno, ...)
-* `vreme_2` - podatek o vremenu v drugem teku
-* `sneg_1` - struktura snega v prvem teku
-* `sneg_2` - struktura snega v drugem teku
+Dve tabeli z zmagovalci po kristalnih globusih (ena za moške: `zmagovalci` in ena za ženske: `zmagovalke`). Obe imata stolpce:
+* `Season` – sezona oz. leto
+* `Winner` – ime in priimek zmagovalca/zmagovalke
+* `NSA` – kratica države (national ski association)
 
-Tabela s smučmi - po disciplinah in glede na temperaturo in sneg (točke in FIS točke)
-
-Tabela z zmagovalci po kristalnih globusih:
-* `leto`
-* `SL` - dobitnik malega kristalnega globusa v slalomu
-* `GS` - dobitnik malega kristalnega globusa v veleslalomu
-* `SG` - dobitnik malega kristalnega globusa v superveleslalomu
-* `DH` - dobitnik malega kristalnega globusa v smuku
-* `overall` - zmagovalec skupnega seštevka; dobitnik velikega kristalnega globusa
-
-Ta zadnja tabela bo sprva za potrebe analize zmagovalcev po državah vsebovala imena smučarjev, ki pa jim bom kasneje raje priredila smuči, da bom lahko tako analizirala še smuči skozi čas.
 
 ## Program
 
