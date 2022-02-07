@@ -136,7 +136,7 @@ print(graf7)
 Z zgornjega grafa lahko razberemo, katere smuči so boljše pri višjih in katere pri nižjih temperaturah. Če točke naraščajo s temperaturo, to pomeni, da se smuči bolje odzivajo pri višjih temperaturah in obratno. Vidimo, da se npr. smuči znamke Atomic in Head podobno odzivajo pri vseh temperaturah, medtem ko so smuči Rossignol izrazito boljše pri višjih temperturah.
 
 ```{r, fig.align='center'}
-print(zemljevid1)
+print(zemljevid2)
 ```
 
 Na tem zemljevidu so prikazane države, ki so v sezoni 2020/21 v moški konkurenci 
@@ -153,7 +153,7 @@ imele smučarje uvrščene med najboljšin pet (izberite 5), ali pa katere drža
 ### Zmagovalci skupnega seštevka svetovnega pokala 1967-- 2021
 
 ```{r, fig.align='center'}
-print(zemljevid2)
+print(zemljevid1)
 ```
 Na zgornjih dveh zemljevidih vidimo, katere države so zmagale v skupnem seštevku
 svetovnega pokala v moški in ženski konkurenci v sezonah 1966/67 -- 2020/21.
