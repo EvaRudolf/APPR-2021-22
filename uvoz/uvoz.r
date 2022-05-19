@@ -520,7 +520,7 @@ summary(REZULTATI.VREME)
 # moški
 linkM <- "https://ski-db.com/db/stats/overall_m_gc.php"
 
-zM <- html_table(read_html(linkM))[[9]][-c(1),]
+zM <- html_table(read_html(linkM))[[10]][-c(1),]
 zmagovalci <- zM %>% 
   dplyr::select(-c(10)) %>% 
   rename(NSA = NAT) %>% 
@@ -532,7 +532,7 @@ zmagovalci <- zM %>%
 # ženske
 linkW <- "https://ski-db.com/db/stats/overall_f_gc.php"
 
-zW <- html_table(read_html(linkW))[[9]][-c(1),]
+zW <- html_table(read_html(linkW))[[10]][-c(1),]
 zmagovalke <- zW %>% 
   dplyr::select(-c(10)) %>% 
   rename(NSA = NAT) %>% 
